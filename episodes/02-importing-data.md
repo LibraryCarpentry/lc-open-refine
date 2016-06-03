@@ -10,8 +10,8 @@ keypoints:
 - "Use the 'Create Project' option to import data
 - "You can control how data imports using options on the import screen"
 ---
-##Importing data
-###Exercise 1: Create your first Open Refine project (using provided data)
+## Importing data
+### Exercise 1: Create your first Open Refine project (using provided data)
 There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
 
 * TSV (tab-separated values)
@@ -43,6 +43,6 @@ This will create the project and open it for you. Projects are saved as you work
 
 To open an existing project in OpenRefine you can click 'Open Project' from the main OpenRefine screen (in the lefthand menu). When you click this, you will see a list of the existing projects and can click on a project's name to open it.
 
-###Going Further
+### Going Further
 * Look at the other options on the Import screen - try changing some of these options and see how that changes the Preview and how the data appears after import.
 * Do you have access to JSON or XML data? If so the first stage of the import process will prompt you to select a 'record path' - that is the parts of the file that will form the data rows in the OpenRefine project.
