@@ -3,16 +3,16 @@
 #------------------------------------------------------------
 
 # Domain for searches.
-domain: "https://gvwilson.github.io/new-lesson-example"
+domain: "https://data-lessons.github.io/library-openrefine"
 
 # URL for repository.
-repo: "https://github.com/gvwilson/new-lesson-example"
+repo: "https://github.com/data-lessons/library-openrefine"
 
 # Root URL for lesson below domain.
-root: "/new-lesson-example"
+root: "/library-openrefine"
 
 # Overall lesson title.
-title: "Lesson Example"
+title: "OpenRefine Lessons for Librarians"
 
 # Contact email address.
 email: gvwilson@software-carpentry.org
