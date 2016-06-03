@@ -113,10 +113,10 @@ OpenRefine has two modes of viewing data 'Rows' and 'Records'. So far we've been
 How this works can be seen in the next exercise...
 
 ## Exercise 5: Split signatory names into separate cells
-If you look at the At least 3 signatures from the petition column you should be able to see that there are multiple names in each cell separated by commas ",". To work with the signatory names effectively we need to split them into separate cells:
+If you look at the At least 3 signatures from the petition column you should be able to see that there are multiple names in each cell separated by the pipe symbol "|". To work with the signatory names effectively we need to split them into separate cells:
 * Click the dropdown menu at the top of the At least 3 signatures from the petition column
 * Choose 'Edit cells->Split multi-valued cells'
-* In the prompt type the , symbol and click 'OK'
+* In the prompt type the | symbol and click 'OK'
     * Note that the rows are still numbered sequentially
 * Click the 'Records' option to change to Records mode
     * Note how the numbering has changed - indicating that several rows are related to the same record
