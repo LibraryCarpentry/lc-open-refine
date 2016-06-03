@@ -45,9 +45,9 @@ To run Refine:
 The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333. If this doesn’t happen automatically you can open a web browser and type in this address.
 
 ### Getting Help
-If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups# !forum/openrefine)
+If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
 
-If you are installing OpenRefine on Windows, you may want to check the thread on [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups# !searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ)
+If you are installing OpenRefine on Windows, you may want to check the thread on [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ)
 
 There are also general and specialist tutorials about using OpenRefine available on the web, including:
 
