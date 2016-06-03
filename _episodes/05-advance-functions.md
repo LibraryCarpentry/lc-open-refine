@@ -12,7 +12,7 @@ keypoints:
 - "OpenRefine keeps a full history of the changes you've made to a data set and so allows you to undo or redo steps as you need"
 - "FIXME"
 ---
-##Looking up data from a URL
+## Looking up data from a URL
 OpenRefine can retrieve data from URLs. This can be used in various ways, including looking up additional information from a remote service, based on information in your OpenRefine data.
 
 As an example, you can look up names against the Virtual International Authority File (VIAF), and retrieve additional information such as dates of birth/death and identifiers.
@@ -32,7 +32,7 @@ The 'parseHtml()' function can also be used to extract data from XML.
 
 The next exercise demonstrates this two stage process in full.
 
-###Exercise 11: Retrieving journal details from CrossRef via ISSN
+### Exercise 11: Retrieving journal details from CrossRef via ISSN
 Because retrieving data from external URLs takes time, this exercise targets a single line in the data. In reality you would want to run this over many rows (and probably go and do something else while it ran)
 
 * Select a single row from the data set which contains an ISSN by:
@@ -63,7 +63,7 @@ OpenRefine has a function for extracting data from JSON (sometimes referred to a
 
 The reason for using 'Add column based on this column' is simply that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the title and did not need any other information from the JSON you could use 'Edit cells->Transform...' with the same GREL expression.
 
-##Reconciliation services
+## Reconciliation services
 Reconciliation services allow you to lookup terms from your data in OpenRefine against external services, and use values from the external services in your data.
 
 Reconciliation services can be more sophisticated and often quicker than using the method described above to retrieve data from a URL. However, to use the ‘Reconciliation’ function in OpenRefine requires the external resource to support the necessary service for OpenRefine to work with, which means unless the service you wish to use supports such a service you cannot use the ‘Reconciliation’ approach.
@@ -78,7 +78,7 @@ There also exist extensions to do reconciliation against local data such as csv 
 
 For more information on using Reconciliation services see [https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API)
 
-###Exercise 12: Reconcile Publisher names with VIAF IDs
+### Exercise 12: Reconcile Publisher names with VIAF IDs
 In this exercise you are going to use the VIAF Reconciliation service written by [Jeff Chiu](https://twitter.com/absolutelyjeff). Jeff offers two ways of using the reconciliation service - either via a public service he runs at [http://refine.codefork.com/](http://refine.codefork.com/), or by installing and running the service locally using the instructions at [https://github.com/codeforkjeff/refine_viaf](https://github.com/codeforkjeff/refine_viaf).
 
 If you are going to do a lot of reconciliation, please install and run your own local reconciliation service - the instructions at [https://github.com/codeforkjeff/refine_viaf](https://github.com/codeforkjeff/refine_viaf) make this reasonably straightforward.
@@ -130,14 +130,14 @@ There are two things that reconciliation can do for you. Firstly it gets a stand
 * In the GREL expression box type ```cell.recon.match.id```
 * This will create a new column that contains the VIAF ID for the matched entity
 
-##Extensions
+## Extensions
 The functionality in OpenRefine can be enhanced by ‘extensions’ which can be downloaded and installed to add functionality to your OpenRefine installation.
 
 A list of Extensions (not necessarily complete) is given at https://github.com/OpenRefine/OpenRefine/wiki/Extensions
 
 One of these extensions tries to work around the limitation of Reconciliation services described above, by making it possible to use a reconciliation service against ‘linked data’ sources which have SPARQL endpoints. For more information on this see the ‘RDF Extension’ at http://refine.deri.ie. An example of how this works is given in more detail at http://refine.deri.ie/showcases.
 
-##Using the ‘cross’ function to lookup data in other OpenRefine projects
+## Using the ‘cross’ function to lookup data in other OpenRefine projects
 As well as looking up data in external systems using the methods described above, it is also possible to look up data in other OpenRefine projects on the same computer. This is done using the ‘cross’ function.
 
 The ‘cross’ function takes a value from the OpenRefine project you are working on, and looks for that value in a column in another OpenRefine project. If it finds one or more matching rows in the second OpenRefine project, it returns an array containing the rows that it has matched.

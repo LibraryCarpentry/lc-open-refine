@@ -9,8 +9,8 @@ objectives:
 keypoints:
 - "FIXME"
 ---
-##Transforming data
-###Introducing Transformations
+## Transforming data
+### Introducing Transformations
 Through facets, filters and clusters OpenRefine offers relatively straightforward ways of getting an overview of your data, and making changes where you want to standardise terms used to a common set of values.
 
 However, sometimes there will be changes you want to make to the data that cannot be achieved in this way. Such types of changes include:
@@ -23,7 +23,7 @@ To support this type of activity OpenRefine supports 'Transformations' which are
 
 Full documentation for the GREL is available at https://github.com/OpenRefine/OpenRefine/wiki/Google-refine-expression-language. This tutorial covers only a small subset of the commands available.
 
-###Common transformations
+### Common transformations
 Some transformations are used regularly and are accessible directly through menu options, without having to type them directly.
 
 Examples of some of these common transformations are given in the table below, with their 'GREL' equivalents. We'll see how to use the GREL version later in this lesson.
@@ -35,13 +35,13 @@ To Lowercase| Converts the current value to lowercase | ```value.toLowercase()``
 To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
 Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```
 
-###Exercise 7: Correct Publisher data
+### Exercise 7: Correct Publisher data
 * Create a text facet on the Publisher column
 * Note that in the values there are two that look identical - why does this value appear twice?
 * On the publisher column use the dropdown menu to select 'Edit cells->Common transforms->Trim leading and trailing whitespace'
 * Look at the publisher facet now - has it changed? (if it hasn't changed try clicking the Refresh option to make sure it updates)
 
-###Writing transformations
+### Writing transformations
 To start writing transformations, select the column on which you wish to perform a transformation and choose 'Edit cells->Transform…'. In the screen that displays you have a place to write a transformation (the 'Expression' box) and then the ability to Preview the effect the transformation would have on 10 rows of your data.
 
 The transformation you type into the 'Expression' box has to be a valid GREL expression. The simplest expression is simply the word 'value' by itself - which simply means the value that is currently in the column - that is: make no change.
@@ -58,7 +58,7 @@ Next to the 'Preview' option are options to view:
 * Starred - a list of transformations you've 'starred' via the 'History' view
 * Help - a list of all the GREL functions and brief information on how to use them
 
-###Exercise 8: Put titles into Title Case
+### Exercise 8: Put titles into Title Case
 * Facet by publisher
 * Select "Akshantala Enterprises" and "Society of Pharmaceutical Technocrats"
     * To select multiple values in the facet use the 'Include' link that appears to the right of the facet
@@ -69,7 +69,7 @@ Next to the 'Preview' option are options to view:
 * In the Preview note that you can see what the affect of running this will be
 * Click 'OK'
 
-##Undo and Redo
+## Undo and Redo
 OpenRefine lets you undo, and redo, any number of steps you have taken in cleaning the data. This means you can always try out transformations and 'undo' if you need to. The way OpenRefine records the steps you have taken even allows you to take the steps you've carried out on one data set, and apply it to another data set by a simple copy and paste operation.
 
 The 'Undo' and 'Redo' options are accessed via the lefthand panel.
@@ -86,11 +86,11 @@ To apply a set of steps you have copied or saved in this 'JSON' format use the '
 
 Undo/Redo data is stored with the Project and is saved automatically as you work, so next time you open the project, you can access your full history of steps you have carried out and undo/redo in exactly the same way.
 
-##Exporting data
+## Exporting data
 Once you have finished working with a data set in OpenRefine you may wish to export it. The export options are accessed through the 'Export' button at the top right of the OpenRefine interface
 Export formats support include HTML, Excel and comma- and tab-separated value (csv and tsv). You can also write a custom export, selecting to export specific fields, adding a header or footer and specifying the exact format.
 
-##Data types
+## Data types
 Understanding data types and regular expressions will help you write more complex transformations using GREL.
 
 Data types in OpenRefine
@@ -102,10 +102,10 @@ Every piece of data in OpenRefine is has a 'type'. The most common 'type' is a '
 * Boolean
 * Array
 
-###Dates and Numbers
+### Dates and Numbers
 So far we've been looking only at 'String' type data. Much of the time it is possible to treat numbers and dates as strings. For example in the Date column we have the date of publication represented as a String. However, some operations and transformations only work on 'number' or 'date' type operations. The simplest example is sorting values in numeric or date order. To carry out these functions we need to convert the values to a date or number first.
 
-###Exercise 9: Reformat the Date
+### Exercise 9: Reformat the Date
 * Make sure you remove all Facets and Filters
 * On the Date column use the dropdown menu to select 'Edit cells->Common transforms->To date'
 * Note how the values are now displayed in green and follow a standard convention for their display format (ISO8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
@@ -113,8 +113,8 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 * In the 'New column name' type "Formatted Date"
 * In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
 
-###Booleans and Arrays
-####Booleans
+### Booleans and Arrays
+#### Booleans
 Booleans and Arrays are data types that are more often used while manipulating data in a GREL expression than for actually storing in a cell (in fact, Arrays cannot be stored in a cell in OpenRefine).
 
 A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cell, but is more often used in transformations as part of a GREL expression. For example the GREL expression 
@@ -125,7 +125,7 @@ generates a boolean value of either 'true' or 'false' depending on whether the c
 
 Such tests can be combined with other GREL expressions to create more complex transformations. For example, to carry out a further transformation only if a test is successful. The GREL transformation ```if(value.contains("test"),"Test data",value)``` replaces a cell value with the words "Test data" only *if* the value in the cell contains the string "test" anywhere.
 
-####Arrays
+#### Arrays
 An 'Array' is a list of values, represented in Refine by the use of square brackets containing a list of values surrounded by inverted commas and separated by commas. For example an array listing the days of the week would look like:
 
 ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
@@ -162,7 +162,7 @@ value.split(",").sort().join(",")
 ```
 . Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
-###Exercise 10: Reverse author names
+### Exercise 10: Reverse author names
 In this exercise we are going to use both the Boolean and Array data types.
 If you look at the author column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
 

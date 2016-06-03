@@ -17,9 +17,9 @@ keypoints:
 - "You can get further help at the OpenRefine Google Group"
 ---
 
-##Installation (to be completed before the session)
+## Installation (to be completed before the session)
 
-###Downloading OpenRefine
+### Downloading OpenRefine
 You can download OpenRefine from http://openrefine.org/download.html. There are two versions you can use for this lesson:
 
 * Google Refine 2.5
@@ -29,7 +29,7 @@ Generally OpenRefine 2.6 is recommended and although labelled ‘beta’ has bee
 
 There are versions for Windows, Mac OS X and Linux.
 
-###Installing and Running OpenRefine
+### Installing and Running OpenRefine
 When you download OpenRefine for Windows or Linux from the address above, you are downloading a zip file. To install OpenRefine you simply unzip the downloaded file wherever you want to install the program. This can be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the unzipped folder. The location has to be a "local" drive as problems have been reported trying to run OpenRefine from a Network drive.
 
 If you are downloading OpenRefine for Mac, you a re downloading a ‘dmg’ (disk image) file which you can open, and then drag the OpenRefine application to an appropriate folder on you computer.
@@ -44,10 +44,10 @@ To run Refine:
 
 The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333. If this doesn’t happen automatically you can open a web browser and type in this address.
 
-###Getting Help
-If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
+### Getting Help
+If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups# !forum/openrefine)
 
-If you are installing OpenRefine on Windows, you may want to check the thread on [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ)
+If you are installing OpenRefine on Windows, you may want to check the thread on [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups# !searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ)
 
 There are also general and specialist tutorials about using OpenRefine available on the web, including:
 
