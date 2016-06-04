@@ -48,11 +48,10 @@ Some common scenarios might be:
 | London,]        | London       |
 | london          | London       |
  
-5. Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example:
+5. Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example going from a single address field (in the first column), to each part of the address in a separate field:
 
-| Data you have   | Desired data |
-|                 | Institution  | Library name  | Address 1 | Address 2 | Town/City | Region | Country | Postcode |
-|-----------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|
+| Address in single field | Institution  | Library name  | Address 1 | Address 2 | Town/City | Region | Country | Postcode |
+|-------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|
 | University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS, United Kingdom | University of Wales | Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | United Kingdom | SY23 3AS |
 | University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE, United Kingdom | University of Abderdeen | Queen Mother Library | Meston Walk | Aberdeen | United Kingdom | AB24 3UE |
 | University of Birmingham, Barnes Library, Medical School, Edgbaston, BIRMINGHAM, West Midlands, B15 2TT, United Kingdom | University of Birmingham | Barnes Library | Medical School | Edgbaston | Birmingham | West Midlands | United Kingdom | B15 2TT |
