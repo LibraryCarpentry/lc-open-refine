@@ -48,7 +48,7 @@ Some common scenarios might be:
 | London,]        | London       |
 | london          | London       |
  
-5. Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example: 
+5. Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example:
 
 | Data you have   | Desired data |
 |                 | Institution  | Library name  | Address 1 | Address 2 | Town/City | Region | Country | Postcode |
@@ -59,6 +59,7 @@ Some common scenarios might be:
 | University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL, United Kingdom | University of Warwick | Library | Gibbett Hill Road | Coventry | United Kingdom | CV4 7AL |
 
 6. Where you want to add to your data from an external data source:
+
 | Data you have   | Date of Birth from VIAF (Virtual International Authority File) | Date of Death from VIAF (Virtual International Authority File) |
 |-----------------|:-------------|:-------------|
 | Braddon, M. E. (Mary Elizabeth) | 1835 | 1915 |
