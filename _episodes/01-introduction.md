@@ -60,6 +60,4 @@ There are also general and specialist tutorials about using OpenRefine available
 * [OpenRefine News (monthly round up of new blog posts, tutorials and other information)](http://openrefine.org/blog.html)
 
 ### Downloading the data
-You need to download a file to follow this lesson:
-1. Download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv) and move the file to this folder.
-https://github.com/data-lessons/library-openrefine/raw/master/libcarp-wk4-data/doaj-article-sample.csv
+You need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv). This is a csv file. Make a note of the location you save the file.
