@@ -16,16 +16,15 @@ keypoints:
 - "You use OpenRefine via your web browser, even though it is running locally on you computer"
 - "You can get further help at the OpenRefine Google Group"
 ---
-
-## Installation (to be completed before the session)
-
+## Getting ready {.getready}
+You need to download and install OpenRefine and download a data file to follow this lesson.
 ### Downloading OpenRefine
 You can download OpenRefine from http://openrefine.org/download.html. There are two versions you can use for this lesson:
 
 * Google Refine 2.5
-* OpenRefine 2.6 - Development version (beta 1)
+* OpenRefine 2.6 RC2
 
-Generally OpenRefine 2.6 is recommended and although labelled ‘beta’ has been stable for some time. However, note that the 2.6 beta does not work with Internet Explorer.
+Generally OpenRefine 2.6 is recommended.
 
 There are versions for Windows, Mac OS X and Linux.
 
@@ -42,7 +41,7 @@ To run Refine:
 * On Linux: Navigate to the folder where you’ve installed OpenRefine in a terminal window and type ‘./refine’
 * On Mac: Navigate to where you installed OpenRefine and click the OpenRefine icon
 
-The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333. If this doesn’t happen automatically you can open a web browser and type in this address.
+The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333.If this doesn’t happen automatically you can open a web browser and type in this address.
 
 ### Getting Help
 If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
@@ -59,3 +58,8 @@ There are also general and specialist tutorials about using OpenRefine available
 * [Data Munging Tools in Preparation for RDF: Catmandu and LODRefine by Christina Harlow](http://journal.code4lib.org/articles/11013)
 * [Walkthrough of Geonames Recon Service by Christina Harlow](http://christinaharlow.com/walkthrough-of-geonames-recon-service/)
 * [OpenRefine News (monthly round up of new blog posts, tutorials and other information)](http://openrefine.org/blog.html)
+
+### Downloading the data
+You need to download a file to follow this lesson:
+1. Download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv) and move the file to this folder.
+https://github.com/data-lessons/library-openrefine/raw/master/libcarp-wk4-data/doaj-article-sample.csv

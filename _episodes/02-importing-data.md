@@ -26,7 +26,7 @@ To import the data for the exercises below, run OpenRefine and:
 * Click 'Create Project'
 * Choose 'Get Data from this Computer'
 * Click 'Choose Files'
-* Locate the file called 'doaj-article-sample.csv' (this can be downloaded from https://github.com/LibraryCarpentry/week-four-library-carpentry/raw/master/libcarp-wk4-data/doaj-article-sample.csv)
+* Locate the file called which you previously downloaded 'doaj-article-sample.csv'
 * Click 'Next'
 
 The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
