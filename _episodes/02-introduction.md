@@ -28,9 +28,9 @@ OpenRefine is most useful where you have data in a simple tabular format but wit
 
 Some common scenarios might be:
 
-1. Where you want to know how many times a particular value appears in a column in your data
-2. Where you want to know how values are distributed across your whole data set
-3. Where you have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:
+* Where you want to know how many times a particular value appears in a column in your data
+* Where you want to know how values are distributed across your whole data set
+* Where you have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:
 
 | Data you have   | Desired data |
 |-----------------|:-------------|
@@ -39,7 +39,7 @@ Some common scenarios might be:
 | Jan 1 2014      | 2014-01-01   |
 | 2014-01-01      | 2014-01-01   |
 
-4. Where you have a list of names or terms that differ from each other but refer to the same people, places or concepts. For example:
+* Where you have a list of names or terms that differ from each other but refer to the same people, places or concepts. For example:
 
 | Data you have   | Desired data |
 |-----------------|:-------------|
@@ -48,7 +48,7 @@ Some common scenarios might be:
 | London,]        | London       |
 | london          | London       |
  
-5. Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example going from a single address field (in the first column), to each part of the address in a separate field:
+* Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example going from a single address field (in the first column), to each part of the address in a separate field:
 
 | Address in single field | Institution  | Library name  | Address 1 | Address 2 | Town/City | Region | Country | Postcode |
 |-------------------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|:-------------|
@@ -57,7 +57,7 @@ Some common scenarios might be:
 | University of Birmingham, Barnes Library, Medical School, Edgbaston, BIRMINGHAM, West Midlands, B15 2TT, United Kingdom | University of Birmingham | Barnes Library | Medical School | Edgbaston | Birmingham | West Midlands | United Kingdom | B15 2TT |
 | University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL, United Kingdom | University of Warwick | Library | Gibbett Hill Road | Coventry | United Kingdom | CV4 7AL |
 
-6. Where you want to add to your data from an external data source:
+* Where you want to add to your data from an external data source:
 
 | Data you have   | Date of Birth from VIAF (Virtual International Authority File) | Date of Death from VIAF (Virtual International Authority File) |
 |-----------------|:-------------|:-------------|
