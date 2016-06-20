@@ -4,14 +4,15 @@ teaching: 0
 exercises: 5
 questions:
 - "How do I get data into OpenRefine?"
-objectives:
-- "Successfully import data into OpenRefine"
-keypoints:
-- "Use the 'Create Project' option to import data
+- objectives:
+- - "Successfully import data into OpenRefine"
+- keypoints:
+- - "Use the 'Create Project' option to import data"
 - "You can control how data imports using options on the import screen"
 ---
 
 ## Importing data
+
 ### Exercise 1: Create your first Open Refine project (using provided data)
 There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
 
