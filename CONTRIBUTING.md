@@ -1,5 +1,9 @@
 # Contributing
 
+Library Carpentry builds on the work of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]. It uses the same contribution guidelines as these projects. This can be found below.
+
+______
+
 [Software Carpentry][swc-site] and [Data Carpentry][dc-site] are open source projects,
 and we welcome contributions of all kinds:
 new lessons,
