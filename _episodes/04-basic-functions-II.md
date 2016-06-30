@@ -11,6 +11,7 @@ keypoints:
 ---
 ## Transforming data
 ### Introducing Transformations
+
 Through facets, filters and clusters OpenRefine offers relatively straightforward ways of getting an overview of your data, and making changes where you want to standardise terms used to a common set of values.
 
 However, sometimes there will be changes you want to make to the data that cannot be achieved in this way. Such types of changes include:
