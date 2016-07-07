@@ -182,7 +182,7 @@ We can do a crude test for reversed author names by looking for those that conta
 Now we have narrowed down to the lines with a comma in a name, we can use the 'match' function. The match function allows you to use regular expressions, and output the capture groups as an array, which you can then manipulate.
 
 * On the author column use the dropdown menu and select 'Edit cells->Transform'
-* In the Expression box type ```value.match(/(.*),(.*)/)```
+* In the Expression box type ```value.match(/(.*),(.*)/)```  The "/",  means you are using a regular expression inside a GREL expression. The parentheses indicate you are going to match a group of characters. The ".*" expression will match any character from 0, 1 or more times. So here we are matching any number of characters, a comma, and another set of any number of characters.
 * See how this creates an array with two members in each row in the Preview column
 
 To get the author name in the natural order you can reverse the array and join it back together with a space to create the string you need:
