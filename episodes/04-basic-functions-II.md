@@ -96,7 +96,7 @@ Export formats support include HTML, Excel and comma- and tab-separated value (c
 ## Data types
 Understanding data types and regular expressions will help you write more complex transformations using GREL.
 
-Data types in OpenRefine
+### Data types in OpenRefine
 Every piece of data in OpenRefine has a 'type'. The most common 'type' is a 'string' - that is a piece of text. However there are other data types available and transformations let you convert data from one type to another where appropriate. The data types supported are:
 
 * String
