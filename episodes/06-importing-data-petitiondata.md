@@ -7,7 +7,7 @@ questions:
 objectives:
 - "Successfully import data into OpenRefine"
 keypoints:
-- "Use the 'Create Project' option to import data
+- "Use the 'Create Project' option to import data"
 - "You can control how data imports using options on the import screen"
 ---
 
