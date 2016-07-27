@@ -1,14 +1,26 @@
 ---
 title: "Basic OpenRefine functions II:"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 20
 questions:
-- "FIXME"
+- "How do I edit my data based on filters and facets?"
+- "How do I use transformations to programmatically edit my data?"
+- "How do I use GREL, the General Refine Expression Language?"
+- "How do I save and reuse a set of operations for use in subsequent projects?"
+- "What are the data formats supported by OpenRefine and why should I care?"
 objectives:
-- "FIXME"
+- "Introduce common transformations"
+- "Introduce GREL, the General Refine Expression Language"
+- "Explain how to write one's own transformations using GREL"
+- "Explain how to use Undo and Redo to retrace ones' steps"
+- "Explain how to use Extract and Apply to reuse a set of operations"
+- "Introduce data formats"
+- "Introduce Boolean values and arrays, and how to run transformations based on them"
 keypoints:
-- "FIXME"
+- "You can alter data in OpenRefine based on specific instructions"
+- "You can expand the data editing functions that are built-in into OpenRefine by building your own"
 ---
+
 ## Transforming data
 
 ### Introducing Transformations
@@ -114,17 +126,17 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 * On the Dateof creation column dropdown select 'Edit column->Add column based on this column'. Using this function you can create a new column, while preserving the old column
 * In the 'New column name' type "Formatted Date of Creation"
 * In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
-* Now we want to get rid of the numbers indicating time that precede the date.  Repeat these steps, type this expression ```value.replace("01 0000 " , "")``` 
+* Now we want to get rid of the numbers indicating time that precede the date.  Repeat these steps, type this expression ```value.replace("01 0000 " , "")```
 
 ### Booleans and Arrays
 #### Booleans
 Booleans and Arrays are data types that are more often used while manipulating data in a GREL expression than for actually storing in a cell (in fact, Arrays cannot be stored in a cell in OpenRefine).
 
-A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cell, but is more often used in transformations as part of a GREL expression. For example the GREL expression 
+A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cell, but is more often used in transformations as part of a GREL expression. For example the GREL expression
 ```
 value.contains("test")
 ```
-generates a boolean value of either 'true' or 'false' depending on whether the current value in the cell contains the text 'test' anywhere. 
+generates a boolean value of either 'true' or 'false' depending on whether the current value in the cell contains the text 'test' anywhere.
 
 Such tests can be combined with other GREL expressions to create more complex transformations. For example, to carry out a further transformation only if a test is successful. The GREL transformation ```if(value.contains("test"),"Test data",value)``` replaces a cell value with the words "Test data" only *if* the value in the cell contains the string "test" anywhere.
 

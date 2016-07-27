@@ -1,18 +1,24 @@
 ---
 title: "Advanced OpenRefine functions"
-teaching: 0
-exercises: 0
+teaching: 20
+exercises: 10
 questions:
-- "FIXME"
+- "How do I fetch data from an Application Programming Interface (API) to be used in OpenRefine?"
+- "How do I reconcile my data by comparing it to authoritative datasets"
+- "How do I install extensions for OpenRefine"
 objectives:
-- "FIXME"
+- "Introduce how to use URLs to fetch data from the web based on what's in an OpenRefine project"
+- "Introduce how to parse JSON data returned by web services"
+- "Introduce how to use Reconciliation services"
+- "Introduce OpenRefine extensions"
 keypoints:
-- "OpenRefine uses 'Transformations' to manipulate data"
-- "OpenRefine Transformations are written in a language called GREL and are somewhat similar to Excel Formula"
-- "OpenRefine keeps a full history of the changes you've made to a data set and so allows you to undo or redo steps as you need"
-- "FIXME"
+- "OpenRefine can look up custom URLs to fetch data based on what's in an OpenRefine project"
+- "Such API calls can be custom built, or one can use existing Reconciliation services to enrich data"
+- "OpenRefine can be further enhanced by installing extensions"
 ---
+
 ## Looking up data from a URL
+
 OpenRefine can retrieve data from URLs. This can be used in various ways, including looking up additional information from a remote service, based on information in your OpenRefine data.
 
 As an example, you can look up names against the Virtual International Authority File (VIAF), and retrieve additional information such as dates of birth/death and identifiers.
@@ -142,7 +148,7 @@ As well as looking up data in external systems using the methods described above
 
 The ‘cross’ function takes a value from the OpenRefine project you are working on, and looks for that value in a column in another OpenRefine project. If it finds one or more matching rows in the second OpenRefine project, it returns an array containing the rows that it has matched.
 
-As it returns the whole row for each match, you can use a transformation to extract the values from any of the columns in the 
+As it returns the whole row for each match, you can use a transformation to extract the values from any of the columns in the
 
 You can use to compare the contents of two OpenRefine projects, or to use data between the two projects.
 
