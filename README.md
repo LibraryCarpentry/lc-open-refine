@@ -12,7 +12,7 @@ These materials are based on the **Library Carpentry** materials initially devel
 - Git and version control
 - Using OpenRefine for data clean up.
 
-On 2-3 June 2016 during the [Mozilla Science Lab Global Sprint](https://science.mozilla.org/programs/events/global-sprint-2016) these existing four repositories were forked (links below) and re-developed within individual repositories, with the addition of a fifth module that introduces **SQL**, a topic which many librarians have expressed interest in learning. 
+On 2-3 June 2016 during the [Mozilla Science Lab Global Sprint](https://science.mozilla.org/programs/events/global-sprint-2016) these existing four repositories were forked (links below) and re-developed within individual repositories, with the addition of a fifth module that introduces **SQL**, a topic which many librarians have expressed interest in learning.
 
 - [library-data-intro](https://github.com/data-lessons/library-data-intro)
 - [library-shell](https://github.com/data-lessons/library-shell)
@@ -42,7 +42,7 @@ Library Carpentry is authored and maintained by the [community](https://github.c
 
 Please cite as:
 
-Library Carpentry. Open Refine for Librarians. June 2016. http://data-lessons.github.io/library-shell/.
+Library Carpentry. Open Refine for Librarians. June 2016. http://data-lessons.github.io/library-openrefine/.
 
 ## License
 
