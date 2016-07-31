@@ -1,6 +1,6 @@
 ---
 title: "Introduction to OpenRefine"
-teaching: 10
+teaching: 15
 exercises: 0
 questions:
 - "What is OpenRefine? What can it do?"
@@ -47,7 +47,7 @@ Some common scenarios might be:
 | London]         | London       |
 | London,]        | London       |
 | london          | London       |
- 
+
 * Where you have several bits of data combined together in a single column, and you want to separate them out into individual bits of data with one column for each bit of the data. For example going from a single address field (in the first column), to each part of the address in a separate field:
 
 | Address in single field | Institution  | Library name  | Address 1 | Address 2 | Town/City | Region | Country | Postcode |
