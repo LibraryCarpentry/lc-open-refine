@@ -1,7 +1,7 @@
 ---
 title: "Basic OpenRefine functions I: Working with columns, sorting, faceting, filtering and clustering"
-teaching: 10
-exercises: 20
+teaching: 20
+exercises: 40
 questions:
 - "How do I move, rename or remove columns in OpenRefine?"
 - "How do I sort data in OpenRefine?"
@@ -87,7 +87,7 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 * Text length facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g. if the values are expected to be years, any row with a text length more than 4 for that column is likely to be incorrect)
 * Facet by blank - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for rows missing key data.
 
-Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet. 
+Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
 ## Exercise 3: Find all publications without a DOI
 * Use the 'Facet by blank' function to find all publications in this data set without a DOI

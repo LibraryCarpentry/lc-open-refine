@@ -1,7 +1,7 @@
 ---
 title: "Basic OpenRefine functions II:"
 teaching: 20
-exercises: 20
+exercises: 40
 questions:
 - "How do I edit my data based on filters and facets?"
 - "How do I use transformations to programmatically edit my data?"
