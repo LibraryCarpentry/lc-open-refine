@@ -114,6 +114,7 @@ How this works can be seen in the next exercise...
 
 ## Exercise 5: Split author names into separate cells
 If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "|". To work with the author names effectively we need to split them into separate cells:
+
 * Click the dropdown menu at the top of the Author column
 * Choose 'Edit cells->Split multi-valued cells'
 * In the prompt type the | symbol and click 'OK'

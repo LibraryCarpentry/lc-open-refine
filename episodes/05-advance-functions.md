@@ -90,6 +90,7 @@ In this exercise you are going to use the VIAF Reconciliation service written by
 If you are going to do a lot of reconciliation, please install and run your own local reconciliation service - the instructions at [https://github.com/codeforkjeff/refine_viaf](https://github.com/codeforkjeff/refine_viaf) make this reasonably straightforward.
 
 Once you have chosen which service you are going to use:
+
 * In the Publisher column use the dropdown menu to choose 'Reconcile->Start Reconciling'
 * If this is the first time you've used this particular reconciliation service, you'll need to add the details of the service now
     * Click 'Add Standard Service...' and in the dialogue that appears enter:

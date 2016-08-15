@@ -68,6 +68,7 @@ GREL functions are written by giving a value of some kind (a text string, a date
 Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used.
 
 Next to the 'Preview' option are options to view:
+
 * History - a list of transformations you've previously used with the option to reuse them immediately or to 'star' them for easy access
 * Starred - a list of transformations you've 'starred' via the 'History' view
 * Help - a list of all the GREL functions and brief information on how to use them
