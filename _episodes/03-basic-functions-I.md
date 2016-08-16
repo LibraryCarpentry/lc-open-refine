@@ -117,7 +117,7 @@ If you look at the Author column you should be able to see that there are multip
 
 * Click the dropdown menu at the top of the Author column
 * Choose 'Edit cells->Split multi-valued cells'
-* In the prompt type the | symbol and click 'OK'
+* In the prompt type the "\|" symbol and click 'OK'
     * Note that the rows are still numbered sequentially
 * Click the 'Records' option to change to Records mode
     * Note how the numbering has changed - indicating that several rows are related to the same record
