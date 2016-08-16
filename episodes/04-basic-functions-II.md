@@ -129,9 +129,10 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 * In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
 
 ### Booleans and Arrays
-#### Booleans
+
 Booleans and Arrays are data types that are more often used while manipulating data in a GREL expression than for actually storing in a cell (in fact, Arrays cannot be stored in a cell in OpenRefine).
 
+#### Booleans
 A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cell, but is more often used in transformations as part of a GREL expression. For example the GREL expression
 ```
 value.contains("test")
