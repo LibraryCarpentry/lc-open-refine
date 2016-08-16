@@ -78,7 +78,7 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 **Numeric and Timeline facets** display graphs instead of lists of values. The graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed.
 
-**Scatterplot facets** are less commonly used - for further information on these see the tutorial at http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots
+**Scatterplot facets** are less commonly used - for further information on these see the tutorial at [http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots)
 
 **Custom facets** are a range of different types of facets, and also allow you write your own custom facets. Some of the default custom facets are:
 
@@ -131,7 +131,7 @@ To use the the 'Cluster' function, click on the 'Edit Cells' menu option in the 
 
 The 'Clusters' are created automatically according to an algorithm. There are a number of different algorithms supported by OpenRefine - some experimentation maybe required to see which clustering algorithm works best with any particular set of data, and you may find that using different algorithms highlights different clusters.
 
-For more information on the methods used to create Clusters see https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth
+For more information on the methods used to create Clusters see [https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
 For each cluster you have the option of 'merging' the values together - that is replace with a single consistent value. By default OpenRefine uses the most common value in the cluster as the new value, but you can select one of the other values by clicking the value itself, or you can simply type the desired value into the 'New Cell Value' box.
 
