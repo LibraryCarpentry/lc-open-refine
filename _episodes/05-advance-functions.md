@@ -149,8 +149,8 @@ As well as looking up data in external systems using the methods described above
 
 The ‘cross’ function takes a value from the OpenRefine project you are working on, and looks for that value in a column in another OpenRefine project. If it finds one or more matching rows in the second OpenRefine project, it returns an array containing the rows that it has matched.
 
-As it returns the whole row for each match, you can use a transformation to extract the values from any of the columns in the
+As it returns the whole row for each match, you can use a transformation to extract the values from any of the columns in the second project.
 
-You can use to compare the contents of two OpenRefine projects, or to use data between the two projects.
+You can use this function to compare the contents of two OpenRefine projects, or to use data between the two projects.
 
 The [VIB-Bits extension](https://www.bits.vib.be/index.php/software-overview/openrefine) adds a number of very useful functions to OpenRefine including a way of using the 'cross' function with simply point-and-click functionality which makes looking up data from other projects significantly simpler.
