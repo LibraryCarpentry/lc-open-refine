@@ -49,7 +49,7 @@ Because retrieving data from external URLs takes time, this exercise targets a s
 * Give the column a name e.g. "Journal details"
 * In the expression box you need to write some GREL where the output of the expression is a URL which can be used to retrieve data (the format of the data could be HTML, XML, JSON, or some other text format)
 
-In this case we are going to use the CrossRef api (read more about the CrossRef service at http://www.crossref.org, read more about the API we are going to use at https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md)
+In this case we are going to use the CrossRef api (read more about the CrossRef service at [http://www.crossref.org](http://www.crossref.org), read more about the API we are going to use at [https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md)](https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md))
 
 The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 
@@ -90,6 +90,7 @@ In this exercise you are going to use the VIAF Reconciliation service written by
 If you are going to do a lot of reconciliation, please install and run your own local reconciliation service - the instructions at [https://github.com/codeforkjeff/refine_viaf](https://github.com/codeforkjeff/refine_viaf) make this reasonably straightforward.
 
 Once you have chosen which service you are going to use:
+
 * In the Publisher column use the dropdown menu to choose 'Reconcile->Start Reconciling'
 * If this is the first time you've used this particular reconciliation service, you'll need to add the details of the service now
     * Click 'Add Standard Service...' and in the dialogue that appears enter:
@@ -139,17 +140,17 @@ There are two things that reconciliation can do for you. Firstly it gets a stand
 ## Extensions
 The functionality in OpenRefine can be enhanced by ‘extensions’ which can be downloaded and installed to add functionality to your OpenRefine installation.
 
-A list of Extensions (not necessarily complete) is given at https://github.com/OpenRefine/OpenRefine/wiki/Extensions
+A list of Extensions (not necessarily complete) is given at [https://github.com/OpenRefine/OpenRefine/wiki/Extensions](https://github.com/OpenRefine/OpenRefine/wiki/Extensions)
 
-One of these extensions tries to work around the limitation of Reconciliation services described above, by making it possible to use a reconciliation service against ‘linked data’ sources which have SPARQL endpoints. For more information on this see the ‘RDF Extension’ at http://refine.deri.ie. An example of how this works is given in more detail at http://refine.deri.ie/showcases.
+One of these extensions tries to work around the limitation of Reconciliation services described above, by making it possible to use a reconciliation service against ‘linked data’ sources which have SPARQL endpoints. For more information on this see the ‘RDF Extension’ at [http://refine.deri.ie](http://refine.deri.ie). An example of how this works is given in more detail at [http://refine.deri.ie/showcases](http://refine.deri.ie/showcases).
 
 ## Using the ‘cross’ function to lookup data in other OpenRefine projects
 As well as looking up data in external systems using the methods described above, it is also possible to look up data in other OpenRefine projects on the same computer. This is done using the ‘cross’ function.
 
 The ‘cross’ function takes a value from the OpenRefine project you are working on, and looks for that value in a column in another OpenRefine project. If it finds one or more matching rows in the second OpenRefine project, it returns an array containing the rows that it has matched.
 
-As it returns the whole row for each match, you can use a transformation to extract the values from any of the columns in the
+As it returns the whole row for each match, you can use a transformation to extract the values from any of the columns in the second project.
 
-You can use to compare the contents of two OpenRefine projects, or to use data between the two projects.
+You can use this function to compare the contents of two OpenRefine projects, or to use data between the two projects.
 
 The [VIB-Bits extension](https://www.bits.vib.be/index.php/software-overview/openrefine) adds a number of very useful functions to OpenRefine including a way of using the 'cross' function with simply point-and-click functionality which makes looking up data from other projects significantly simpler.
