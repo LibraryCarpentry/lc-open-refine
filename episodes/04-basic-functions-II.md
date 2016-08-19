@@ -180,12 +180,12 @@ value.split(",").sort().join(",")
 
 ### Exercise 10: Reverse author names
 In this exercise we are going to use both the Boolean and Array data types.
-If you look at the author column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
+If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
 
 We can do a crude test for reversed author names by looking for those that contain a comma:
 
 * Make sure you have already split the author names into individual cells using 'Edit cells->Split multi-valued cells' (you should have done this in exercise 5)
-* On the author column, use the dropdown menu and select 'Facet->Custom text facet...'
+* On the Authors column, use the dropdown menu and select 'Facet->Custom text facet...'
     * The Custom text facet function allows you to write GREL functions to create a facet
 * In the Expression box type ```value.contains(",")```
 * Click 'OK'
@@ -194,7 +194,7 @@ We can do a crude test for reversed author names by looking for those that conta
 
 Now we have narrowed down to the lines with a comma in a name, we can use the 'match' function. The match function allows you to use regular expressions, and output the capture groups as an array, which you can then manipulate.
 
-* On the author column use the dropdown menu and select 'Edit cells->Transform'
+* On the Authors column use the dropdown menu and select 'Edit cells->Transform'
 * In the Expression box type ```value.match(/(.*),(.*)/)```  The "/",  means you are using a regular expression inside a GREL expression. The parentheses indicate you are going to match a group of characters. The ".*" expression will match any character from 0, 1 or more times. So here we are matching any number of characters, a comma, and another set of any number of characters.
 * See how this creates an array with two members in each row in the Preview column
 
