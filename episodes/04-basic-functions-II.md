@@ -35,7 +35,7 @@ However, sometimes there will be changes you want to make to the data that canno
 
 To support this type of activity OpenRefine supports 'Transformations' which are ways of manipulating data in columns. Transformations are normally written in a special language called 'GREL' (Google Refine Expression Language). To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions.
 
-Full documentation for the GREL is available at https://github.com/OpenRefine/OpenRefine/wiki/Google-refine-expression-language. This tutorial covers only a small subset of the commands available.
+Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/Google-refine-expression-language](https://github.com/OpenRefine/OpenRefine/wiki/Google-refine-expression-language). This tutorial covers only a small subset of the commands available.
 
 ### Common transformations
 Some transformations are used regularly and are accessible directly through menu options, without having to type them directly.
@@ -68,6 +68,7 @@ GREL functions are written by giving a value of some kind (a text string, a date
 Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used.
 
 Next to the 'Preview' option are options to view:
+
 * History - a list of transformations you've previously used with the option to reuse them immediately or to 'star' them for easy access
 * Starred - a list of transformations you've 'starred' via the 'History' view
 * Help - a list of all the GREL functions and brief information on how to use them
@@ -128,9 +129,10 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 * In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
 
 ### Booleans and Arrays
-#### Booleans
+
 Booleans and Arrays are data types that are more often used while manipulating data in a GREL expression than for actually storing in a cell (in fact, Arrays cannot be stored in a cell in OpenRefine).
 
+#### Booleans
 A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cell, but is more often used in transformations as part of a GREL expression. For example the GREL expression
 ```
 value.contains("test")
@@ -178,12 +180,12 @@ value.split(",").sort().join(",")
 
 ### Exercise 10: Reverse author names
 In this exercise we are going to use both the Boolean and Array data types.
-If you look at the author column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
+If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
 
 We can do a crude test for reversed author names by looking for those that contain a comma:
 
 * Make sure you have already split the author names into individual cells using 'Edit cells->Split multi-valued cells' (you should have done this in exercise 5)
-* On the author column, use the dropdown menu and select 'Facet->Custom text facet...'
+* On the Authors column, use the dropdown menu and select 'Facet->Custom text facet...'
     * The Custom text facet function allows you to write GREL functions to create a facet
 * In the Expression box type ```value.contains(",")```
 * Click 'OK'
@@ -192,7 +194,7 @@ We can do a crude test for reversed author names by looking for those that conta
 
 Now we have narrowed down to the lines with a comma in a name, we can use the 'match' function. The match function allows you to use regular expressions, and output the capture groups as an array, which you can then manipulate.
 
-* On the author column use the dropdown menu and select 'Edit cells->Transform'
+* On the Authors column use the dropdown menu and select 'Edit cells->Transform'
 * In the Expression box type ```value.match(/(.*),(.*)/)```  The "/",  means you are using a regular expression inside a GREL expression. The parentheses indicate you are going to match a group of characters. The ".*" expression will match any character from 0, 1 or more times. So here we are matching any number of characters, a comma, and another set of any number of characters.
 * See how this creates an array with two members in each row in the Preview column
 
