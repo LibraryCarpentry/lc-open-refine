@@ -1,5 +1,5 @@
 ---
-title: "Basic OpenRefine functions I: Working with columns, sorting, faceting, filtering and clustering"
+title: "Basic OpenRefine Functions I: Working with columns, sorting, faceting, filtering and clustering"
 teaching: 20
 exercises: 40
 questions:
@@ -121,6 +121,8 @@ If you look at the Author column you should be able to see that there are multip
     * Note that the rows are still numbered sequentially
 * Click the 'Records' option to change to Records mode
     * Note how the numbering has changed - indicating that several rows are related to the same record
+
+![records](../assets/img/records.png) ![rows](../assets/img/rows.png)
 
 ## Clustering
 The Cluster function groups together values in a column that are 'similar' and enables you to merge together several different, but similar, values into a single value.
