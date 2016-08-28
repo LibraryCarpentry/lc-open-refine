@@ -23,13 +23,11 @@ There are several options for getting your data set into OpenRefine. You can upl
 * XML
 * Google Spreadsheet
 
-To import the data for the exercises below, run OpenRefine and:
-
-* Click 'Create Project'
-* Choose 'Get Data from this Computer'
-* Click 'Choose Files'
+To import the data for the exercises below, run OpenRefine***
 * Locate the file called which you previously downloaded 'doaj-article-sample.csv'
 * Click 'Next'
+
+***If Open Refine does not open in a brower window, open your browser and type the address http://127.0.0.1:3333/ to take you to the Open Refine interface.
 
 The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 
