@@ -11,7 +11,7 @@ objectives:
 - "Introduce how to parse JSON data returned by web services"
 - "Introduce how to use Reconciliation services"
 - "Introduce OpenRefine extensions"
-keypoints:
+key points:
 - "OpenRefine can look up custom URLs to fetch data based on what's in an OpenRefine project"
 - "Such API calls can be custom built, or one can use existing Reconciliation services to enrich data"
 - "OpenRefine can be further enhanced by installing extensions"
@@ -58,7 +58,7 @@ The syntax for requesting journal information from CrossRef is ```http://api.cro
 
 You should see a message at the top on the OpenRefine screen indicating it is fetching some data, and how far it has got. Wait for this to complete. Fetching data for a single row should take only ten seconds or so, but fetching data for all rows will take longer. You can speed this up by modifying the "Throttle Delay" setting in the 'Add column by fetching URLs' dialog which controls the delay between each URL request made by OpenRefine. This is defaulted to a rather large 5000 milliseconds (5 seconds).
 
-At this point you should have a new cell containing a long text string in a format called 'JSON' (this stands for Javascript Object Notation, although very rarely spelt out in full).
+At this point you should have a new cell containing a long text string in a format called 'JSON' (this stands for JavaScript Object Notation, although very rarely spelt out in full).
 
 OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The 'parseJson' function is explained in more detail at [https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions).
 
