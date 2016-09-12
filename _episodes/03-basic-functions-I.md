@@ -12,7 +12,7 @@ objectives:
 - "Explain how to sort data in columns"
 - "Explain what Facets and Filters are"
 - "Use facets and filters to work with a subset of data"
-key points:
+keypoints:
 - "You can reorder, rename and remove columns in OpenRefine"
 - "You can use facets and filters to explore your data"
 - "You can use facets and filters work with a subset of data in OpenRefine"

@@ -11,7 +11,7 @@ objectives:
 - "Introduce how to parse JSON data returned by web services"
 - "Introduce how to use Reconciliation services"
 - "Introduce OpenRefine extensions"
-key points:
+keypoints:
 - "OpenRefine can look up custom URLs to fetch data based on what's in an OpenRefine project"
 - "Such API calls can be custom built, or one can use existing Reconciliation services to enrich data"
 - "OpenRefine can be further enhanced by installing extensions"
