@@ -16,7 +16,7 @@ objectives:
 - "Explain how to use Extract and Apply to reuse a set of operations"
 - "Introduce data formats"
 - "Introduce Boolean values and arrays, and how to run transformations based on them"
-key points:
+keypoints:
 - "You can alter data in OpenRefine based on specific instructions"
 - "You can expand the data editing functions that are built-in into OpenRefine by building your own"
 ---
