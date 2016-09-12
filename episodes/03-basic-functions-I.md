@@ -129,7 +129,7 @@ The Cluster function groups together values in a column that are 'similar' and e
 
 This is very effective where you have data where there can be minor variations in data values that are likely such as names of people, organisations and places.
 
-To use the the 'Cluster' function, click on the 'Edit Cells' menu option in the relevant column and choose 'Cluster and edit...'
+To use the 'Cluster' function, click on the 'Edit Cells' menu option in the relevant column and choose 'Cluster and edit...'
 
 The 'Clusters' are created automatically according to an algorithm. There are a number of different algorithms supported by OpenRefine - some experimentation maybe required to see which clustering algorithm works best with any particular set of data, and you may find that using different algorithms highlights different clusters.
 
