@@ -14,28 +14,15 @@ $color-output:      #303030 !default;
 $color-source:      #6e5494 !default;
 
 // blockquotes
-
-{% if site.carpentry == "swc" %}
-$color-callout:     #00B3A3 !default;
-$color-challenge:   #cf0039 !default;
-$color-checklist:   #ea7f6a !default;
-$color-keypoints:   #98a546 !default;
-$color-objectives:  #98a546 !default;
-$color-prereq:      #b63d00 !default;
-$color-solution:    #9a7366 !default;
-$color-testimonial: #d99600 !default;
-{% endif %}
-
-{% if site.carpentry == "dc" %}
-$color-callout:     #c4e177 !default;
-$color-challenge:   #f4b4aa !default;
-$color-checklist:   #5ac76e !default;
-$color-keypoints:   #ae9aca !default;
-$color-objectives:  #cf71a9 !default;
+$color-callout:     #f4fd9c !default;
+$color-challenge:   #eec275 !default;
+$color-checklist:   #dfd2a0 !default;
+$color-discussion:  #eec275 !default;
+$color-keypoints:   #7ae78e !default;
+$color-objectives:  #daee84 !default;
 $color-prereq:      #9cd6dc !default;
-$color-solution:    #e3bb70 !default;
-$color-testimonial: #f4fd9c !default;
-{% endif %}
+$color-solution:    #ded4b9 !default;
+$color-testimonial: #fc8dc1 !default;
 
 //----------------------------------------
 // Specialized code blocks.
@@ -50,6 +37,13 @@ $color-testimonial: #f4fd9c !default;
 .error  { @include cdSetup($color-error); }
 .output { @include cdSetup($color-output); }
 .source { @include cdSetup($color-source); }
+
+.bash   { @include cdSetup($color-source); }
+.make   { @include cdSetup($color-source); }
+.matlab { @include cdSetup($color-source); }
+.python { @include cdSetup($color-source); }
+.r      { @include cdSetup($color-source); }
+.sql    { @include cdSetup($color-source); }
 
 //----------------------------------------
 // Specialized blockquote environments for learning objectives, callouts, etc.
@@ -94,6 +88,7 @@ $codeblock-padding: 5px !default;
 .callout{ @include bkSetup($color-callout, "\e146"); }
 .challenge{ @include bkSetup($color-challenge, "\270f"); }
 .checklist{ @include bkSetup($color-checklist, "\e067"); }
+.discussion{ @include bkSetup($color-discussion, "\e123"); }
 .keypoints{ @include bkSetup($color-keypoints, "\e101"); }
 .objectives{ @include bkSetup($color-objectives, "\e085"); }
 .prereq{ @include bkSetup($color-prereq, "\e124"); }
@@ -108,6 +103,10 @@ code {
   padding: 0 0;
   color: inherit;
   background-color: inherit;
+}
+
+img {
+  max-width: 100%;
 }
 
 //----------------------------------------
@@ -136,7 +135,6 @@ ul,
 ol {
   padding-left: 1em;
 }
-
 
 span.fold-unfold {
   margin-left: 1em;
