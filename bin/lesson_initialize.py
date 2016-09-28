@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-'''Initialize a newly-created repository.'''
+"""Initialize a newly-created repository."""
 
 
+from __future__ import print_function
 import sys
 import os
-
 
 ROOT_AUTHORS = '''\
 FIXME: list authors' names and email addresses.
@@ -23,17 +23,66 @@ and we welcome contributions of all kinds:
 new lessons,
 fixes to existing material,
 bug reports,
-and reviews of proposed changes are all equally welcome.
+and reviews of proposed changes are all welcome.
+
+## Contributor Agreement
+
 By contributing,
 you agree that we may redistribute your work under [our license](LICENSE.md).
 In exchange,
-we will address your issues,
-assess your change proposal,
+we will address your issues and/or assess your change proposal as promptly as we can,
 and help you become a member of our community.
-Everyone involved in [Software Carpentry][swc-site] agrees to abide by
-our [code of conduct](CONDUCT.md).
+Everyone involved in [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
+agrees to abide by our [code of conduct](CONDUCT.md).
 
-## What We're Looking For
+## How to Contribute
+
+The easiest way to get started is to file an issue
+to tell us about a spelling mistake,
+some awkward wording,
+or a factual error.
+This is a good way to introduce yourself
+and to meet some of our community members.
+
+1.  If you do not have a [GitHub][github] account,
+    you can [send us comments by email][contact].
+    However,
+    we will be able to respond more quickly if you use one of the other methods described below.
+
+2.  If you have a [GitHub][github] account,
+    or are willing to [create one][github-join],
+    but do not know how to use Git,
+    you can report problems or suggest improvements by [creating an issue][issues].
+    This allows us to assign the item to someone
+    and to respond to it in a threaded discussion.
+
+3.  If you are comfortable with Git,
+    and would like to add or change material,
+    you can submit a pull request (PR).
+    Instructions for doing this are [included below](#using-github).
+
+## Where to Contribute
+
+1.  If you wish to change this lesson,
+    please work in <https://github.com/swcarpentry/FIXME>,
+    which can be viewed at <https://swcarpentry.github.io/FIXME>.
+
+2.  If you wish to change the example lesson,
+    please work in <https://github.com/swcarpentry/lesson-example>,
+    which documents the format of our lessons
+    and can be viewed at <https://swcarpentry.github.io/lesson-example>.
+
+3.  If you wish to change the template used for workshop websites,
+    please work in <https://github.com/swcarpentry/workshop-template>.
+    The home page of that repository explains how to set up workshop websites,
+    while the extra pages in <https://swcarpentry.github.io/workshop-template>
+    provide more background on our design choices.
+
+4.  If you wish to change CSS style files, tools,
+    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,
+    please work in <https://github.com/swcarpentry/styles>.
+
+## What to Contribute
 
 There are many ways to contribute,
 from writing new exercises and improving existing ones
@@ -52,7 +101,7 @@ it's easy for people who have been using these lessons for a while
 to forget how impenetrable some of this material can be,
 so fresh eyes are always welcome.
 
-## What We're *Not* Looking For
+## What *Not* to Contribute
 
 Our lessons already contain more material than we can cover in a typical workshop,
 so we are usually *not* looking for more concepts or tools to add to them.
@@ -68,16 +117,9 @@ Our workshops typically contain a mixture of Windows, Mac OS X, and Linux users;
 in order to be usable,
 our lessons must run equally well on all three.
 
-## Getting Started
+## Using GitHub
 
-The easiest way to get started is to file an issue
-to tell us about a spelling mistake,
-some awkward wording,
-or a factual error.
-This is a good way to introduce yourself
-and to meet some of our community members.
-
-If you want to start adding or fixing material yourself,
+If you choose to contribute via GitHub,
 you may want to look at
 [How to Contribute to an Open Source Project on GitHub][how-contribute].
 In brief:
@@ -104,74 +146,74 @@ or encourage others to do so.
 The maintainers are community volunteers,
 and have final say over what gets merged into the lesson.
 
-## Our Template
-
-[This documentation][example-site] explains how we format our lessons
-(and is itself an example of that formatting).
-
 ## Other Resources
 
-General discussion of [Software Carpentry][swc-site] happens on
-the [discussion mailing list][discuss-list],
+General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
+happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
 You can also [reach us by email][contact].
 
-[contact]: admin@software-carpentry.org
+[contact]: mailto:admin@software-carpentry.org
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
 [dc-lessons]: http://datacarpentry.org/lessons/
 [dc-site]: http://datacarpentry.org/
-[discuss-list]: http://lists.software-carpentry.org/mailman/listinfo/discuss_lists.software-carpentry.org
-[example-site]: https://gvwilson.github.io/new-lesson-example/
+[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss
+[example-site]: https://swcarpentry.github.io/lesson-example/
+[github]: http://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
+[github-join]: https://github.com/join
 [how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://github.com/{USERNAME}/{LESSON-NAME}/issues/
-[repo]: https://github.com/{USERNAME}/{LESSON-NAME}/
+[issues]: https://github.com/swcarpentry/FIXME/issues/
+[repo]: https://github.com/swcarpentry/FIXME/
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
 [swc-lessons]: http://software-carpentry.org/lessons/
 [swc-site]: http://software-carpentry.org/
 '''
 
-
 ROOT_CONFIG_YML = '''\
 #------------------------------------------------------------
-# Values for this site.
+# Values for this lesson.
 #------------------------------------------------------------
 
-# Domain for searches.
-domain: "https://{USERNAME}.github.io/{LESSON-NAME}"
+# Which carpentry is this ("swc" or "dc")?
+carpentry: "swc"
 
-# URL for repository.
-repo: "https://github.com/{USERNAME}/{LESSON-NAME}"
-
-# Root URL for lesson below domain.
-root: "/{LESSON-NAME}"
-
-# Overall lesson title.
-title: "{LESSON-TITLE}"
+# Overall title for pages.
+title: "Lesson Title"
 
 # Contact email address.
-email: {USERNAME}@{SITE-NAME}
-
-# Is this a workshop site (if not, interpreted as a lesson site)?
-is_workshop: true
+email: lessons@software-carpentry.org
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
 #------------------------------------------------------------
 
+# What kind of thing is this ("workshop" or "lesson")?
+kind: "lesson"
+
+# Magic to make URLs resolve both locally and on GitHub.
+# See https://help.github.com/articles/repository-metadata-on-github-pages/.
+repository: <USERNAME>/<PROJECT>
+
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
-dc_site: "https://datacarpentry.org"
+dc_site: "http://datacarpentry.org"
 swc_github: "https://github.com/swcarpentry"
 swc_site: "https://software-carpentry.org"
-template_repo: "https://github.com/gvwilson/new-template"
-example_repo: "https://github.com/gvwilson/new-lesson-example"
-example_site: "https://gvwilson.github.com/new-lesson-example"
-workshop_repo: "https://github.com/gvwilson/new-workshop-template"
-workshop_site: "https://gvwilson.github.io/new-workshop-template"
+swc_pages: "https://swcarpentry.github.io"
+template_repo: "https://github.com/swcarpentry/styles"
+example_repo: "https://github.com/swcarpentry/lesson-example"
+example_site: "https://swcarpentry.github.com/lesson-example"
+workshop_repo: "https://github.com/swcarpentry/workshop-template"
+workshop_site: "https://swcarpentry.github.io/workshop-template"
+training_site: "https://swcarpentry.github.io/instructor-training"
 
-# Start time in minutes (540 is 09:00 am)
-start_time: 540
+# Surveys.
+pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
+post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
+
+# Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
+start_time: 0
 
 # Specify that things in the episodes collection should be output.
 collections:
@@ -183,6 +225,8 @@ collections:
 
 # Set the default layout for things in the episodes collection.
 defaults:
+  - values:
+      root: ..
   - scope:
       path: ""
       type: episodes
@@ -200,7 +244,8 @@ highlighter: false
 
 ROOT_INDEX_MD = '''\
 ---
-layout: lesson_homepage
+layout: lesson
+root: .
 ---
 FIXME: home page introduction
 
@@ -213,7 +258,6 @@ FIXME: home page introduction
 ROOT_REFERENCE_MD = '''\
 ---
 layout: reference
-title: Reference
 permalink: /reference/
 ---
 
@@ -245,6 +289,15 @@ keypoints:
 ---
 '''
 
+EXTRAS_ABOUT_MD = '''\
+---
+layout: page
+title: About
+permalink: /about/
+---
+{% include carpentries.html %}
+'''
+
 EXTRAS_DISCUSS_MD = '''\
 ---
 layout: page
@@ -254,13 +307,26 @@ permalink: /discuss/
 FIXME
 '''
 
+EXTRAS_FIGURES_MD = '''\
+---
+layout: page
+title: Figures
+permalink: /figures/
+---
+{% include all_figures.html %}
+'''
+
 EXTRAS_GUIDE_MD = '''\
 ---
 layout: page
-title: "Instructors' Guide"
+title: "Instructor Notes"
 permalink: /guide/
 ---
 FIXME
+'''
+
+INCLUDES_ALL_FIGURES_HTML = '''\
+<!-- empty -->
 '''
 
 BOILERPLATE = (
@@ -272,13 +338,16 @@ BOILERPLATE = (
     ('reference.md', ROOT_REFERENCE_MD),
     ('setup.md', ROOT_SETUP_MD),
     ('_episodes/01-introduction.md', EPISODES_INTRODUCTION_MD),
+    ('_extras/about.md', EXTRAS_ABOUT_MD),
     ('_extras/discuss.md', EXTRAS_DISCUSS_MD),
-    ('_extras/guide.md', EXTRAS_GUIDE_MD)
+    ('_extras/figures.md', EXTRAS_FIGURES_MD),
+    ('_extras/guide.md', EXTRAS_GUIDE_MD),
+    ('_includes/all_figures.html', INCLUDES_ALL_FIGURES_HTML)
 )
 
 
 def main():
-    '''Check for collisions, then create.'''
+    """Check for collisions, then create."""
 
     # Check.
     errors = False

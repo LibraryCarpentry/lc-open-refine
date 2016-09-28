@@ -3,7 +3,7 @@ layout: page
 title: Setup
 permalink: /setup/
 ---
-## Getting ready {.getready}
+## Getting ready
 You need to download and install OpenRefine and download a data file to follow this lesson.
 
 ### Downloading OpenRefine
