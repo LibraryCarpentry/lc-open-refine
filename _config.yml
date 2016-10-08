@@ -2,14 +2,16 @@
 # Values for this lesson.
 #------------------------------------------------------------
 
-# Which carpentry is this ("swc" or "dc")?
+# Which carpentry is this ("swc", "dc", or "lc")?
 carpentry: "lc"
 
 # Overall title for pages.
 title: "Library Carpentry OpenRefine"
 
-# Contact email address.
-email: lessons@software-carpentry.org
+# Contact.  This *must* include the protocol: if it's an email
+# address, it must look like "mailto:lessons@software-carpentry.org",
+# or if it's a URL, "https://gitter.im/username/ProjectName".
+contact: "https://gitter.im/weaverbel/LibraryCarpentry"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).

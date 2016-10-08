@@ -381,7 +381,7 @@ def check_config(reporter, filename):
                    kind)
 
     carpentry = config.get('carpentry', None)
-    reporter.check(carpentry in ('swc', 'dc', 'lc'),
+    reporter.check(carpentry in ('swc', 'dc'),
                    filename,
                    'Missing or unknown carpentry: {0}',
                    carpentry)
