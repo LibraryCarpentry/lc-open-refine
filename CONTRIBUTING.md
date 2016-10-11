@@ -1,6 +1,6 @@
 *Library Carpentry builds on the work of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]. It uses the same contribution guidelines as these projects. This can be found below.*
 
-______
+----
 
 # Contributing
 
@@ -31,7 +31,7 @@ This is a good way to introduce yourself
 and to meet some of our community members.
 
 1.  If you do not have a [GitHub][github] account,
-    you can [send us comments by email](mailto:admin@software-carpentry.org).
+    you can [send us comments by email][contact].
     However,
     we will be able to respond more quickly if you use one of the other methods described below.
 
@@ -47,7 +47,28 @@ and to meet some of our community members.
     you can submit a pull request (PR).
     Instructions for doing this are [included below](#using-github).
 
-## What We're Looking For
+## Where to Contribute
+
+1.  If you wish to change this lesson,
+    please work in <https://github.com/data-lessons/library-data-intro>,
+    which can be viewed at <https://data-lessons.github.io/library-data-intro>.
+
+2.  If you wish to change the example lesson,
+    please work in <https://github.com/swcarpentry/lesson-example>,
+    which documents the format of our lessons
+    and can be viewed at <https://swcarpentry.github.io/lesson-example>.
+
+3.  If you wish to change the template used for workshop websites,
+    please work in <https://github.com/swcarpentry/workshop-template>.
+    The home page of that repository explains how to set up workshop websites,
+    while the extra pages in <https://swcarpentry.github.io/workshop-template>
+    provide more background on our design choices.
+
+4.  If you wish to change CSS style files, tools,
+    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,
+    please work in <https://github.com/swcarpentry/styles>.
+
+## What to Contribute
 
 There are many ways to contribute,
 from writing new exercises and improving existing ones
@@ -66,14 +87,14 @@ it's easy for people who have been using these lessons for a while
 to forget how impenetrable some of this material can be,
 so fresh eyes are always welcome.
 
-## What We're *Not* Looking For
+## What *Not* to Contribute
 
 Our lessons already contain more material than we can cover in a typical workshop,
 so we are usually *not* looking for more concepts or tools to add to them.
 As a rule,
 if you want to introduce a new idea,
-you must estimate how long it will take to teach
-and explain what you would take out to make room for it.
+you must (a) estimate how long it will take to teach
+and (b) explain what you would take out to make room for it.
 The first encourages contributors to be honest about requirements;
 the second, to think hard about priorities.
 
@@ -84,7 +105,7 @@ our lessons must run equally well on all three.
 
 ## Using GitHub
 
-If you want to start adding or fixing material yourself,
+If you choose to contribute via GitHub,
 you may want to look at
 [How to Contribute to an Open Source Project on GitHub][how-contribute].
 In brief:
@@ -111,29 +132,25 @@ or encourage others to do so.
 The maintainers are community volunteers,
 and have final say over what gets merged into the lesson.
 
-## Our Template
-
-[This documentation][example-site] explains how we format our lessons
-(and is itself an example of that formatting).
-
 ## Other Resources
 
 General discussion of [Software Carpentry][swc-site] and [Data Carpentry][dc-site]
 happens on the [discussion mailing list][discuss-list],
 which everyone is welcome to join.
-You can also [reach us by email][mailto:admin@software-carpentry.org].
+You can also [reach us by email][contact].
 
+[contact]: mailto:admin@software-carpentry.org
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
 [dc-lessons]: http://datacarpentry.org/lessons/
 [dc-site]: http://datacarpentry.org/
-[discuss-list]: http://lists.software-carpentry.org/mailman/listinfo/discuss_lists.software-carpentry.org
-[example-site]: https://gvwilson.github.io/new-lesson-example/
+[discuss-list]: http://lists.software-carpentry.org/listinfo/discuss
+[example-site]: https://swcarpentry.github.io/lesson-example/
 [github]: http://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
 [how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://github.com/gvwilson/new-lesson-example/issues/
-[repo]: https://github.com/gvwilson/new-lesson-example/
+[issues]: https://github.com/data-lessons/library-data-intro/issues/
+[repo]: https://github.com/data-lessons/library-data-intro/
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
 [swc-lessons]: http://software-carpentry.org/lessons/
 [swc-site]: http://software-carpentry.org/
