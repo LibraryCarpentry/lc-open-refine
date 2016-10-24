@@ -13,6 +13,8 @@ keypoints:
 
 ## Importing data
 
+If you haven't already, at this point download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file. Make a note of the location you save the file.
+
 ### Exercise 1: Create your first Open Refine project (using provided data)
 There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
 
@@ -24,8 +26,6 @@ There are several options for getting your data set into OpenRefine. You can upl
 * Google Spreadsheet
 
 To import the data for the exercises below, run OpenRefine. *NOTE: If Open Refine does not open in a browser window, open your browser and type the address http://127.0.0.1:3333/ to take you to the Open Refine interface.*
-
-If you haven't already, at this point download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file. Make a note of the location you save the file.
 
 * Locate the file which you have downloaded called 'doaj-article-sample.csv'
 * Click 'Next'
