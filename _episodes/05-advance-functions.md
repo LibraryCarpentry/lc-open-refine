@@ -140,7 +140,7 @@ There are two things that reconciliation can do for you. Firstly it gets a stand
 ## Extensions
 The functionality in OpenRefine can be enhanced by ‘extensions’ which can be downloaded and installed to add functionality to your OpenRefine installation.
 
-A list of Extensions (not necessarily complete) is given at [https://github.com/OpenRefine/OpenRefine/wiki/Extensions](https://github.com/OpenRefine/OpenRefine/wiki/Extensions)
+A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at [http://openrefine.org/download.html](http://openrefine.org/download.html)
 
 One of these extensions tries to work around the limitation of Reconciliation services described above, by making it possible to use a reconciliation service against ‘linked data’ sources which have SPARQL endpoints. For more information on this see the ‘RDF Extension’ at [http://refine.deri.ie](http://refine.deri.ie). An example of how this works is given in more detail at [http://refine.deri.ie/showcases](http://refine.deri.ie/showcases).
 
