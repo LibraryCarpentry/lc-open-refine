@@ -8,7 +8,7 @@ understand what the OpenRefine software does;
 use the OpenRefine software to work with data files.
 
 > ## Prerequisites
->
-> You will need to install [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-> and [OpenRefine](http://openrefine.org/download.html) to complete this lesson.
+>To complete this lesson you will need Firefox web browser and OpenRefine. 
+> If not already installed, you will need to install [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+> and [OpenRefine](http://openrefine.org/download.html).
 {: .prereq}
