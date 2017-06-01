@@ -21,7 +21,7 @@ OpenRefine has two modes of viewing data 'Rows' and 'Records'. So far we've been
 How this works can be seen in the next exercise...
 
 >## Excerise 2: Split author names into separate cells
->If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "|". >To work with the author names effectively we need to split them into separate cells:
+>If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "|". To work with the author names effectively we need to split them into separate cells:
 >
 >* Click the dropdown menu at the top of the Author column
 >* Choose 'Edit cells->Split multi-valued cells'
