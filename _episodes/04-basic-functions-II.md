@@ -49,11 +49,12 @@ To Lowercase| Converts the current value to lowercase | ```value.toLowercase()``
 To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
 Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```
 
-### Exercise 7: Correct Publisher data
-* Create a text facet on the Publisher column
-* Note that in the values there are two that look identical - why does this value appear twice?
-* On the publisher column use the dropdown menu to select 'Edit cells->Common transforms->Trim leading and trailing whitespace'
-* Look at the publisher facet now - has it changed? (if it hasn't changed try clicking the Refresh option to make sure it updates)
+>### Exercise 7: Correct Publisher data
+>* Create a text facet on the Publisher column
+>* Note that in the values there are two that look identical - why does this value appear twice?
+>* On the publisher column use the dropdown menu to select 'Edit cells->Common transforms->Trim leading and trailing whitespace'
+>* Look at the publisher facet now - has it changed? (if it hasn't changed try clicking the Refresh option to make sure it updates)
+{: .challenge}
 
 ### Writing transformations
 To start writing transformations, select the column on which you wish to perform a transformation and choose 'Edit cells->Transform…'. In the screen that displays you have a place to write a transformation (the 'Expression' box) and then the ability to Preview the effect the transformation would have on 10 rows of your data.
@@ -73,16 +74,17 @@ Next to the 'Preview' option are options to view:
 * Starred - a list of transformations you've 'starred' via the 'History' view
 * Help - a list of all the GREL functions and brief information on how to use them
 
-### Exercise 8: Put titles into Title Case
-* Facet by publisher
-* Select "Akshantala Enterprises" and "Society of Pharmaceutical Technocrats"
-    * To select multiple values in the facet use the 'Include' link that appears to the right of the facet
-* See that the Titles for these are all in uppercase
-* Click the dropdown menu on the Title column
-* Choose 'Edit cells->Transform...'
-* In the Expression box type ```value.toTitlecase()```
-* In the Preview note that you can see what the affect of running this will be
-* Click 'OK'
+>### Exercise 8: Put titles into Title Case
+>* Facet by publisher
+>* Select "Akshantala Enterprises" and "Society of Pharmaceutical Technocrats"
+>    * To select multiple values in the facet use the 'Include' link that appears to the right of the facet
+>* See that the Titles for these are all in uppercase
+>* Click the dropdown menu on the Title column
+>* Choose 'Edit cells->Transform...'
+>* In the Expression box type ```value.toTitlecase()```
+>* In the Preview note that you can see what the affect of running this will be
+>* Click 'OK'
+{: .challenge}
 
 ## Undo and Redo
 OpenRefine lets you undo, and redo, any number of steps you have taken in cleaning the data. This means you can always try out transformations and 'undo' if you need to. The way OpenRefine records the steps you have taken even allows you to take the steps you've carried out on one data set, and apply it to another data set by a simple copy and paste operation.
@@ -120,13 +122,14 @@ Every piece of data in OpenRefine has a 'type'. The most common 'type' is a 'str
 ### Dates and Numbers
 So far we've been looking only at 'String' type data. Much of the time it is possible to treat numbers and dates as strings. For example in the Date column we have the date of publication represented as a String. However, some operations and transformations only work on 'number' or 'date' type operations. The simplest example is sorting values in numeric or date order. To carry out these functions we need to convert the values to a date or number first.
 
-### Exercise 9: Reformat the Date
-* Make sure you remove all Facets and Filters
-* On the Date column use the dropdown menu to select 'Edit cells->Common transforms->To date'
-* Note how the values are now displayed in green and follow a standard convention for their display format (ISO8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
-* On the Date column dropdown select 'Edit column->Add column based on this column'. Using this function you can create a new column, while preserving the old column
-* In the 'New column name' type "Formatted Date"
-* In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
+>### Exercise 9: Reformat the Date
+>* Make sure you remove all Facets and Filters
+>* On the Date column use the dropdown menu to select 'Edit cells->Common transforms->To date'
+>* Note how the values are now displayed in green and follow a standard convention for their display format (ISO8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
+>* On the Date column dropdown select 'Edit column->Add column based on this column'. Using this function you can create a new column, while preserving the old column
+>* In the 'New column name' type "Formatted Date"
+>* In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
+{: .challenge}
 
 ### Booleans and Arrays
 
@@ -178,28 +181,29 @@ value.split(",").sort().join(",")
 ```
 . Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
-### Exercise 10: Reverse author names
-In this exercise we are going to use both the Boolean and Array data types.
-If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been reversed to put the family name first.
-
-We can do a crude test for reversed author names by looking for those that contain a comma:
-
-* Make sure you have already split the author names into individual cells using 'Edit cells->Split multi-valued cells' (you should have done this in exercise 5)
-* On the Authors column, use the dropdown menu and select 'Facet->Custom text facet...'
-    * The Custom text facet function allows you to write GREL functions to create a facet
-* In the Expression box type ```value.contains(",")```
-* Click 'OK'
-* Since the 'contains' function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma
-* In this facet select 'true' to narrow down to the author names that contain a comma
-
-Now we have narrowed down to the lines with a comma in a name, we can use the 'match' function. The match function allows you to use regular expressions, and output the capture groups as an array, which you can then manipulate.
-
-* On the Authors column use the dropdown menu and select 'Edit cells->Transform'
-* In the Expression box type ```value.match(/(.*),(.*)/)```  The "/",  means you are using a regular expression inside a GREL expression. The parentheses indicate you are going to match a group of characters. The ".*" expression will match any character from 0, 1 or more times. So here we are matching any number of characters, a comma, and another set of any number of characters.
-* See how this creates an array with two members in each row in the Preview column
-
-To get the author name in the natural order you can reverse the array and join it back together with a space to create the string you need:
-
-* In the Expression box, add to the existing expression until it reads ```value.match(/(.*),(.*)/).reverse().join(" ")```
-* In the Preview view you should be able see this has reversed the array, and joined it back into a string
-* Click 'OK'
+>### Exercise 10: Reverse author names
+>In this exercise we are going to use both the Boolean and Array data types.
+>If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been >reversed to put the family name first.
+>
+>We can do a crude test for reversed author names by looking for those that contain a comma:
+>
+>* Make sure you have already split the author names into individual cells using 'Edit cells->Split multi-valued cells' (you should have done this in exercise 5)
+>* On the Authors column, use the dropdown menu and select 'Facet->Custom text facet...'
+>    * The Custom text facet function allows you to write GREL functions to create a facet
+>* In the Expression box type ```value.contains(",")```
+>* Click 'OK'
+>* Since the 'contains' function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma
+>* In this facet select 'true' to narrow down to the author names that contain a comma
+>
+>Now we have narrowed down to the lines with a comma in a name, we can use the 'match' function. The match function allows you to use >regular expressions, and output the capture groups as an array, which you can then manipulate.
+>
+>* On the Authors column use the dropdown menu and select 'Edit cells->Transform'
+>* In the Expression box type ```value.match(/(.*),(.*)/)```  The "/",  means you are using a regular expression inside a GREL expression. The parentheses indicate you are going to match a group of characters. The ".\*" expression will match any character from 0, 1 or more times. So here we are matching any number of characters, a comma, and another set of any number of characters.
+>* See how this creates an array with two members in each row in the Preview column
+>
+>To get the author name in the natural order you can reverse the array and join it back together with a space to create the string you need:
+>
+>* In the Expression box, add to the existing expression until it reads ```value.match(/(.*),(.*)/).reverse().join(" ")```
+>* In the Preview view you should be able see this has reversed the array, and joined it back into a string
+>* Click 'OK'
+{: .challenge}
