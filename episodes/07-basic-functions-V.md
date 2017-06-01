@@ -1,9 +1,8 @@
 ---
-title: "Basic OpenRefine functions II:"
+title: "Basic OpenRefine functions V: Transformations"
 teaching: 20
 exercises: 40
 questions:
-- "How do I edit my data based on filters and facets?"
 - "How do I use transformations to programmatically edit my data?"
 - "How do I use GREL, the General Refine Expression Language?"
 - "How do I save and reuse a set of operations for use in subsequent projects?"
