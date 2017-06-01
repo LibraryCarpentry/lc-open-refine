@@ -29,6 +29,8 @@ How this works can be seen in the next exercise...
 >    * Note that the rows are still numbered sequentially
 >* Click the 'Records' option to change to Records mode
 >    * Note how the numbering has changed - indicating that several rows are related to the same record
+> 
+> ![records](../assets/img/records.png) ![rows](../assets/img/rows.png)
 {: .challenge}
 
-![records](../assets/img/records.png) ![rows](../assets/img/rows.png)
+
