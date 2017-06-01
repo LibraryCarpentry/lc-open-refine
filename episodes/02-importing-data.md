@@ -33,6 +33,7 @@ If you haven't already, at this point download [doaj-article-sample.csv](https:/
 >1. Locate the file which you have downloaded called `doaj-article-sample.csv`
 >2. Click 'Next'
 >   
+![Create project screen capture](/path/to/img.jpg)
 >    The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 >    
 >    In this case you need to:
