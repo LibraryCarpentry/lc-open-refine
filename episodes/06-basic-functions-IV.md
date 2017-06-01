@@ -1,5 +1,5 @@
 ---
-title: "Basic OpenRefine Functions III: Working with columns and sorting"
+title: "Basic OpenRefine Functions IV: Working with columns and sorting"
 teaching: 
 exercises:
 questions:
