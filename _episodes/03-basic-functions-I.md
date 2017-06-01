@@ -53,10 +53,11 @@ You can include multiple values from the facet in a filter at one time by using 
 
 You can also 'invert' the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
-## Exercise 2: Which licences are used for articles in this file?
-* Create a facet for the 'Licence' column
-* What is the most common Licence in the file?
-* How many articles in the file don't have a licence assigned?
+>## Exercise 2: Which licences are used for articles in this file?
+>* Create a facet for the 'Licence' column
+>* What is the most common Licence in the file?
+>* How many articles in the file don't have a licence assigned?
+{: .challenge}
 
 ## Filters
 As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'.
@@ -89,8 +90,9 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
-## Exercise 3: Find all publications without a DOI
-* Use the 'Facet by blank' function to find all publications in this data set without a DOI
+>## Exercise 3: Find all publications without a DOI
+>* Use the 'Facet by blank' function to find all publications in this data set without a DOI
+{: .challenge}
 
 ## Amending data through facets
 If you create a text facet you can edit the values in the facet to change the value for several records at the same time. To do this, simply mouse-over the value you want to edit and click the 'edit' option that appears.
@@ -99,28 +101,30 @@ This approach is useful in relatively small facets where you might have small va
 
 The list of values in the facet will update as you make edits.
 
-## Exercise 4: Correct the Language values via a facet
-* Create a Text facet on the Language column
-* Notice that there is both 'EN' and 'English'
-* Put the mouse over the 'English' value
-* Click 'Edit'
-* Type 'EN' and click 'Apply'
-* See how the Language facet updates
+>## Exercise 4: Correct the Language values via a facet
+>* Create a Text facet on the Language column
+>* Notice that there is both 'EN' and 'English'
+>* Put the mouse over the 'English' value
+>* Click 'Edit'
+>* Type 'EN' and click 'Apply'
+>* See how the Language facet updates
+{: .challenge}
 
 # Rows and Records
 OpenRefine has two modes of viewing data 'Rows' and 'Records'. So far we've been using the Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record.
 
 How this works can be seen in the next exercise...
 
-## Exercise 5: Split author names into separate cells
-If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "|". To work with the author names effectively we need to split them into separate cells:
-
-* Click the dropdown menu at the top of the Author column
-* Choose 'Edit cells->Split multi-valued cells'
-* In the prompt type the "\|" symbol and click 'OK'
-    * Note that the rows are still numbered sequentially
-* Click the 'Records' option to change to Records mode
-    * Note how the numbering has changed - indicating that several rows are related to the same record
+>## Exercise 5: Split author names into separate cells
+>If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "|". >To work with the author names effectively we need to split them into separate cells:
+>
+>* Click the dropdown menu at the top of the Author column
+>* Choose 'Edit cells->Split multi-valued cells'
+>* In the prompt type the "\|" symbol and click 'OK'
+>    * Note that the rows are still numbered sequentially
+>* Click the 'Records' option to change to Records mode
+>    * Note how the numbering has changed - indicating that several rows are related to the same record
+{: .challenge}
 
 ![records](../assets/img/records.png) ![rows](../assets/img/rows.png)
 
@@ -139,7 +143,8 @@ For each cluster you have the option of 'merging' the values together - that is 
 
 The Clustering function can also be accessed via the drop down menu at the top of a column by selecting 'Edit cells->Cluster and edit …'
 
-## Exercise 6: Use Clustering to clean up author data
-* Choose 'Edit cells->Cluster and edit' from the author column (which should be split into individual values from the last exercise)
-* Using the 'key collision' method with the 'fingerprint' Keying Function work through the clusters of values, merging them to a single value where appropriate
-* Try changing the clustering method being used - which ones work well?
+>## Exercise 6: Use Clustering to clean up author data
+>* Choose 'Edit cells->Cluster and edit' from the author column (which should be split into individual values from the last exercise)
+>* Using the 'key collision' method with the 'fingerprint' Keying Function work through the clusters of values, merging them to a single value where appropriate
+>* Try changing the clustering method being used - which ones work well?
+{: .challenge}
