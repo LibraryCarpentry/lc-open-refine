@@ -35,7 +35,7 @@ However, sometimes there will be changes you want to make to the data that canno
 
 To support this type of activity OpenRefine supports 'Transformations' which are ways of manipulating data in columns. Transformations are normally written in a special language called 'GREL' (Google Refine Expression Language). To some extent GREL expressions are similar to Excel Formula, although they tend to focus on text manipulations rather than numeric functions.
 
-Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/Google-refine-expression-language](https://github.com/OpenRefine/OpenRefine/wiki/Google-refine-expression-language). This tutorial covers only a small subset of the commands available.
+Full documentation for the GREL is available at [https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language). This tutorial covers only a small subset of the commands available.
 
 ### Common transformations
 Some transformations are used regularly and are accessible directly through menu options, without having to type them directly.
