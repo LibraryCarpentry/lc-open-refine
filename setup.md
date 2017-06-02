@@ -9,12 +9,9 @@ You need to download and install OpenRefine and download a data file to follow t
 
 ### Downloading OpenRefine
 
-You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). There are two versions you can use for this lesson:
+You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine, from 2.5 to 2.7 RC2.  
 
-* Google Refine 2.5
-* OpenRefine 2.7 RC2
-
-Generally, OpenRefine 2.7 RC2 is recommended.
+OpenRefine 2.7 RC2 is recommended.  
 
 There are versions for Windows, Mac OS X and Linux.
 
