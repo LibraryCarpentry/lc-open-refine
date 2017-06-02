@@ -13,7 +13,7 @@ keypoints:
 
 ## Importing data
 
-If you haven't already, at this point download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file. Make a note of the location you save the file.
+Please see Downloading Data on the Setup page http://data-lessons.github.io/library-openrefine/setup/
 
 >## What kinds of data files can I import?
 >There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
@@ -33,15 +33,16 @@ If you haven't already, at this point download [doaj-article-sample.csv](https:/
 >1. Locate the file which you have downloaded called `doaj-article-sample.csv`
 >2. Click 'Next'
 >   
+![Create project screen capture](https://github.com/jmjamison/library-openrefine/blob/02-importing-data-add-screencap/assets/img/openrefine_ui.png)
 >    The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 >    
 >    In this case you need to:
 >    
->1. Set the 'Character encoding' to `UTF-8`
+>1. Click int the 'Character encoding' box to set it to `UTF-8`
 >2. Ensure the first row is used to create the column headings
 >3. Make sure OpenRefine doesn't try to automatically detect numbers and dates
 >
->    Once you are happy click `Create Project >>`
+>    Once you are happy click the`Create Project >>`button at the top right of the screen
 >
 >    This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
 {: .challenge}
