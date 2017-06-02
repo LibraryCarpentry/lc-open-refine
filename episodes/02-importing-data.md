@@ -41,7 +41,7 @@ Please see Downloading Data on the Setup page http://data-lessons.github.io/libr
 >2. Ensure the first row is used to create the column headings
 >3. Make sure OpenRefine doesn't try to automatically detect numbers and dates
 >
->    Once you are happy click `Create Project >>`
+>    Once you are happy click the`Create Project >>`button at the top right of the screen
 >
 >    This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
 {: .challenge}
