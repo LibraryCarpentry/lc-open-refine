@@ -22,7 +22,7 @@ keypoints:
 
 ## Transforming data
 
-### Introducing Transformations 
+### Introducing Transformations
 
 Through facets, filters and clusters OpenRefine offers relatively straightforward ways of getting an overview of your data, and making changes where you want to standardise terms used to a common set of values.
 
@@ -180,7 +180,6 @@ value.split(",").sort().join(",")
 ```
 . Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
-<<<<<<< HEAD
 >### Exercise 10: Reverse author names
 >In this exercise we are going to use both the Boolean and Array data types.
 >If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been >reversed to put the family name first.
@@ -234,8 +233,8 @@ To get the author name in the natural order you can reverse the array and join i
 * Click 'OK'
 
 > ## Challenge
-> 
-> Transform author names from natural order to Last Name, First Name format. Then split last name and first name into separate column. 
+>
+> Transform author names from natural order to Last Name, First Name format. Then split last name and first name into separate column.
 >
 > > ## Solution
 > > On the Authors column, use the dropdown menu and select Edit cell > transform
