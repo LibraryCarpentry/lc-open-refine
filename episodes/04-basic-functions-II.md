@@ -88,14 +88,18 @@ This approach is useful in relatively small facets where you might have small va
 The list of values in the facet will update as you make edits.
 
 >## Exercise 4: Correct the Language values via a facet
->* Create a Text facet on the Language column
->* Notice that there is both 'EN' and 'English'
->* Put the mouse over the 'English' value
->* Click 'Edit'
->* Type 'EN' and click 'Apply'
->* See how the Language facet updates
+>
+>* `Text facet` on the `language` column and correct the variation in the `EN` and `English` values.
+>
+>>## Solution
+>>1. Create a Text facet on the Language column
+>>2. Notice that there is both `EN` and `English`
+>>3. Put the mouse over the `English` value
+>>4. Click `Edit`
+>>5. Type `EN` and click `Apply`
+>>6. See how the Language facet updates
+>{: .solution}
 {: .challenge}
-
 
 ## Clustering
 The Cluster function groups together values in a column that are 'similar' and enables you to merge together several different, but similar, values into a single value.
