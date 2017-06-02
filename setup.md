@@ -9,12 +9,12 @@ You need to download and install OpenRefine and download a data file to follow t
 
 ### Downloading OpenRefine
 
-You can download OpenRefine from http://openrefine.org/download.html. There are two versions you can use for this lesson:
+You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). There are two versions you can use for this lesson:
 
 * Google Refine 2.5
-* OpenRefine 2.6 RC2
+* OpenRefine 2.7 RC2
 
-Generally OpenRefine 2.6 is recommended.
+Generally, OpenRefine 2.7 RC2 is recommended.
 
 There are versions for Windows, Mac OS X and Linux.
 
@@ -28,7 +28,7 @@ OpenRefine is a Java application, and you need to have a 'Java Runtime Environme
 
 To run Refine:
 
-* On Windows: Navigate to the folder where you’ve installed OpenRefine and either double-click ‘google-refine.exe’ (for Google Refine 2.5), ’openrefine.exe’ (for OpenRefine 2.6) or ‘refine.bat’ (for either)
+* On Windows: Navigate to the folder where you’ve installed OpenRefine and either double-click ‘google-refine.exe’ (for Google Refine 2.5), ’openrefine.exe’ (for OpenRefine 2.7) or ‘refine.bat’ (for either)
 * On Linux: Navigate to the folder where you’ve installed OpenRefine in a terminal window and type ‘./refine’
 * On Mac: Navigate to where you installed OpenRefine and click the OpenRefine icon
 
