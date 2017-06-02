@@ -44,20 +44,6 @@ To work with the author names effectively in OpenRefine, we need to have each na
  ![rows](../assets/img/rows.png)
  ![records](../assets/img/records.png) 
 
->## Exercise 2: Splitting Subjects into separate cells
->
->1. What separator character is used in the Subject headings cells?
->2. How would you split these subject words into individual cells?
-> 
-> > ## Solution
-> > 1. The subject words/headings are divided up with the pipe "\|" character
-> > 2. To split the subject words into individual cells you need to:
-> > * Click the dropdown menu at the top of the Subjects column
-> > * Choose 'Edit cells->Split multi-valued cells'
-> > * In the prompt type the "\|" symbol and click 'OK'
-> {: .solution}
-{: .challenge}
-
 Now that we can split multi-valued cells, we'll cover how to join them back together.
 
 ### Joining Cells
@@ -81,10 +67,49 @@ Records values will now be the same since we do not have any more split columns.
 
 * Click both the 'Rows' and 'Records' options and observe how the numbers of Rows and Records are equal
 
+> ## Choosing a good separator/delimiter
+> The value that separates multi-valued cells is called a separator or delimiter. Choosing a good
+> separaor is important. In the examples, we've seen the pipe character (\|) has been used.
+>
+> Choosing the wrong separator can lead to problems. Consider the following multi-valued Author example.
+> with a pipe as a separator.
+> ```
+> Jones, Andrew | Davis, S.
+> ```
+>
+> Now imagine that you had chosen a comma instead
+>
+> ```
+> Jones, Andrew , Davis, S.
+> ```
+>
+> Can you spot the problem? Splitting on a comma will not work with Authors because the names
+> include commas within them.
+>
+> When using multi-value cells, it is important to choose a separator that will never appear in 
+> the cell values themselves. For this reason, the pipe character (\|) is often a good choice since it
+> is rarely used in data.
+>
+{: .callout}
+
+>## Exercise 2: Splitting Subjects into separate cells
+>
+>1. What separator character is used in the Subject headings cells?
+>2. How would you split these subject words into individual cells?
+> 
+> > ## Solution
+> > 1. The subject words/headings are divided up with the pipe "\|" character
+> > 2. To split the subject words into individual cells you need to:
+> > * Click the dropdown menu at the top of the Subjects column
+> > * Choose 'Edit cells->Split multi-valued cells'
+> > * In the prompt type the "\|" symbol and click 'OK'
+> {: .solution}
+{: .challenge}
+
+
 >## Exercise 3: Joining the Subjects column back together
 >
->1. If you split the Subjects column in Exercise 2 above, you may not see your Rows and Records counts being equal
->2. If you split the Subjects, now join them back together and you'll see your Rows and Records are equal
+>1. Using what we've learned, now Join the Subjects back together
 >
 > > ## Solution
 > > 1. The subject words/headings were previously delimited with the pipe "\|" character
