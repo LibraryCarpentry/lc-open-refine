@@ -1,13 +1,18 @@
 ---
 title: "Basic OpenRefine Functions III: Clustering"
-teaching: 
-exercises:
+teaching: 10
+exercises: 10
 questions:
-
+- "What is Clustering in OpenRefine and when woud you use it?"
+- "How does clustering work in OpenRefine?"
 objectives:
-
+- "Explain what clustering is in OpenRefine"
+- "Use clustering to identify and fix replace varying forms of the same data with a single consistent value"
 keypoints:
-
+- "Clustering is a way of finding variant forms of the same piece of data within a dataset (e.g. different spellings of a name)"
+- "There are a number of different Clustering algorithms that work in different ways and will produce different results"
+- "The best clustering algorithm to use will depend on the data"
+- "Using clustering you can replace varying forms of the same data with a single consistent value"
 ---
 
 ## Clustering

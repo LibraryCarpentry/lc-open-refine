@@ -42,7 +42,7 @@ To work with the author names effectively in OpenRefine, we need to have each na
  ![rows](../assets/img/rows.png)
  ![records](../assets/img/records.png) 
 
->## Excerise 2: Splitting Subjects into separate cells
+>## Exercise 2: Splitting Subjects into separate cells
 >
 >1. What separator character is used in the Subject headings cells?
 >2. How would you split these subject words into individual cells?
