@@ -1,7 +1,7 @@
 ---
 title: "Basic OpenRefine Functions II: Faceting and filtering"
-teaching: 
-exercises: 
+teaching:
+exercises:
 questions:
 
 objectives:
@@ -26,9 +26,16 @@ You can include multiple values from the facet in a filter at one time by using 
 You can also 'invert' the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
 >## Exercise 2: Which licences are used for articles in this file?
->* Create a facet for the 'Licence' column
->* What is the most common Licence in the file?
->* How many articles in the file don't have a licence assigned?
+> Use a `text facet` for the `license` column and answer these questions:
+>
+>1. What is the most common Licence in the file?
+>2. How many articles in the file don't have a licence assigned?
+>
+>>## Solution
+>>* Create a facet for the 'Licence' column
+>>* What is the most common Licence in the file? Answer: `CC BY`
+>>* How many articles in the file don't have a licence assigned? Answer: **6**
+>{: .solution}
 {: .challenge}
 
 ## Filters
