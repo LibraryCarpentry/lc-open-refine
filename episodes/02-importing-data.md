@@ -38,7 +38,7 @@ Please see Downloading Data on the Setup page http://data-lessons.github.io/libr
 >    
 >    In this case you need to:
 >    
->1. Click int the 'Character encoding' box to set it to `UTF-8`
+>1. Click in the 'Character encoding' box to set it to `UTF-8`
 >2. Ensure the first row is used to create the column headings
 >3. Make sure OpenRefine doesn't try to automatically detect numbers and dates
 >
