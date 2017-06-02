@@ -53,5 +53,5 @@ There are also general and specialist tutorials about using OpenRefine available
 
 ### Downloading the data
 
-You need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv)by right clicking on the link (NOTE Safari right click and select **download linked file**; Chrome and Firefox right click and select **save link as**). Make a note of the location you save the file to.
+You need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv) by right clicking on the link (NOTE Safari right click and select **download linked file**; Chrome and Firefox right click and select **save link as**). Make a note of the location you save the file to.
 [template]: {{ site.workshop_repo }}
