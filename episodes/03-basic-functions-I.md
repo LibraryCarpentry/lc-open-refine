@@ -28,7 +28,7 @@ Most options to work with data in OpenRefine are accessed from drop down menus a
 ## Rows and Records
 OpenRefine has two modes of viewing data 'Rows' and 'Records'. At the moment we are in Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record.
 
-To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "|".
+To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "\|".
 
 To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells we can use a 'Split multi-valued cells' function:
 
@@ -38,8 +38,9 @@ To work with the author names effectively in OpenRefine, we need to have each na
     * Note that the rows are still numbered sequentially
 * Click the 'Records' option to change to Records mode
     * Note how the numbering has changed - indicating that several rows are related to the same record
- 
- ![records](../assets/img/records.png) ![rows](../assets/img/rows.png)
+
+ ![rows](../assets/img/rows.png)
+ ![records](../assets/img/records.png) 
 
 >## Excerise 2: Splitting Subjects into separate cells
 >
