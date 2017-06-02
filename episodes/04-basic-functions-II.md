@@ -70,7 +70,14 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
 >## Exercise 3: Find all publications without a DOI
->* Use the 'Facet by blank' function to find all publications in this data set without a DOI
+>* Use the `Facet by blank` function to find all publications in this data set without a DOI
+>
+>>## Solution
+>>
+>>1. On the `DOI` column drop down and select `Customized facets > Facets by blank`
+>>2. `True` means that it is blank, so you can:
+>>    * Select `include` for true to winnow down the publications
+>{: .solution}
 {: .challenge}
 
 ## Amending data through facets
