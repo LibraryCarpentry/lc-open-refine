@@ -28,13 +28,13 @@ Please see Downloading Data on the Setup page http://data-lessons.github.io/libr
 
 >## Exercise 1: Create your first Open Refine project (using provided data)
 >
->To import the data for the exercises below, run OpenRefine. *NOTE: If Open Refine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the Open Refine interface.*
+> To import the data for the exercises below, run OpenRefine. *NOTE: If Open Refine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the Open Refine interface.*
 >
 >1. Locate the file which you have downloaded called `doaj-article-sample.csv`
 >2. Click 'Next'
 >   
-![Create project screen capture]((../assets/img/openrefine_ui.png)
->    The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
+> ![Create project screen capture](../assets/img/openrefine_ui.png)
+> The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 >    
 >    In this case you need to:
 >    
