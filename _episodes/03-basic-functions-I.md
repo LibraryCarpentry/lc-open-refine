@@ -9,11 +9,11 @@ questions:
 objectives:
 - Locate controls for navigating data in OpenRefine
 - Find options to work with data through the OpenRefine dropdown menus
-- Split cells which contain multiple bits of data so that each piece of data is in it's own cell
+- Split cells which contain multiple bits of data so that each piece of data is in its own cell
 keypoints:
 - "OpenRefine uses rows and columns to display data"
 - "Most options to work with data in OpenRefine are accessed through a drop down menu at the top of a data column"
-- " When you select an option in a particular column (e.g. to make a change to the data), it will effect all the cells in that column"
+- "When you select an option in a particular column (e.g. to make a change to the data), it will effect all the cells in that column"
 - "OpenRefine has a Records mode which links together multiple rows into a single record"
 ---
 
@@ -23,7 +23,7 @@ OpenRefine displays data in a tabular format. Each row will usually represent a 
 OpenRefine only displays a limited number of rows of data at one time. You can adjust the number choosing between 5, 10 (the default), 25 and 50. You can navigate through the records by using the previous/next/first/last navigation options at the top right of the table of data.
 
 ## Working with data in OpenRefine
-Most options to work with data in OpenRefine are accessed from drop down menus at the top of the data columns. When you select an option in a particular column (e.g. to make a change to the data), it will effect all the cells in that column. If you want to make changes across several columns, you will need to do this one column at a time.
+Most options to work with data in OpenRefine are accessed from drop down menus at the top of the data columns. When you select an option in a particular column (e.g. to make a change to the data), it will affect all the cells in that column. If you want to make changes across several columns, you will need to do this one column at a time.
 
 ## Rows and Records
 OpenRefine has two modes of viewing data 'Rows' and 'Records'. At the moment we are in Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record.
