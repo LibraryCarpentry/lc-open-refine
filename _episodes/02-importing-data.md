@@ -40,7 +40,7 @@ Please see Downloading Data on the Setup page http://data-lessons.github.io/libr
 >    
 >1. Click in the 'Character encoding' box to set it to `UTF-8`
 >2. Ensure the first row is used to create the column headings
->3. Make sure OpenRefine doesn't try to automatically detect numbers and dates
+>3. Make sure the ‘Parse cell text into numbers, dates‘ box is not checked, so OpenRefine doesn't try to automatically detect numbers
 >
 >    Once you are happy click the`Create Project >>`button at the top right of the screen
 >
