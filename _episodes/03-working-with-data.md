@@ -32,7 +32,7 @@ OpenRefine has two modes of viewing data 'Rows' and 'Records'. At the moment we 
 
 To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "\|".
 
-To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells we can use a 'Split multi-valued cells' function:
+To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells, we can use a 'Split multi-valued cells' function:
 
 * Click the dropdown menu at the top of the Author column
 * Choose 'Edit cells->Split multi-valued cells'
@@ -106,6 +106,42 @@ Records values will now be the same since we do not have any more split columns.
 > {: .solution}
 {: .challenge}
 
+Now that we can split multi-valued cells, we'll cover how to join them back together.
+
+### Joining Cells
+
+A common workflow with multi-valued cells is
+
+- split multi-valued cells into individual cells (what we did above)
+- modify/refine/clean individual cells
+- join multi-valued cells back together
+
+Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together that have been split previously.
+
+* Click the dropdown menu at the top of the Author column
+* Choose 'Edit cells->Join multi-valued cells'
+* In the prompt type the "\|" symbol
+    * Here we are specifying the *delimiter* character for OpenRefine to use to join the values together.
+* Click 'OK' to join the Authors cells back together
+
+You will now see that split rows have gone away - the Authors have been joined into a single cell with the specified delimiter. Our Rows and
+Records values will now be the same since we do not have any more split columns.
+
+* Click both the 'Rows' and 'Records' options and observe how the numbers of Rows and Records are equal
+
+>## Exercise 3: Joining the Subjects column back together
+>
+>1. If you split the Subjects column in Exercise 2 above, you may not see your Rows and Records counts being equal
+>2. If you split the Subjects, now join them back together and you'll see your Rows and Records are equal
+>
+> > ## Solution
+> > 1. The subject words/headings were previously delimited with the pipe "\|" character
+> > 2. To join the split subject cells back to a single cell you need to:
+> > * Click the dropdown menu at the top of the Subjects column
+> > * Choose 'Join cells->Split multi-valued cells'
+> > * In the prompt type the "\|" symbol and click 'OK'
+> {: .solution}
+{: .challenge}
 
 >## Exercise 3: Joining the Subjects column back together
 >
