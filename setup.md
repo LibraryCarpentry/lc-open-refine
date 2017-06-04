@@ -9,12 +9,9 @@ You need to download and install OpenRefine and download a data file to follow t
 
 ### Downloading OpenRefine
 
-You can download OpenRefine from http://openrefine.org/download.html. There are two versions you can use for this lesson:
+You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine, from 2.5 to 2.7 RC2.  
 
-* Google Refine 2.5
-* OpenRefine 2.6 RC2
-
-Generally OpenRefine 2.6 is recommended.
+OpenRefine 2.7 RC2 is recommended.  
 
 There are versions for Windows, Mac OS X and Linux.
 
@@ -28,7 +25,7 @@ OpenRefine is a Java application, and you need to have a 'Java Runtime Environme
 
 To run Refine:
 
-* On Windows: Navigate to the folder where you’ve installed OpenRefine and either double-click ‘google-refine.exe’ (for Google Refine 2.5), ’openrefine.exe’ (for OpenRefine 2.6) or ‘refine.bat’ (for either)
+* On Windows: Navigate to the folder where you’ve installed OpenRefine and either double-click ‘google-refine.exe’ (for Google Refine 2.5), ’openrefine.exe’ (for OpenRefine 2.7) or ‘refine.bat’ (for either)
 * On Linux: Navigate to the folder where you’ve installed OpenRefine in a terminal window and type ‘./refine’
 * On Mac: Navigate to where you installed OpenRefine and click the OpenRefine icon
 
@@ -53,5 +50,5 @@ There are also general and specialist tutorials about using OpenRefine available
 
 ### Downloading the data
 
-You need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv) by right clicking on the link (NOTE Safari right click and select **download linked file**; Chrome and Firefox right click and select **save link as**). Make a note of the location you save the file to.
+You need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE Safari right click and select **download linked file**; Chrome and Firefox right click and select **save link as**). Make a note of the location you save the file to.
 [template]: {{ site.workshop_repo }}

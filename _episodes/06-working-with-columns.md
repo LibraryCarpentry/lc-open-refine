@@ -1,17 +1,21 @@
 ---
 title: "Basic OpenRefine Functions IV: Working with columns and sorting"
-teaching: 
-exercises:
+teaching: 5
+exercises: 5
 questions:
-
+- "How do I move, rename or remove columns in OpenRefine?"
+- "How do I sort data in OpenRefine?"
 objectives:
-
+- "Explain how to reorder, rename and remove columns"
+- "Explain how to sort data in columns"
 keypoints:
-
+- "You can reorder, rename and remove columns in OpenRefine"
+- "Sorting in OpenRefine always sorts all rows"
+- "The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently"
 ---
 
 ## Reordering and renaming columns
-Many operations in OpenRefine are accessed from the drop down menus at the top of each column. You can re-order the columns by clicking the drop down menu at the top of the first column (labelled 'All'), and choosing 'Edit columns->Re-order / remove columns …'
+You can re-order the columns by clicking the drop down menu at the top of the first column (labelled 'All'), and choosing 'Edit columns->Re-order / remove columns …'
 
 You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required.
 
