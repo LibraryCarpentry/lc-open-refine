@@ -1,13 +1,21 @@
 ---
 title: "Basic OpenRefine Functions II: Faceting and filtering"
-teaching:
-exercises:
+teaching: 10
+exercises: 10
 questions:
-
+- "What is a facet in OpenRefine?"
+- "What is a filter in OpenRefine?"
+- "How can I use filters and facets to explore data OpenRefine?"
+- "How can I easily correct common data issues in my data with OpenRefine?"
 objectives:
-
+- "Explain what Facets and Filters are"
+- "Answer simple questions about the content of a data set using Facets"
+- "Use facets and filters to work with a subset of data"
+- "Correct simple data problems through a facet"
 keypoints:
-
+- "You can use facets and filters to explore your data"
+- "You can use facets and filters work with a subset of data in OpenRefine"
+- "You can easily correct common data issues from a Facet"
 ---
 
 ## Facets
@@ -25,7 +33,7 @@ You can include multiple values from the facet in a filter at one time by using 
 
 You can also 'invert' the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
->## Exercise 2: Which licences are used for articles in this file?
+>## Exercise 3: Which licences are used for articles in this file?
 > Use a `text facet` for the `license` column and answer these questions:
 >
 >1. What is the most common Licence in the file?

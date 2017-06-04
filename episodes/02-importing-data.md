@@ -26,21 +26,21 @@ Please see Downloading Data on the Setup page http://data-lessons.github.io/libr
 >* Google Spreadsheet
 {: .callout}
 
->## Exercise 1: Create your first Open Refine project (using provided data)
+>## Exercise 1: Create your first OpenRefine project (using provided data)
 >
->To import the data for the exercises below, run OpenRefine. *NOTE: If Open Refine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the Open Refine interface.*
+> To import the data for the exercises below, run OpenRefine. *NOTE: If OpenRefine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the OpenRefine interface.*
 >
 >1. Locate the file which you have downloaded called `doaj-article-sample.csv`
 >2. Click 'Next'
 >   
-![Create project screen capture](https://github.com/jmjamison/library-openrefine/blob/02-importing-data-add-screencap/assets/img/openrefine_ui.png)
->    The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
+> ![Create project screen capture](../assets/img/openrefine_ui.png)
+> The next screen gives you some options to ensure that the data gets imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 >    
 >    In this case you need to:
 >    
->1. Click int the 'Character encoding' box to set it to `UTF-8`
+>1. Click in the 'Character encoding' box to set it to `UTF-8`
 >2. Ensure the first row is used to create the column headings
->3. Make sure OpenRefine doesn't try to automatically detect numbers and dates
+>3. Make sure the ‘Parse cell text into numbers, dates‘ box is not checked, so OpenRefine doesn't try to automatically detect numbers
 >
 >    Once you are happy click the`Create Project >>`button at the top right of the screen
 >
