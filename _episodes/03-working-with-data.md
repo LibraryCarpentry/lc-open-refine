@@ -67,24 +67,42 @@ Records values will now be the same since we do not have any more split columns.
 
 * Click both the 'Rows' and 'Records' options and observe how the numbers of Rows and Records are equal
 
-> ## Choosing a good separator/delimiter
-> The value that separates multi-valued cells is called a separator or delimiter. Choosing a good
-> separaor is important. In the examples, we've seen the pipe character (\|) has been used.
->
-> Choosing the wrong separator can lead to problems. Consider the following multi-valued Author example.
-> with a pipe as a separator.
-> ```
-> Jones, Andrew | Davis, S.
-> ```
->
-> Now imagine that you had chosen a comma instead
->
-> ```
-> Jones, Andrew , Davis, S.
-> ```
->
-> Can you spot the problem? Splitting on a comma will not work with Authors because the names
-> include commas within them.
+### Choosing a good separator
+
+The value that separates multi-valued cells is called a separator or delimiter. Choosing a good
+separaor is important. In the examples, we've seen the pipe character (\|) has been used.
+
+Choosing the wrong separator can lead to problems. Consider the following multi-valued Author example.
+with a pipe as a separator.
+```
+Jones, Andrew | Davis, S.
+```
+
+When we tell OpenRefine to split this cell on the pipe (\|), we will get the following two authors each in their own cell since there is a single pipe character separating them.
+
+- **Author 1:** Jones, Andrew
+- **Author 2:** Davis, S.
+
+Now imagine that the document creator had chosen a **comma** as the separator instead of a pipe.
+
+```
+Jones, Andrew , Davis, S.
+```
+
+Can you spot the problem? Can you tell where one author stops and the next begins?  
+
+OpenRefine will split on **every** comma it encounters,
+so we'll end up with 4 authors, not two, because OpenRefine cannot tell that **Jones, Andrew** is supposed to be a single author. We will get
+the following four "authors" because there are 3 commas separating the name parts.
+
+- **Author 1:** Jones
+- **Author 2:** Andrew
+- **Author 3:** Davis
+- **Author 4:** S.
+
+Splitting on a comma will not work with Authors because the names may include commas within them.
+
+> ## Choose a separator that is not in your data values
 >
 > When using multi-value cells, it is important to choose a separator that will never appear in 
 > the cell values themselves. For this reason, the pipe character (\|) is often a good choice since it
@@ -128,20 +146,6 @@ You will now see that split rows have gone away - the Authors have been joined i
 Records values will now be the same since we do not have any more split columns.
 
 * Click both the 'Rows' and 'Records' options and observe how the numbers of Rows and Records are equal
-
->## Exercise 3: Joining the Subjects column back together
->
->1. If you split the Subjects column in Exercise 2 above, you may not see your Rows and Records counts being equal
->2. If you split the Subjects, now join them back together and you'll see your Rows and Records are equal
->
-> > ## Solution
-> > 1. The subject words/headings were previously delimited with the pipe "\|" character
-> > 2. To join the split subject cells back to a single cell you need to:
-> > * Click the dropdown menu at the top of the Subjects column
-> > * Choose 'Join cells->Split multi-valued cells'
-> > * In the prompt type the "\|" symbol and click 'OK'
-> {: .solution}
-{: .challenge}
 
 >## Exercise 3: Joining the Subjects column back together
 >
