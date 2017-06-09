@@ -1,5 +1,5 @@
 ---
-title: "Basic OpenRefine functions V: Transformations"
+title: "Transformations"
 teaching: 20
 exercises: 40
 questions:
