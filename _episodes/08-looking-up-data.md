@@ -38,7 +38,7 @@ The 'parseHtml()' function can also be used to extract data from XML.
 
 The next exercise demonstrates this two stage process in full.
 
->## Exercise 11: Retrieving journal details from CrossRef via ISSN
+>## Exercise 12: Retrieving journal details from CrossRef via ISSN
 >Because retrieving data from external URLs takes time, this exercise targets a single line in the data. In reality you would want to run this over many rows (and probably go and do something else while it ran)
 >
 >* Select a single row from the data set which contains an ISSN by:
