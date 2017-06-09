@@ -6,6 +6,7 @@ questions:
 - "How is data organised in OpenRefine?"
 - "How do I access options to amend data in OpenRefine?"
 - "What is the difference between Rows and Records in OpenRefine?"
+- "How do I work with single cells that contain multiple values in a list?"
 objectives:
 - Locate controls for navigating data in OpenRefine
 - Find options to work with data through the OpenRefine dropdown menus
@@ -123,29 +124,6 @@ Splitting on a comma will not work with Authors because the names may include co
 > > * In the prompt type the "\|" symbol and click 'OK'
 > {: .solution}
 {: .challenge}
-
-Now that we can split multi-valued cells, we'll cover how to join them back together.
-
-### Joining Cells
-
-A common workflow with multi-valued cells is
-
-- split multi-valued cells into individual cells (what we did above)
-- modify/refine/clean individual cells
-- join multi-valued cells back together
-
-Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together that have been split previously.
-
-* Click the dropdown menu at the top of the Author column
-* Choose 'Edit cells->Join multi-valued cells'
-* In the prompt type the "\|" symbol
-    * Here we are specifying the *delimiter* character for OpenRefine to use to join the values together.
-* Click 'OK' to join the Authors cells back together
-
-You will now see that split rows have gone away - the Authors have been joined into a single cell with the specified delimiter. Our Rows and
-Records values will now be the same since we do not have any more split columns.
-
-* Click both the 'Rows' and 'Records' options and observe how the numbers of Rows and Records are equal
 
 >## Exercise 3: Joining the Subjects column back together
 >
