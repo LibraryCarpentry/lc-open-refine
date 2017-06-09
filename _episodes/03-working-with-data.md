@@ -28,9 +28,11 @@ Most options to work with data in OpenRefine are accessed from drop down menus a
 ## Rows and Records
 OpenRefine has two modes of viewing data 'Rows' and 'Records'. At the moment we are in Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record.
 
+### Splitting Cells
+
 To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "\|".
 
-To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells we can use a 'Split multi-valued cells' function:
+To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells, we can use a 'Split multi-valued cells' function:
 
 * Click the dropdown menu at the top of the Author column
 * Choose 'Edit cells->Split multi-valued cells'
@@ -41,6 +43,72 @@ To work with the author names effectively in OpenRefine, we need to have each na
 
  ![rows](../assets/img/rows.png)
  ![records](../assets/img/records.png) 
+
+Now that we can split multi-valued cells, we'll cover how to join them back together.
+
+### Joining Cells
+
+A common workflow with multi-valued cells is
+
+- split multi-valued cells into individual cells (what we did above)
+- modify/refine/clean individual cells
+- join multi-valued cells back together
+
+Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together than have been split previously.
+
+* Click the dropdown menu at the top of the Author column
+* Choose 'Edit cells->Join multi-valued cells'
+* In the prompt type the "\|" symbol
+    * Here we are specifying the *delimiter* character for OpenRefine to use to join the values together.
+* Click 'OK' to join the Authors cells back together
+
+You will now see that split rows have gone away - the Authors have been joined into a single cell with the specified delimiter. Our Rows and
+Records values will now be the same since we do not have any more split columns.
+
+* Click both the 'Rows' and 'Records' options and observe how the numbers of Rows and Records are equal
+
+### Choosing a good separator
+
+The value that separates multi-valued cells is called a separator or delimiter. Choosing a good
+separaor is important. In the examples, we've seen the pipe character (\|) has been used.
+
+Choosing the wrong separator can lead to problems. Consider the following multi-valued Author example.
+with a pipe as a separator.
+```
+Jones, Andrew | Davis, S.
+```
+
+When we tell OpenRefine to split this cell on the pipe (\|), we will get the following two authors each in their own cell since there is a single pipe character separating them.
+
+- **Author 1:** Jones, Andrew
+- **Author 2:** Davis, S.
+
+Now imagine that the document creator had chosen a **comma** as the separator instead of a pipe.
+
+```
+Jones, Andrew , Davis, S.
+```
+
+Can you spot the problem? Can you tell where one author stops and the next begins?  
+
+OpenRefine will split on **every** comma it encounters,
+so we'll end up with 4 authors, not two, because OpenRefine cannot tell that **Jones, Andrew** is supposed to be a single author. We will get
+the following four "authors" because there are 3 commas separating the name parts.
+
+- **Author 1:** Jones
+- **Author 2:** Andrew
+- **Author 3:** Davis
+- **Author 4:** S.
+
+Splitting on a comma will not work with Authors because the names may include commas within them.
+
+> ## Choose a separator that is not in your data values
+>
+> When creating a spreadsheet with multi-valued cells, it is important to choose a separator that will never appear in 
+> the cell values themselves. For this reason, the pipe character (\|) is often a good choice since it
+> is rarely used in data. Commas, colons and semi-colons should be avoided as separators.
+>
+{: .callout}
 
 >## Exercise 2: Splitting Subjects into separate cells
 >
@@ -56,4 +124,39 @@ To work with the author names effectively in OpenRefine, we need to have each na
 > {: .solution}
 {: .challenge}
 
+Now that we can split multi-valued cells, we'll cover how to join them back together.
+
+### Joining Cells
+
+A common workflow with multi-valued cells is
+
+- split multi-valued cells into individual cells (what we did above)
+- modify/refine/clean individual cells
+- join multi-valued cells back together
+
+Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together that have been split previously.
+
+* Click the dropdown menu at the top of the Author column
+* Choose 'Edit cells->Join multi-valued cells'
+* In the prompt type the "\|" symbol
+    * Here we are specifying the *delimiter* character for OpenRefine to use to join the values together.
+* Click 'OK' to join the Authors cells back together
+
+You will now see that split rows have gone away - the Authors have been joined into a single cell with the specified delimiter. Our Rows and
+Records values will now be the same since we do not have any more split columns.
+
+* Click both the 'Rows' and 'Records' options and observe how the numbers of Rows and Records are equal
+
+>## Exercise 3: Joining the Subjects column back together
+>
+>1. Using what we've learned, now Join the Subjects back together
+>
+> > ## Solution
+> > 1. The subject words/headings were previously delimited with the pipe "\|" character
+> > 2. To join the split subject cells back to a single cell you need to:
+> > * Click the dropdown menu at the top of the Subjects column
+> > * Choose 'Join cells->Split multi-valued cells'
+> > * In the prompt type the "\|" symbol and click 'OK'
+> {: .solution}
+{: .challenge}
 
