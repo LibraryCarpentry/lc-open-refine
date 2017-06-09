@@ -1,5 +1,5 @@
 ---
-title: "Basic OpenRefine Functions II: Faceting and filtering"
+title: "Faceting and filtering"
 teaching: 10
 exercises: 10
 questions:
