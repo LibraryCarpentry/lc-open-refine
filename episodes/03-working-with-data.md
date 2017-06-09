@@ -1,6 +1,6 @@
 ---
 title: "Layout of OpenRefine, Rows vs Records"
-teaching:  5
+teaching:  10
 exercises: 5
 questions: 
 - "How is data organised in OpenRefine?"
