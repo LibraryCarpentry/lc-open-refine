@@ -1,5 +1,5 @@
 ---
-title: "Basic OpenRefine Functions I: Layout of OpenRefine, Rows vs Records"
+title: "Layout of OpenRefine, Rows vs Records"
 teaching:  5
 exercises: 5
 questions: 

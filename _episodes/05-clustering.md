@@ -1,5 +1,5 @@
 ---
-title: "Basic OpenRefine Functions III: Clustering"
+title: "Clustering"
 teaching: 10
 exercises: 10
 questions:
