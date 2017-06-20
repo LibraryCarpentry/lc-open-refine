@@ -11,7 +11,7 @@ title: "Library Carpentry OpenRefine"
 # Contact.  This *must* include the protocol: if it's an email
 # address, it must look like "mailto:lessons@software-carpentry.org",
 # or if it's a URL, "https://gitter.im/username/ProjectName".
-contact: "https://gitter.im/weaverbel/LibraryCarpentry"
+contact: "https://gitter.im/LibraryCarpentry/"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
