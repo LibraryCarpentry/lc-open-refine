@@ -7,7 +7,7 @@ permalink: /guide/
 ____
 # Making a handout
 
-Librarians like handouts. To make a handout for this lesson, adapt/print from [http://data-lessons.github.io/library-data-intro/reference/](http://data-lessons.github.io/library-data-intro/reference/).
+Librarians like handouts. To make a handout for this lesson, adapt/print from [http://data-lessons.github.io/library-openrefine/reference/](http://data-lessons.github.io/library-openrefine/reference/).
 
 ____
 # General
