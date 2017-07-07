@@ -5,14 +5,15 @@ permalink: /guide/
 ---
 
 ____
-# Making a handout
+# Tips and Tricks
+
+____
+## Making a handout
 
 Librarians like handouts. To make a handout for this lesson, adapt/print from [http://data-lessons.github.io/library-openrefine/reference/](http://data-lessons.github.io/library-openrefine/reference/).
 
 ____
-# General
-
-More coming soon!
+# General notes on OpenRefine
 
 ## Common problems
 
