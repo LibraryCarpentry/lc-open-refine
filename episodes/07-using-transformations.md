@@ -48,7 +48,7 @@ To Lowercase| Converts the current value to lowercase | ```value.toLowercase()``
 To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
 Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```
 
->## Exercise 8: Correct Publisher data
+>## Correct Publisher data
 >* Create a text facet on the Publisher column
 >* Note that in the values there are two that look identical - why does this value appear twice?
 >* On the publisher column use the dropdown menu to select 'Edit cells->Common transforms->Trim leading and trailing whitespace'
@@ -73,7 +73,7 @@ Next to the 'Preview' option are options to view:
 * Starred - a list of transformations you've 'starred' via the 'History' view
 * Help - a list of all the GREL functions and brief information on how to use them
 
->## Exercise 9: Put titles into Title Case
+>## Put titles into Title Case
 >* Facet by publisher
 >* Select "Akshantala Enterprises" and "Society of Pharmaceutical Technocrats"
 >    * To select multiple values in the facet use the 'Include' link that appears to the right of the facet
@@ -121,7 +121,7 @@ Every piece of data in OpenRefine has a 'type'. The most common 'type' is a 'str
 ### Dates and Numbers
 So far we've been looking only at 'String' type data. Much of the time it is possible to treat numbers and dates as strings. For example in the Date column we have the date of publication represented as a String. However, some operations and transformations only work on 'number' or 'date' type operations. The simplest example is sorting values in numeric or date order. To carry out these functions we need to convert the values to a date or number first.
 
->## Exercise 10: Reformat the Date
+>## Reformat the Date
 >* Make sure you remove all Facets and Filters
 >* On the Date column use the dropdown menu to select 'Edit cells->Common transforms->To date'
 >* Note how the values are now displayed in green and follow a standard convention for their display format (ISO8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
@@ -180,7 +180,7 @@ value.split(",").sort().join(",")
 ```
 . Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
->## Exercise 11: Reverse author names
+>## Reverse author names
 >In this exercise we are going to use both the Boolean and Array data types.
 >If you look at the Authors column, you can see that most of the author names are written in the natural order. However, a few have been >reversed to put the family name first.
 >
