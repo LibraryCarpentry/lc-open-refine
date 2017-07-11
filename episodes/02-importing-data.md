@@ -26,7 +26,7 @@ Please see Downloading Data on the Setup page http://data-lessons.github.io/libr
 >* Google Spreadsheet
 {: .callout}
 
->## Exercise 1: Create your first OpenRefine project (using provided data)
+>## Create your first OpenRefine project (using provided data)
 >
 > To import the data for the exercises below, run OpenRefine. *NOTE: If OpenRefine does not open in a browser window, open your browser and type the address <http://127.0.0.1:3333/> to take you to the OpenRefine interface.*
 >
