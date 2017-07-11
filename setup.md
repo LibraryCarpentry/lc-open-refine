@@ -9,9 +9,9 @@ You need to download and install OpenRefine and download a data file to follow t
 
 ### Downloading OpenRefine
 
-You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine, from 2.5 to 2.7 RC2.  
+You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine, from 2.5 to 2.7.  
 
-OpenRefine 2.7 RC2 is recommended.  
+OpenRefine 2.7 is recommended.  
 
 There are versions for Windows, Mac OS X and Linux.
 
@@ -21,7 +21,7 @@ When you download OpenRefine for Windows or Linux from the address above, you ar
 
 If you are downloading OpenRefine for Mac, you are downloading a 'dmg' (disk image) file which you can open, and then drag the OpenRefine application to an appropriate folder on you computer.
 
-OpenRefine is a Java application, and you need to have a 'Java Runtime Environment' (JRE) installed on your computer to run OpenRefine. If you don’t already have one installed then you can download and install from [http://java.com](http://java.com) by going to the site and clicking "Free Java Download".
+**OpenRefine is a Java application, and you need to have a 'Java Runtime Environment' (JRE) installed on your computer to run OpenRefine**. If you don’t already have one installed then you can download and install from [http://java.com](http://java.com) by going to the site and clicking "Free Java Download".
 
 To run Refine:
 
@@ -51,4 +51,5 @@ There are also general and specialist tutorials about using OpenRefine available
 ### Downloading the data
 
 You need to download [doaj-article-sample.csv](https://github.com/data-lessons/library-openrefine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE Safari right click and select **download linked file**; Chrome and Firefox right click and select **save link as**). Make a note of the location you save the file to.
+
 [template]: {{ site.workshop_repo }}
