@@ -30,7 +30,7 @@ For each cluster you have the option of 'merging' the values together - that is 
 
 The Clustering function can also be accessed via the drop down menu at the top of a column by selecting 'Edit cells->Cluster and edit …'
 
->## Exercise 7: Use Clustering to clean up author data
+>## Use Clustering to clean up author data
 >* Split out the author names into individual cells using 'Edit cells->Split multi-valued cells', using the pipe "\|" character as the separator
 >* Choose 'Edit cells->Cluster and edit' from the author column (which should be split into individual values from the last exercise)
 >* Using the 'key collision' method with the 'fingerprint' Keying Function work through the clusters of values, merging them to a single value where appropriate
