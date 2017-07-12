@@ -31,3 +31,5 @@ ____
   - Open a Windows Command prompt
   - Change the working directory to the OpenRefine folder at "C:\Users\JaneDoe"
   - Run openrefine.exe
+
+* If a learner is unable to install OpenRefine on their computer due to IT restrictions for example, there are cloud services available such as [https://my.datascientistworkbench.com/](https://my.datascientistworkbench.com/) and [http://refinepro.com/](http://refinepro.com/) that they could try.
