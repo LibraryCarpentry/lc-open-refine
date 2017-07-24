@@ -41,7 +41,7 @@ You can also 'invert' the filter to show all records which do not match your sel
 >4. Include a value and then look at top to invert inclusion.
 {: .checklist}
 
->## Exercise 4: Which licences are used for articles in this file?
+>## Which licences are used for articles in this file?
 > Use a `text facet` for the `license` column and answer these questions:
 >
 >1. What is the most common Licence in the file?
@@ -85,7 +85,7 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 Facets are intended to group together common values and OpenRefine limits the number of values allowed in a single facet to ensure the software does not perform slowly or run out of memory. If you create a facet where there are many unique values (for example, a facet on a 'book title' column in a data set that has one row per book) the facet created will be very large and may either slow down the application, or OpenRefine will not create the facet.
 
->## Exercise 5: Find all publications without a DOI
+>## Find all publications without a DOI
 >* Use the `Facet by blank` function to find all publications in this data set without a DOI
 >
 >>## Solution
@@ -103,7 +103,7 @@ This approach is useful in relatively small facets where you might have small va
 
 The list of values in the facet will update as you make edits.
 
->## Exercise 6: Correct the Language values via a facet
+>## Correct the Language values via a facet
 >
 >* `Text facet` on the `language` column and correct the variation in the `EN` and `English` values.
 >
