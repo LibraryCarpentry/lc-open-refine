@@ -38,7 +38,7 @@ The 'parseHtml()' function can also be used to extract data from XML.
 
 The next exercise demonstrates this two stage process in full.
 
->## Exercise 12: Retrieving journal details from CrossRef via ISSN
+>## Retrieving journal details from CrossRef via ISSN
 >Because retrieving data from external URLs takes time, this exercise targets a single line in the data. In reality you would want to run this over many rows (and probably go and do something else while it ran)
 >
 >* Select a single row from the data set which contains an ISSN by:
@@ -85,7 +85,7 @@ There also exist extensions to do reconciliation against local data such as csv 
 
 For more information on using Reconciliation services see [https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API)
 
->## Exercise 12: Reconcile Publisher names with VIAF IDs
+>## Reconcile Publisher names with VIAF IDs
 >In this exercise you are going to use the VIAF Reconciliation service written by [Jeff Chiu](https://twitter.com/absolutelyjeff). Jeff offers two ways of using the reconciliation service - either via a public service he runs at [http://refine.codefork.com/](http://refine.codefork.com/), or by installing and running the service locally using the instructions at [https://github.com/codeforkjeff/refine_viaf](https://github.com/codeforkjeff/refine_viaf).
 >
 >If you are going to do a lot of reconciliation, please install and run your own local reconciliation service - the instructions at [https://github.com/codeforkjeff/refine_viaf](https://github.com/codeforkjeff/refine_viaf) make this reasonably straightforward.
