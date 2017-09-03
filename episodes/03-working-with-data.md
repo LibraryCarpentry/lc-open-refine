@@ -115,7 +115,7 @@ Splitting on a comma will not work with Authors because the names may include co
 
 >## Splitting Subjects into separate cells
 >
->1. What separator character is used in the Subject headings cells?
+>1. What separator character is used in the Subjects cells?
 >2. How would you split these subject words into individual cells?
 > 
 > > ## Solution
