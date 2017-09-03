@@ -76,7 +76,7 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 **Scatterplot facets** are less commonly used - for further information on these see the tutorial at [http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots)
 
-**Custom facets** are a range of different types of facets, and also allow you write your own custom facets. Some of the default custom facets are:
+**Custom facets** are a range of different types of facets. Some of the default custom facets are:
 
 * Word facet - this breaks down text into words and counts the number of records each word appears in
 * Duplicates facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row
