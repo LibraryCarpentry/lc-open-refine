@@ -57,7 +57,7 @@ A common workflow with multi-valued cells is
 - modify/refine/clean individual cells
 - join multi-valued cells back together
 
-Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together than have been split previously.
+Modifying cells will be covered in future lessons, but for now we will cover how to join cells back together that have been split previously.
 
 * Click the dropdown menu at the top of the Author column
 * Choose 'Edit cells->Join multi-valued cells'
