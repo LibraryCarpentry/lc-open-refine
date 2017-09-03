@@ -32,7 +32,7 @@ The Clustering function can also be accessed via the drop down menu at the top o
 
 >## Use Clustering to clean up author data
 >* Split out the author names into individual cells using 'Edit cells->Split multi-valued cells', using the pipe "\|" character as the separator
->* Choose 'Edit cells->Cluster and edit' from the author column (which should be split into individual values from the last exercise)
+>* Choose 'Edit cells->Cluster and edit' from the Authors column
 >* Using the 'key collision' method with the 'fingerprint' Keying Function work through the clusters of values, merging them to a single value where appropriate
 >* Try changing the clustering method being used - which ones work well?
 {: .challenge}
