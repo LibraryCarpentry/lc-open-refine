@@ -16,7 +16,7 @@ keypoints:
 ---
 
 ## Clustering
-The Cluster function groups together values in a column that are 'similar' and enables you to merge together several different, but similar, values into a single value.
+The Cluster function groups together inconsistent values in a given column and lets you merge these inconsistent values into a single value.
 
 This is very effective where you have data where there can be minor variations in data values that are likely such as names of people, organisations and places.
 
