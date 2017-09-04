@@ -18,7 +18,7 @@ keypoints:
 ## Clustering
 The Cluster function groups together values in a column that are 'similar' and enables you to merge together several different, but similar, values into a single value.
 
-This is very effective where you have data where there can be minor variations in data values that are likely such as names of people, organisations and places.
+This is very effective when you have minor variations in data values that are likely to refer to the same thing, such as names of people, organisations and places.
 
 To use the 'Cluster' function, click on the 'Edit Cells' menu option in the relevant column and choose 'Cluster and edit...'
 
