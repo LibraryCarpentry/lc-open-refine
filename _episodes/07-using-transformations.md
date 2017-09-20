@@ -128,6 +128,7 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 >* On the Date column dropdown select 'Edit column->Add column based on this column'. Using this function you can create a new column, while preserving the old column
 >* In the 'New column name' type "Formatted Date"
 >* In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
+>* Observe the preview output. Experiment with the number of `MMMM` and `yyyy` values (for example try the GREL expression ```value.toString("MM yy")```) to see how the preview output changes.
 {: .challenge}
 
 ### Booleans and Arrays
