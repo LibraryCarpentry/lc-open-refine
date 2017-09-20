@@ -34,7 +34,7 @@ You can include multiple values from the facet in a filter at one time by using 
 You can also 'invert' the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
 >## Let's create a text facet
-> 1. Click on the drop down menu at the top of the column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
+> 1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
 >2. Filter by facet by clicking or `include`
 >3. Select multiple values to `include`
 >3. You can 'invert' your selections to `exclude`
