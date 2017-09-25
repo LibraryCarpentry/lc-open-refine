@@ -71,11 +71,11 @@ The next exercise demonstrates this two stage process in full.
 {: .challenge}
 
 ## Reconciliation services
-Reconciliation services allow you to lookup terms from your data in OpenRefine against external services, and use values from the external services in your data.
+Reconciliation services allow you to lookup terms from your data in OpenRefine against external services, and use values from the external services in your data. The official wiki provides [detailed information about this feature](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation).
 
 Reconciliation services can be more sophisticated and often quicker than using the method described above to retrieve data from a URL. However, to use the ‘Reconciliation’ function in OpenRefine requires the external resource to support the necessary service for OpenRefine to work with, which means unless the service you wish to use supports such a service you cannot use the ‘Reconciliation’ approach.
 
-There are a few services where you can find an OpenRefine Reconciliation option available. For example WikiData has a (fledgling) reconciliation service at [https://tools.wmflabs.org/wikidata-reconcile/](https://tools.wmflabs.org/wikidata-reconcile/).
+There are a few services where you can find an OpenRefine Reconciliation option available. For example Wikidata has a  reconciliation service at [https://tools.wmflabs.org/openrefine-wikidata/en/api](https://tools.wmflabs.org/openrefine-wikidata/en/api).
 
 In other cases people have built reconciliation applications for a specific service which you can download and run yourself. These vary in how they work, and what it takes to run them locally. For example there are multiple reconciliation applications for VIAF. Even for the same service (e.g. VIAF) different reconciliation applications (written by different people)  can work in different ways and potentially give different results - so caveat emptor!
 
