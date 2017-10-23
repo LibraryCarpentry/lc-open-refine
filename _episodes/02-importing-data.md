@@ -42,6 +42,16 @@ keypoints:
 
 To open an existing project in OpenRefine you can click `Open Project` from the main OpenRefine screen (in the left hand menu). When you click this, you will see a list of the existing projects and can click on a project's name to open it.
 
-### Going Further
-* Look at the other options on the Import screen - try changing some of these options and see how that changes the Preview and how the data appears after import.
-* Do you have access to JSON or XML data? If so the first stage of the import process will prompt you to select a 'record path' - that is the parts of the file that will form the data rows in the OpenRefine project.
+>## Exercise: Create project from web address
+> Try creating your project by importing the data directly from this lesson's GitHub repository. 
+>
+>1. Launch OpenRefine in a new browser tab by typing in the address <http://127.0.0.1:3333/>
+>1. Click `Create Project` from the left hand menu and select `Web Addresses (URLs)`
+>2. Paste in `https://raw.githubusercontent.com/data-lessons/library-openrefine/gh-pages/data/doaj-article-sample.csv`
+>3. Click `Next >>` and configure the import options as before.
+{: .challenge}
+
+>## Exercise: Going further
+>1. Look at the other options on the import screen - try changing some of these options and clicking `Update Preview`
+>2. Do you have access to JSON or XML data? If so the first stage of the import process will prompt you to `Please specify a record path first` - that is the parts of the file that will form the data rows in the OpenRefine project.
+{: .challenge}
