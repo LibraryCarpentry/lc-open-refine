@@ -29,17 +29,17 @@ OpenRefine only displays a limited number of rows of data at one time. You can a
 Most options to work with data in OpenRefine are accessed from drop down menus at the top of the data columns. When you select an option in a particular column (e.g. to make a change to the data), it will affect all the cells in that column. If you want to make changes across several columns, you will need to do this one column at a time.
 
 ## Rows and Records
-OpenRefine has two modes of viewing data `Rows` and `Records`. At the moment we are in Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record.
+OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we are in Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record.
 
 ### Splitting Cells
 
-To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol "\|".
+To see how this works in practice we can split author names into separate cells. If you look at the Author column you should be able to see that there are multiple names in each cell separated by the pipe symbol ( \| ).
 
 To work with the author names effectively in OpenRefine, we need to have each name in an individual cell. To split the names into their own cells, we can use a `Split multi-valued cells` function:
 
 * Click the dropdown menu at the top of the Author column
 * Choose `Edit cells->Split multi-valued cells`
-* In the prompt type the "\|" symbol and click `OK`
+* In the prompt type the ( \| ) symbol and click `OK`
     * Note that the rows are still numbered sequentially
 * Click the `Records` option to change to Records mode
     * Note how the numbering has changed - indicating that several rows are related to the same record
@@ -61,7 +61,7 @@ Modifying cells will be covered in future lessons, but for now we will cover how
 
 * Click the dropdown menu at the top of the Author column
 * Choose `Edit cells->Join multi-valued cells`
-* In the prompt type the "\|" symbol
+* In the prompt type the ( \| ) symbol
     * Here we are specifying the *delimiter* character for OpenRefine to use to join the values together.
 * Click `OK` to join the Authors cells back together
 
@@ -73,7 +73,7 @@ Records values will now be the same since we do not have any more split columns.
 ### Choosing a good separator
 
 The value that separates multi-valued cells is called a separator or delimiter. Choosing a good
-separator is important. In the examples, we've seen the pipe character ("\|") has been used.
+separator is important. In the examples, we've seen the pipe character ( \| ) has been used.
 
 Choosing the wrong separator can lead to problems. Consider the following multi-valued Author example.
 with a pipe as a separator.
@@ -81,7 +81,7 @@ with a pipe as a separator.
 Jones, Andrew | Davis, S.
 ```
 
-When we tell OpenRefine to split this cell on the pipe ("\|"), we will get the following two authors each in their own cell since there is a single pipe character separating them.
+When we tell OpenRefine to split this cell on the pipe ( \| ), we will get the following two authors each in their own cell since there is a single pipe character separating them.
 
 - **Author 1:** Jones, Andrew
 - **Author 2:** Davis, S.
@@ -108,7 +108,7 @@ Splitting on a comma will not work with Authors because the names may include co
 > ## Choose a separator that is not in your data values
 >
 > When creating a spreadsheet with multi-valued cells, it is important to choose a separator that will never appear in
-> the cell values themselves. For this reason, the pipe character (\|) is often a good choice since it
+> the cell values themselves. For this reason, the pipe character ( \| ) is often a good choice since it
 > is rarely used in data. Commas, colons and semi-colons should be avoided as separators.
 >
 {: .callout}
@@ -119,11 +119,11 @@ Splitting on a comma will not work with Authors because the names may include co
 >2. How would you split these subject words into individual cells?
 >
 > > ## Solution
-> > 1. The subject words/headings are divided up with the pipe "\|" character
+> > 1. The subject words/headings are divided up with the pipe ( \| ) character
 > > 2. To split the subject words into individual cells you need to:
 > > * Click the dropdown menu at the top of the Subjects column
 > > * Choose 'Edit cells->Split multi-valued cells'
-> > * In the prompt type the "\|" symbol and click 'OK'
+> > * In the prompt type the ( \| ) symbol and click 'OK'
 > {: .solution}
 {: .challenge}
 
@@ -132,10 +132,10 @@ Splitting on a comma will not work with Authors because the names may include co
 >1. Using what we've learned, now Join the Subjects back together
 >
 > > ## Solution
-> > 1. The subject words/headings were previously delimited with the pipe "\|" character
+> > 1. The subject words/headings were previously delimited with the pipe ( \| ) character
 > > 2. To join the split subject cells back to a single cell you need to:
 > > * Click the dropdown menu at the top of the Subjects column
 > > * Choose 'Join cells->Join multi-valued cells'
-> > * In the prompt type the "\|" symbol and click 'OK'
+> > * In the prompt type the ( \| ) symbol and click 'OK'
 > {: .solution}
 {: .challenge}
