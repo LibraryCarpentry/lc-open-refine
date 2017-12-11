@@ -25,16 +25,16 @@ A 'Facet' groups all the values that appear in a column, and then allow you to f
 
 The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
-To create a Text Facet for a column, click on the drop down menu at the top of the column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel.
+To create a Text Facet for a column, click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel.
 
 The facet consists of a list of values used in the data. You can filter the data displayed by clicking on one of these headings.
 
-You can include multiple values from the facet in a filter at one time by using the 'Include' option which appears when you put your mouse over a value in the Facet.
+You can include multiple values from the facet in a filter at one time by using the `Include` option which appears when you put your mouse over a value in the Facet.
 
-You can also 'invert' the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
+You can also `invert` the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
 >## Let's create a text facet
-> 1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
+>1. Click on the drop down menu at the top of the column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
 >2. Filter by facet by clicking or `include`
 >3. Select multiple values to `include`
 >3. You can 'invert' your selections to `exclude`
