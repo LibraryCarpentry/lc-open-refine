@@ -3,7 +3,7 @@ title: "Clustering"
 teaching: 10
 exercises: 10
 questions:
-- "What is Clustering in OpenRefine and when woud you use it?"
+- "What is Clustering in OpenRefine and when would you use it?"
 - "How does clustering work in OpenRefine?"
 objectives:
 - "Explain what clustering is in OpenRefine"
