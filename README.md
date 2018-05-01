@@ -1,6 +1,6 @@
 # Library Carpentry
 
-The Library Carpentry module '[OpenRefine Lessons for Librarians](http://data-lessons.github.io/library-openrefine/)' is maintained by [Owen Stephens](https://github.com/ostephens), [Juliane Schneider](https://github.com/pitviper6), and [Carmi Cronje](https://github.com/ccronje).
+The Library Carpentry module '[OpenRefine for Librarians](https://librarycarpentry.github.io/lc-open-refine/)' is maintained by [Owen Stephens](https://github.com/ostephens), [Juliane Schneider](https://github.com/pitviper6), and [Carmi Cronje](https://github.com/ccronje).
 
 ## Background
 
@@ -14,7 +14,7 @@ There are many ways of contributing to Library Carpentry:
 
 - Join our [Gitter discussion forum](https://gitter.im/LibraryCarpentry/).
 - Follow updates on [Twitter](https://twitter.com/LibCarpentry).
-- Make a suggestion or correct an error by [raising an Issue](https://github.com/data-lessons/library-openrefine/issues).
+- Make a suggestion or correct an error by [raising an Issue](https://github.com/LibraryCarpentry/lc-open-refine/issues).
 
 ## Code of Conduct
 
@@ -22,10 +22,10 @@ All participants should agree to abide by the [Software Carpentry Code of Conduc
 
 ## Authors
 
-Library Carpentry is authored and maintained by the [community](https://github.com/data-lessons/library-openrefine/network/members).
+Library Carpentry is authored and maintained by the [community](https://github.com/orgs/LibraryCarpentry/people).
 
 ## Citation
 
 Please cite as:
 
-Library Carpentry. Open Refine for Librarians. June 2016. http://data-lessons.github.io/library-openrefine/.
+Library Carpentry. OpenRefine for Librarians. June 2016. https://librarycarpentry.github.io/lc-open-refine/.
