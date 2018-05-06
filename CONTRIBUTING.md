@@ -50,8 +50,8 @@ and to meet some of our community members.
 ## Where to Contribute
 
 1.  If you wish to change this lesson,
-    please work in <https://github.com/data-lessons/library-data-intro>,
-    which can be viewed at <https://data-lessons.github.io/library-data-intro>.
+    please work in <https://github.com/LibraryCarpentry/lc-open-refine>,
+    which can be viewed at <https://librarycarpentry.github.io/lc-open-refine/>.
 
 2.  If you wish to change the example lesson,
     please work in <https://github.com/swcarpentry/lesson-example>,
@@ -149,8 +149,8 @@ You can also [reach us by email][contact].
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
 [how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[issues]: https://github.com/data-lessons/library-data-intro/issues/
-[repo]: https://github.com/data-lessons/library-data-intro/
+[issues]: https://github.com/LibraryCarpentry/lc-open-refine/issues
+[repo]: https://github.com/LibraryCarpentry/lc-open-refine
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
 [swc-lessons]: http://software-carpentry.org/lessons/
 [swc-site]: http://software-carpentry.org/
