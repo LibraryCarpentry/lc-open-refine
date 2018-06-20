@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 Check lesson files and their contents.
@@ -8,7 +8,7 @@ Check lesson files and their contents.
 import os
 import glob
 import re
-from optparse import OptionParser
+from argparse import ArgumentParser
 
 from util import (Reporter, read_markdown, load_yaml, check_unwanted_files,
                   require)
@@ -26,7 +26,7 @@ SOURCE_DIRS = ['', '_episodes', '_extras']
 # specially. This list must include all the Markdown files listed in the
 # 'bin/initialize' script.
 REQUIRED_FILES = {
-    '%/CONDUCT.md': True,
+    '%/CODE_OF_CONDUCT.md': True,
     '%/CONTRIBUTING.md': False,
     '%/LICENSE.md': True,
     '%/README.md': False,
@@ -118,36 +118,43 @@ def main():
         checker.check()
 
     args.reporter.report()
+    if args.reporter.messages and not args.permissive:
+        exit(1)
 
 
 def parse_args():
     """Parse command-line arguments."""
 
-    parser = OptionParser()
-    parser.add_option('-l', '--linelen',
-                      default=False,
-                      action="store_true",
-                      dest='line_lengths',
-                      help='Check line lengths')
-    parser.add_option('-p', '--parser',
-                      default=None,
-                      dest='parser',
-                      help='path to Markdown parser')
-    parser.add_option('-r', '--references',
-                      default=None,
-                      dest='reference_path',
-                      help='path to Markdown file of external references')
-    parser.add_option('-s', '--source',
-                      default=os.curdir,
-                      dest='source_dir',
-                      help='source directory')
-    parser.add_option('-w', '--whitespace',
-                      default=False,
-                      action="store_true",
-                      dest='trailing_whitespace',
-                      help='Check for trailing whitespace')
+    parser = ArgumentParser(description="""Check episode files in a lesson.""")
+    parser.add_argument('-l', '--linelen',
+                        default=False,
+                        action="store_true",
+                        dest='line_lengths',
+                        help='Check line lengths')
+    parser.add_argument('-p', '--parser',
+                        default=None,
+                        dest='parser',
+                        help='path to Markdown parser')
+    parser.add_argument('-r', '--references',
+                        default=None,
+                        dest='reference_path',
+                        help='path to Markdown file of external references')
+    parser.add_argument('-s', '--source',
+                        default=os.curdir,
+                        dest='source_dir',
+                        help='source directory')
+    parser.add_argument('-w', '--whitespace',
+                        default=False,
+                        action="store_true",
+                        dest='trailing_whitespace',
+                        help='Check for trailing whitespace')
+    parser.add_argument('--permissive',
+                        default=False,
+                        action="store_true",
+                        dest='permissive',
+                        help='Do not raise an error even if issues are detected')
 
-    args, extras = parser.parse_args()
+    args, extras = parser.parse_known_args()
     require(args.parser is not None,
             'Path to Markdown parser not provided')
     require(not extras,
@@ -164,13 +171,18 @@ def check_config(reporter, source_dir):
     reporter.check_field(config_file, 'configuration',
                          config, 'kind', 'lesson')
     reporter.check_field(config_file, 'configuration',
-                         config, 'carpentry', ('swc', 'dc', 'lc'))
+                         config, 'carpentry', ('swc', 'dc', 'lc', 'cp'))
     reporter.check_field(config_file, 'configuration', config, 'title')
     reporter.check_field(config_file, 'configuration', config, 'email')
 
-    reporter.check({'values': {'root': '..'}} in config.get('defaults', []),
+    for defaults in [
+            {'values': {'root': '.', 'layout': 'page'}},
+            {'values': {'root': '..', 'layout': 'episode'}, 'scope': {'type': 'episodes', 'path': ''}},
+            {'values': {'root': '..', 'layout': 'page'}, 'scope': {'type': 'extras', 'path': ''}}
+            ]:
+        reporter.check(defaults in config.get('defaults', []),
                    'configuration',
-                   '"root" not set to ".." in configuration')
+                   '"root" not set to "." in configuration')
 
 
 def read_references(reporter, ref_path):
@@ -264,15 +276,14 @@ def create_checker(args, filename, info):
     for (pat, cls) in CHECKERS:
         if pat.search(filename):
             return cls(args, filename, **info)
+    return NotImplemented
 
-
-class CheckBase(object):
+class CheckBase:
     """Base class for checking Markdown files."""
 
     def __init__(self, args, filename, metadata, metadata_len, text, lines, doc):
         """Cache arguments for checking."""
 
-        super(CheckBase, self).__init__()
         self.args = args
         self.reporter = self.args.reporter  # for convenience
         self.filename = filename
@@ -392,7 +403,8 @@ class CheckBase(object):
                     return False
         return True
 
-    def get_val(self, node, *chain):
+    @staticmethod
+    def get_val(node, *chain):
         """Get value one or more levels down."""
 
         curr = node
@@ -414,10 +426,6 @@ class CheckBase(object):
 class CheckNonJekyll(CheckBase):
     """Check a file that isn't translated by Jekyll."""
 
-    def __init__(self, args, filename, metadata, metadata_len, text, lines, doc):
-        super(CheckNonJekyll, self).__init__(
-            args, filename, metadata, metadata_len, text, lines, doc)
-
     def check_metadata(self):
         self.reporter.check(self.metadata is None,
                             self.filename,
@@ -428,12 +436,11 @@ class CheckIndex(CheckBase):
     """Check the main index page."""
 
     def __init__(self, args, filename, metadata, metadata_len, text, lines, doc):
-        super(CheckIndex, self).__init__(args, filename,
-                                         metadata, metadata_len, text, lines, doc)
+        super().__init__(args, filename, metadata, metadata_len, text, lines, doc)
         self.layout = 'lesson'
 
     def check_metadata(self):
-        super(CheckIndex, self).check_metadata()
+        super().check_metadata()
         self.reporter.check(self.metadata.get('root', '') == '.',
                             self.filename,
                             'Root not set to "."')
@@ -442,18 +449,14 @@ class CheckIndex(CheckBase):
 class CheckEpisode(CheckBase):
     """Check an episode page."""
 
-    def __init__(self, args, filename, metadata, metadata_len, text, lines, doc):
-        super(CheckEpisode, self).__init__(args, filename,
-                                           metadata, metadata_len, text, lines, doc)
-
     def check(self):
         """Run extra tests."""
 
-        super(CheckEpisode, self).check()
+        super().check()
         self.check_reference_inclusion()
 
     def check_metadata(self):
-        super(CheckEpisode, self).check_metadata()
+        super().check_metadata()
         if self.metadata:
             if 'layout' in self.metadata:
                 if self.metadata['layout'] == 'break':
@@ -466,6 +469,7 @@ class CheckEpisode(CheckBase):
                 self.check_metadata_fields(TEACHING_METADATA_FIELDS)
 
     def check_metadata_fields(self, expected):
+        """Check metadata fields."""
         for (name, type_) in expected:
             if name not in self.metadata:
                 self.reporter.add(self.filename,
@@ -500,8 +504,7 @@ class CheckReference(CheckBase):
     """Check the reference page."""
 
     def __init__(self, args, filename, metadata, metadata_len, text, lines, doc):
-        super(CheckReference, self).__init__(
-            args, filename, metadata, metadata_len, text, lines, doc)
+        super().__init__(args, filename, metadata, metadata_len, text, lines, doc)
         self.layout = 'reference'
 
 
@@ -509,9 +512,7 @@ class CheckGeneric(CheckBase):
     """Check a generic page."""
 
     def __init__(self, args, filename, metadata, metadata_len, text, lines, doc):
-        super(CheckGeneric, self).__init__(args, filename,
-                                           metadata, metadata_len, text, lines, doc)
-        self.layout = 'page'
+        super().__init__(args, filename, metadata, metadata_len, text, lines, doc)
 
 
 CHECKERS = [
@@ -520,6 +521,7 @@ CHECKERS = [
     (re.compile(r'index\.md'), CheckIndex),
     (re.compile(r'reference\.md'), CheckReference),
     (re.compile(r'_episodes/.*\.md'), CheckEpisode),
+    (re.compile(r'aio\.md'), CheckNonJekyll),
     (re.compile(r'.*\.md'), CheckGeneric)
 ]
 
