@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Setup
-permalink: /setup/
+root: .
 ---
+
 ## Getting ready
 
 You need to download and install OpenRefine and download a data file to follow this lesson.
