@@ -1,4 +1,4 @@
 ---
 layout: reference
-root: .
+permalink: /reference/
 ---
