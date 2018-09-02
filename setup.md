@@ -52,9 +52,9 @@ There are also general and specialist tutorials about using OpenRefine available
 
 There are a number of ways to get the data we will be using in OpenRefine.
 
-1. Once you have started OpenRefine, use this link [https://raw.githubusercontent.com/LibraryCarpentry/lc-open-refine/gh-pages/data/doaj-article-sample.csv](https://raw.githubusercontent.com/LibraryCarpentry/lc-open-refine/gh-pages/data/doaj-article-sample.csv) to import the data directly into OpenRefine using the **Web Addresses URLs** option.
+1. Once you have started OpenRefine, use this link [https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv](https://raw.githubusercontent.com/LibraryCarpentry/lc-open-refine/gh-pages/data/doaj-article-sample.csv) to import the data directly into OpenRefine using the **Web Addresses URLs** option.
 
-2. You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as**). Make a note of the location (i.e the folder, your desktop) to which you save the file.
+2. You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as**). Make a note of the location (i.e the folder, your desktop) to which you save the file.
 
 
 [template]: {{ site.workshop_repo }}
