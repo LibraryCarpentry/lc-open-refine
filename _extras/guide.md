@@ -10,7 +10,7 @@ ____
 ____
 ## Making a handout
 
-Librarians like handouts. To make a handout for this lesson, adapt/print from [https://librarycarpentry.github.io/lc-open-refine/reference/](https://librarycarpentry.github.io/lc-open-refine/reference/).
+Librarians like handouts. To make a handout for this lesson, adapt/print from [https://librarycarpentry.github.io/lc-open-refine/reference.html](https://librarycarpentry.github.io/lc-open-refine/reference.html).
 
 ____
 # General notes on OpenRefine
