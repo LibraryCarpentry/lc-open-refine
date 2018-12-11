@@ -1,6 +1,6 @@
 # Library Carpentry
 
-The Library Carpentry module '[OpenRefine for Librarians](https://librarycarpentry.github.io/lc-open-refine/)' is maintained by [Owen Stephens](https://github.com/ostephens), [Juliane Schneider](https://github.com/pitviper6), [Paul Pival](https://github.com/ppival), [Kristin Lee](https://github.com/kristindawn), *[Erin Carrillo]()* and [Carmi Cronje](https://github.com/ccronje).
+The Library Carpentry module '[OpenRefine for Librarians](https://librarycarpentry.github.io/lc-open-refine/)' is maintained by [Owen Stephens](https://github.com/ostephens), [Juliane Schneider](https://github.com/pitviper6), [Paul Pival](https://github.com/ppival), [Kristin Lee](https://github.com/kristindawn), *[Erin Carrillo](https://github.com/partiecolored)* and [Carmi Cronje](https://github.com/ccronje).
 
 ## Background
 
