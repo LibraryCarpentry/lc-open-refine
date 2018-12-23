@@ -90,7 +90,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 >
 >>## Solution
 >>
->>1. On the `DOI` column drop down and select `Customized facets > Facets by blank`
+>>1. On the `DOI` column drop down and select `Customized facets > Facet by blank`
 >>2. `True` means that it is blank, so you can:
 >>    * Select `include` for true to winnow down the publications
 >{: .solution}
