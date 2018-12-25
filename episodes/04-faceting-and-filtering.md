@@ -75,7 +75,7 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 **Numeric and Timeline facets** display graphs instead of lists of values. The graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed.
 
-**Scatterplot facets** are less commonly used.
+**Scatterplot facets** are less commonly used. For further information on these see the tutorial at [http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots)
 
 **Custom facets** are a range of different types of facets. Some of the default custom facets are:
 
