@@ -42,15 +42,16 @@ You can also `invert` the filter to show all records which do not match your sel
 {: .checklist}
 
 >## Which licences are used for articles in this file?
-> Use a `text facet` for the `license` column and answer these questions:
+> Use a `text facet` for the `licence` column and answer these questions:
 >
 >1. What is the most common Licence in the file?
 >2. How many articles in the file don't have a licence assigned?
 >
 >>## Solution
->>* Create a facet for the 'Licence' column
->>* What is the most common Licence in the file? Answer: `CC BY`
->>* How many articles in the file don't have a licence assigned? Answer: **6**
+>>1. Create a facet for the 'Licence' column
+>>2. Sort values by `count`
+>>3. What is the most common Licence in the file? Answer: `CC BY`
+>>4. How many articles in the file don't have a licence assigned? Answer: **6**
 >{: .solution}
 {: .challenge}
 
@@ -74,7 +75,7 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 **Numeric and Timeline facets** display graphs instead of lists of values. The graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed.
 
-**Scatterplot facets** are less commonly used - for further information on these see the tutorial at [http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots)
+**Scatterplot facets** are less commonly used. For further information on these see the tutorial at [http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots](http://enipedia.tudelft.nl/wiki/OpenRefine_Tutorial#Exploring_the_data_with_scatter_plots)
 
 **Custom facets** are a range of different types of facets. Some of the default custom facets are:
 
@@ -90,7 +91,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 >
 >>## Solution
 >>
->>1. On the `DOI` column drop down and select `Customized facets > Facets by blank`
+>>1. On the `DOI` column drop down and select `Customized facets > Facet by blank`
 >>2. `True` means that it is blank, so you can:
 >>    * Select `include` for true to winnow down the publications
 >{: .solution}
