@@ -59,7 +59,7 @@ Taking the above example again, this would result in a string with the days of t
 >1. Make sure you have already split the author names into individual cells using ```Edit cells->Split multi-valued cells``` (you should have done this in the Clustering lesson)
 >2. On the Authors column, use the dropdown menu and select ```Facet->Custom text facet...```
 >3. The ```Custom text``` facet function allows you to write GREL functions to create a facet
->4. In the Expression box type ```value.contains(",")```
+>4. In the Expression box type ```value.contains(",").toString()```
 >5. Click ```OK```
 >6. Since the ```contains``` function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma
 >7. In this facet select 'true' to narrow down to the author names that contain a comma
