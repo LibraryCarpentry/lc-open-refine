@@ -12,7 +12,7 @@ You need to download and install OpenRefine and download a data file to follow t
 
 You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine, from 2.8 to 3.1.  
 
-OpenRefine 2.8 is recommended.  
+OpenRefine 3.1 is recommended.  
 
 There are versions for Windows, Mac OS X and Linux.
 
