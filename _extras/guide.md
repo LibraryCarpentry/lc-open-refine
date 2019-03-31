@@ -32,4 +32,4 @@ ____
   - Change the working directory to the OpenRefine folder at "C:\Users\JaneDoe"
   - Run openrefine.exe
 
-* If a learner is unable to install OpenRefine on their computer due to IT restrictions for example, there are cloud services available such as [https://labs.cognitiveclass.ai/tools/openrefine/](https://labs.cognitiveclass.ai/tools/openrefine/) or [openrefiner](https://github.com/betatim/openrefineder/) using MyBinder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/openrefineder/master?urlpath=%2Fopenrefine) that they could try.
+* If a learner is unable to install OpenRefine on their computer due to IT restrictions for example, there are cloud services available such as [https://labs.cognitiveclass.ai/tools/openrefine/](https://labs.cognitiveclass.ai/tools/openrefine/) or [openrefineder](https://github.com/betatim/openrefineder/) using MyBinder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/openrefineder/master?urlpath=%2Fopenrefine) that they could try.
