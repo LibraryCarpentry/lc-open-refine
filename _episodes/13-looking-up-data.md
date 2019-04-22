@@ -49,7 +49,7 @@ The next exercise demonstrates this two stage process in full.
 >* Give the column a name e.g. "Journal details"
 >* In the expression box you need to write some GREL where the output of the expression is a URL which can be used to retrieve data (the format of the data could be HTML, XML, JSON, or some other text format)
 >
->In this case we are going to use the CrossRef api (read more about the CrossRef service at [http://www.crossref.org](http://www.crossref.org), read more about the API we are going to use at [https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md)](https://github.com/CrossRef/rest-api-doc/blob/master/rest_api.md))
+>In this case we are going to use the CrossRef api (read more about the CrossRef service at [http://www.crossref.org](http://www.crossref.org), read more about the API we are going to use at [https://github.com/CrossRef/rest-api-doc)](https://github.com/CrossRef/rest-api-doc))
 >
 >The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 >
@@ -79,7 +79,7 @@ There are a few services where you can find an OpenRefine Reconciliation option 
 
 In other cases people have built reconciliation applications for a specific service which you can download and run yourself. These vary in how they work, and what it takes to run them locally. For example there are multiple reconciliation applications for VIAF. Even for the same service (e.g. VIAF) different reconciliation applications (written by different people)  can work in different ways and potentially give different results - so caveat emptor!
 
-One of the most common ways of using the reconciliation option in OpenRefine is with an extension (see below for more on extensions to OpenRefine) can use linked data sources for reconciliation. The extension is called "RDF Refine" and can be downloaded from [http://refine.deri.ie](http://refine.deri.ie).
+One of the most common ways of using the reconciliation option in OpenRefine is with an extension (see below for more on extensions to OpenRefine) can use linked data sources for reconciliation. The extension is called "RDF Refine" and can be downloaded from [http://refine.deri.ie](https://web.archive.org/web/20180112163745/http://refine.deri.ie/) (Available at Internet Archive Wayback Machine).
 
 There also exist extensions to do reconciliation against local data such as csv files (see [http://okfnlabs.org/reconcile-csv/](http://okfnlabs.org/reconcile-csv/)) and maintained lists of values (see [http://okfnlabs.org/projects/nomenklatura/index.html](http://okfnlabs.org/projects/nomenklatura/index.html)).
 
@@ -144,7 +144,7 @@ The functionality in OpenRefine can be enhanced by ‘extensions’ which can be
 
 A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at [http://openrefine.org/download.html](http://openrefine.org/download.html)
 
-One of these extensions tries to work around the limitation of Reconciliation services described above, by making it possible to use a reconciliation service against ‘linked data’ sources which have SPARQL endpoints. For more information on this see the ‘RDF Extension’ at [http://refine.deri.ie](http://refine.deri.ie). An example of how this works is given in more detail at [http://refine.deri.ie/showcases](http://refine.deri.ie/showcases).
+One of these extensions tries to work around the limitation of Reconciliation services described above, by making it possible to use a reconciliation service against ‘linked data’ sources which have SPARQL endpoints. For more information on this see the ‘RDF Extension’ at [http://refine.deri.ie](https://web.archive.org/web/20180112163745/http://refine.deri.ie/) (Available at Internet Archive Wayback Machine). An example of how this works is given in more detail at [http://refine.deri.ie/showcases](https://web.archive.org/web/20180113135530/http://refine.deri.ie/showcases) (Available at Internet Archive Wayback Machine).
 
 ## Using the ‘cross’ function to lookup data in other OpenRefine projects
 As well as looking up data in external systems using the methods described above, it is also possible to look up data in other OpenRefine projects on the same computer. This is done using the ‘cross’ function.
