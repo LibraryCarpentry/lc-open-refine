@@ -34,9 +34,9 @@ The interface to OpenRefine is accessed via a web browser. When you run Refine n
 
 ### Getting Help
 
-If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine)
+If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine).
 
-If you are installing OpenRefine on Windows, you may want to check the thread on [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ)
+If you are installing OpenRefine on Windows, you may want to check the forum for ['Windows' related threads](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/windows%7Csort:date) or specific threads like [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ).
 
 There are also general and specialist tutorials about using OpenRefine available on the web, including:
 
@@ -46,7 +46,8 @@ There are also general and specialist tutorials about using OpenRefine available
 * [Identifying potential headings for Authority work using III Sierra, MS Excel and OpenRefine](http://epublications.marquette.edu/lib_fac/81/)
 * [Free your metadata website](http://freeyourmetadata.org)
 * [Data Munging Tools in Preparation for RDF: Catmandu and LODRefine by Christina Harlow](http://journal.code4lib.org/articles/11013)
-* [OpenRefine News (monthly round up of new blog posts, tutorials and other information)](http://openrefine.org/blog.html)
+* [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/openrefine/)
+* [OpenRefine Blog](http://openrefine.org/category/edge-case.html)
 
 ### Downloading the data
 
