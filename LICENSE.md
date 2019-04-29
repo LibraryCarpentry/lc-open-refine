@@ -4,14 +4,9 @@ title: "Licenses"
 root: .
 ---
 
-*Library Carpentry builds on the work of [Software
-Carpentry]({{site.swc_site}}) and [Data
-Carpentry]({{site.dc_site}}). It uses the same license as these
-projects. This can be found below.*
-
 ## Instructional Material
 
-All Software Carpentry and Data Carpentry instructional material is
+All Software, Data and Library Carpentry instructional material is
 made available under the [Creative Commons Attribution
 license][cc-by-human]. The following is a human-readable summary of
 (and not a substitute for) the [full legal text of the CC BY 4.0
@@ -54,7 +49,7 @@ Notices:
 ## Software
 
 Except where otherwise noted, the example programs and other software
-provided by Software Carpentry and Data Carpentry are made available under the
+provided by Software, Data and Library Carpentry are made available under the
 [OSI][osi]-approved
 [MIT license][mit-license].
 
