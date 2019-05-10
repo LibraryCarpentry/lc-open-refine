@@ -13,7 +13,7 @@ You need to download and install OpenRefine and download a data file to follow t
 You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine up to 3.1.  
 
 OpenRefine 3.1 is recommended. 
-If using an older version, it is recommended to upgrade to the tested version (currently 3.1). 
+If you are using an older version, it is recommended you upgrade to the tested version (currently 3.1). 
 
 There are versions for Windows, Mac OS X and Linux.
 
@@ -27,7 +27,7 @@ If you are downloading OpenRefine for Mac, you are downloading a 'dmg' (disk ima
 
 To run Refine:
 
-* On Windows: Navigate to the folder where you’ve installed OpenRefine and either double-click ‘openrefine.exe’
+* On Windows: Navigate to the folder where you’ve installed OpenRefine and double-click ‘openrefine.exe’
 * On Linux: Navigate to the folder where you’ve installed OpenRefine in a terminal window and type ‘./refine’
 * On Mac: Navigate to where you installed OpenRefine and click the OpenRefine icon
 
