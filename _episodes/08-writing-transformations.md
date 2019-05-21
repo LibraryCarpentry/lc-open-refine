@@ -40,6 +40,6 @@ Next to the 'Preview' option are options to view:
 >5.  Click the dropdown menu on the Title column
 >6. Choose ```Edit cells->Transform...```
 >7. In the Expression box type ```value.toTitlecase()```
->8. In the review note that you can see what the affect of running this will be
+>8. In the Preview pane under value.toTitlecase() you can see what the effect of running this will be
 >9. Click ```OK```
 {: .checklist}
