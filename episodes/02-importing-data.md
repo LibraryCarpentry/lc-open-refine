@@ -34,7 +34,8 @@ keypoints:
 >4. Click in the `Character encoding` box and set it to `UTF-8`
 >5. Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers`
 >6. Make sure the `Parse cell text into numbers, dates, ...` box is not checked, so OpenRefine doesn't try to automatically detect numbers
->7. Once you are happy click the `Create Project >>` button at the top right of the screen. This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
+>7. The Project Name box in the upper right corner will default to the title of your imported file. Click in the `Project Name` box to give your project a different name, if desired.
+>8. Once you are happy click the `Create Project >>` button at the top right of the screen. This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
 >   
 > ![Create project screen capture](../assets/img/openrefine_ui.png)
 >
