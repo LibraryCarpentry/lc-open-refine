@@ -49,7 +49,7 @@ The next exercise demonstrates this two stage process in full.
 >* Give the column a name e.g. "Journal details"
 >* In the expression box you need to write some GREL where the output of the expression is a URL which can be used to retrieve data (the format of the data could be HTML, XML, JSON, or some other text format)
 >
->In this case we are going to use the CrossRef API: [https://github.com/CrossRef/rest-api-doc)](https://github.com/CrossRef/rest-api-doc). Read more about the CrossRef service: [http://www.crossref.org](http://www.crossref.org).
+>In this case we are going to use the CrossRef API: [https://github.com/CrossRef/rest-api-doc)](https://github.com/CrossRef/rest-api-doc). Read more about the CrossRef service: [http://www.crossref.org](http://www.crossref.org). Note that the API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation.
 >
 >The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 >
