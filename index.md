@@ -1,6 +1,5 @@
 ---
 layout: lesson
-root: .
 ---
 This Library Carpentry lesson introduces librarians to working with data in OpenRefine.
 At the conclusion of the lesson you will
