@@ -4,7 +4,10 @@ teaching: 10
 exercises: 5
 questions:
 - "How do I get data into OpenRefine?"
+- "What are the options on the `Create Project` screen?"
 objectives:
+- "Successfully open and run OpenRefine"
+- "Understand the elements of the `Create Project` screen" 
 - "Successfully import data into OpenRefine"
 keypoints:
 - "Use the `Create Project` option to import data"
