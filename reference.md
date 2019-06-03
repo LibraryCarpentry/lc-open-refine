@@ -1,5 +1,4 @@
 ---
 layout: reference
-root: .
 ---
 
