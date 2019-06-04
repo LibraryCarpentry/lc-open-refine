@@ -41,9 +41,6 @@ You can also `invert` the filter to show all records which do not match your sel
 >4. Include a value and then look at top to invert inclusion.
 {: .checklist}
 
-To select a single value, just click the relevant line in the facet
-To select multiple values click the "Include" option on the appropriate line in the facet (which only appears when you mouse over the line)
-
 >## Which licences are used for articles in this file?
 > Use a `text facet` for the `licence` column and answer these questions:
 >
