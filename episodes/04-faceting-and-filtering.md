@@ -35,8 +35,8 @@ You can also `invert` the filter to show all records which do not match your sel
 
 >## Let's create a text facet
 >1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
->2. Filter by facet by clicking or `include`
->3. Select multiple values to `include`
+>2. To select a single value, just click the relevant line in the facet
+>3. To select multiple values click the `Include` option on the appropriate line in the facet (which only appears when you mouse over the line)
 >3. You can 'invert' your selections to `exclude`
 >4. Include a value and then look at top to invert inclusion.
 {: .checklist}
