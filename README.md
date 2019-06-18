@@ -1,6 +1,6 @@
 # Library Carpentry
 
-The Library Carpentry module '[OpenRefine for Librarians](https://librarycarpentry.github.io/lc-open-refine/)' is maintained by [Owen Stephens](https://github.com/ostephens), [Juliane Schneider](https://github.com/pitviper6), [Paul Pival](https://github.com/ppival), [Kristin Lee](https://github.com/kristindawn), *[Erin Carrillo](https://github.com/partiecolored)* and [Carmi Cronje](https://github.com/ccronje).
+The [Library Carpentry: OpenRefine](https://librarycarpentry.org/lc-open-refine/) lesson module is maintained by *[Erin Carrillo](https://github.com/partiecolored)*, [Owen Stephens](https://github.com/ostephens), [Juliane Schneider](https://github.com/pitviper6), [Paul Pival](https://github.com/ppival), [Kristin Lee](https://github.com/kristindawn), and [Carmi Cronje](https://github.com/ccronje).
 
 ## Background
 
@@ -28,4 +28,4 @@ Library Carpentry is authored and maintained by the [community](https://github.c
 
 Please cite as:
 
-Library Carpentry. OpenRefine for Librarians. June 2016. https://librarycarpentry.github.io/lc-open-refine/.
+Library Carpentry: OpenRefine. June 2016. https://librarycarpentry.org/lc-open-refine/.
