@@ -1,31 +1,37 @@
-# Library Carpentry
+# Maintainers for Library Carpentry: OpenRefine
 
-The [Library Carpentry: OpenRefine](https://librarycarpentry.org/lc-open-refine/) lesson module is maintained by *[Erin Carrillo](https://github.com/partiecolored)*, [Owen Stephens](https://github.com/ostephens), [Juliane Schneider](https://github.com/pitviper6), [Paul Pival](https://github.com/ppival), [Kristin Lee](https://github.com/kristindawn), and [Carmi Cronje](https://github.com/ccronje).
+- [Erin Carrillo](https://github.com/partiecolored) (Lead) 
+- [Owen Stephens](https://github.com/ostephens)
+- [Juliane Schneider](https://github.com/pitviper6)
+- [Paul Pival](https://github.com/ppival)
+- [Kristin Lee](https://github.com/kristindawn)
+- [Carmi Cronje](https://github.com/ccronje)
 
-## Background
+## Library Carpentry
 
-Library Carpentry is a software skills training programme aimed at library and information professions. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/).
+[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
 
-Library Carpentry is in the commons and for the commons. It is not tied to any institution of person. For more information on Library Carpentry, see our website [librarycarpentry.github.io](http://librarycarpentry.github.io/).
+## License
 
-## Contribution
+All Software, Data, and Library Carpentry instructional material is made available under the [Creative Commons Attribution
+license](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/LICENSE.md).
 
-There are many ways of contributing to Library Carpentry:
+## Contributing
 
-- Join our [Gitter discussion forum](https://gitter.im/LibraryCarpentry/).
-- Follow updates on [Twitter](https://twitter.com/LibCarpentry).
-- Make a suggestion or correct an error by [raising an Issue](https://github.com/LibraryCarpentry/lc-open-refine/issues).
+There are many ways to discuss and contribute to Library Carpentry lessons. Visit the lesson [discussion page](https://librarycarpentry.org/lc-open-refine/discuss/index.html) to learn more. Also see [Contributing](https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/CONTRIBUTING.md).
 
 ## Code of Conduct
 
-All participants should agree to abide by the [Software Carpentry Code of Conduct](http://software-carpentry.org/conduct/).
+All participants should agree to abide by The Carpentries [Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html).
 
 ## Authors
 
-Library Carpentry is authored and maintained by the [community](https://github.com/orgs/LibraryCarpentry/people).
+Library Carpentry is authored and maintained through issues, commits, and pull requests from the community.
 
 ## Citation
 
-Please cite as:
-
 Library Carpentry: OpenRefine. June 2016. https://librarycarpentry.org/lc-open-refine/.
+
+## Checking and Previewing the Lesson
+
+To check and preview a lesson locally, see [http://carpentries.github.io/lesson-example/07-checking/index.html](http://carpentries.github.io/lesson-example/07-checking/index.html).
