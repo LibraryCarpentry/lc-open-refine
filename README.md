@@ -7,6 +7,8 @@
 - [Kristin Lee](https://github.com/kristindawn)
 - [Carmi Cronje](https://github.com/ccronje)
 
+Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-open-refine-maintainers).
+
 ## Library Carpentry
 
 [Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
