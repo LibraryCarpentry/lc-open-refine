@@ -1,0 +1,120 @@
+{
+  "contributors": [
+    {
+      "type": "Editor",
+      "name": "Owen Stephens"
+    },
+    {
+      "type": "Editor",
+      "name": "Juliane Schneider",
+      "orcid": "0000-0002-7664-3331"
+    },
+    {
+      "type": "Editor",
+      "name": "Paul Pival",
+      "orcid": "0000-0002-1685-0590"
+    },
+    {
+      "type": "Editor",
+      "name": "Kristin Lee",
+      "orcid": "0000-0003-4906-1800"
+    },
+    {
+      "type": "Editor",
+      "name": "Erin Carrillo"
+    },
+    {
+      "type": "Editor",
+      "name": "Carmi Cronje",
+      "orcid": "0000-0003-2736-6267"
+    }
+  ],
+  "creators": [
+    {
+      "name": "James Baker",
+      "orcid": "0000-0002-2682-6922"
+    },
+    {
+      "name": "Christopher Erdmann",
+      "orcid": "0000-0003-2554-180X"
+    },
+    {
+      "name": "Tim Dennis",
+      "orcid": "0000-0001-6632-3812"
+    },
+    {
+      "name": "mhidas"
+    },
+    {
+      "name": "Daniel Bangert"
+    },
+    {
+      "name": "Evan Williamson",
+      "orcid": "0000-0002-7990-9924"
+    },
+    {
+      "name": "Jamie Jamison",
+      "orcid": "0000-0002-5116-5724"
+    },
+    {
+      "name": "Naupaka Zimmerman",
+      "orcid": "0000-0003-2168-6390"
+    },
+    {
+      "name": "Rémi Emonet",
+      "orcid": "0000-0002-1870-1329"
+    },
+    {
+      "name": "Betty Rozum"
+    },
+    {
+      "name": "dnesdill"
+    },
+    {
+      "name": "Katherine Koziar",
+      "orcid": "0000-0003-0505-7973"
+    },
+    {
+      "name": "Tom Honeyman"
+    },
+    {
+      "name": "Tracy Teal",
+      "orcid": "0000-0002-9180-9598"
+    },
+    {
+      "name": "Alexander Mendes"
+    },
+    {
+      "name": "andreamcastillo"
+    },
+    {
+      "name": "Anna Neatrour"
+    },
+    {
+      "name": "Antonin Delpeuch"
+    },
+    {
+      "name": "Christina Koch",
+      "orcid": "0000-0001-8600-8158"
+    },
+    {
+      "name": "Elizabeth Lisa McAulay"
+    },
+    {
+      "name": "hauschke"
+    },
+    {
+      "name": "Jamene Brooks-Kieffer"
+    },
+    {
+      "name": "Jeffrey Oliver",
+      "orcid": "0000-0003-2160-1086"
+    },
+    {
+      "name": "Paul R. Pival"
+    }
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  }
+}
