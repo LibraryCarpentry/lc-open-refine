@@ -34,6 +34,8 @@ Library Carpentry is authored and maintained through issues, commits, and pull r
 
 Library Carpentry: OpenRefine. June 2016. https://librarycarpentry.org/lc-open-refine/.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)
+
 ## Checking and Previewing the Lesson
 
 To check and preview a lesson locally, see [http://carpentries.github.io/lesson-example/07-checking/index.html](http://carpentries.github.io/lesson-example/07-checking/index.html).
