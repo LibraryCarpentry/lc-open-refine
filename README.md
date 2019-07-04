@@ -1,3 +1,8 @@
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)
+
+
 # Maintainers for Library Carpentry: OpenRefine
 
 - [Erin Carrillo](https://github.com/partiecolored) (Lead) 
