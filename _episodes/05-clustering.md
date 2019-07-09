@@ -28,8 +28,6 @@ For more information on the methods used to create Clusters, see [https://github
 
 For each cluster, you have the option of 'merging' the values together - that is, replace the various inconsistent values with a single consistent value. By default, OpenRefine uses the most common value in the cluster as the new value, but you can select another value by clicking the value itself, or you can simply type the desired value into the 'New Cell Value' box.
 
-The Clustering function can also be accessed via the drop-down menu at the top of a column by selecting `Edit cells->Cluster and edit …`
-
 >## Use Clustering to clean up author data
 >
 >1. Split out the author names into individual cells using `Edit cells -> Split multi-valued cells`, using the pipe ( \| ) character as the separator
