@@ -5,7 +5,7 @@
 - [Erin Carrillo](https://github.com/partiecolored) (Lead) 
 - [Owen Stephens](https://github.com/ostephens)
 - [Juliane Schneider](https://github.com/pitviper6)
-- [Paul Pival](https://github.com/ppival)
+- [Paul R. Pival](https://github.com/ppival)
 - [Kristin Lee](https://github.com/kristindawn)
 - [Carmi Cronje](https://github.com/ccronje)
 
