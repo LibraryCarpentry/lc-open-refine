@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)  
+
 # Maintainers for Library Carpentry: OpenRefine
 
 - [Erin Carrillo](https://github.com/partiecolored) (Lead) 
@@ -32,7 +34,7 @@ Library Carpentry is authored and maintained through issues, commits, and pull r
 
 ## Citation
 
-Library Carpentry: OpenRefine. June 2016. https://librarycarpentry.org/lc-open-refine/.
+Erin Carillo (Ed.), Owen Stephens (Ed.), Juliane Schneider (Ed.), Paul R. Pival (Ed.), Kristin Lee (Ed.), Carmi Cronje (Ed.), James Baker, Christopher Erdmann, Tim Dennis, mhidas, Daniel Bangert, Evan Williamson, … Jeffrey Oliver. (2019, July). LibraryCarpentry/lc-open-refine: Library Carpentry: OpenRefine, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3266144
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)
 
