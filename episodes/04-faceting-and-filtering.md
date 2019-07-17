@@ -93,7 +93,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 >>
 >>1. On the `DOI` column drop down and select `Customized facets > Facet by blank`
 >>2. `True` means that it is blank, so you can:
->>    * Select `include` for true to narrow down the publications
+>>    * Select `include` on True in the facet to filter the list of publications to only those that don't have a DOI
 >{: .solution}
 {: .challenge}
 
