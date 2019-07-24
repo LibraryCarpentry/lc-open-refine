@@ -21,7 +21,7 @@ keypoints:
 ## Facets
 Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data.
 
-A 'Facet' groups all the values that appear in a column, and then allow you to filter the data by these values and edit values across many records at the same time.
+A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
 
 The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
@@ -93,7 +93,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 >>
 >>1. On the `DOI` column drop down and select `Customized facets > Facet by blank`
 >>2. `True` means that it is blank, so you can:
->>    * Select `include` for true to winnow down the publications
+>>    * Select `include` on True in the facet to filter the list of publications to only those that don't have a DOI
 >{: .solution}
 {: .challenge}
 
