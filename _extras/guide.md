@@ -36,5 +36,5 @@ ____
   - Run openrefine.exe
 
 * If a learner is unable to install OpenRefine on their computer due to IT restrictions for example, there are cloud services available that they could try:
-  - [openrefineder](https://github.com/betatim/openrefineder/) using MyBinder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/openrefineder/master?urlpath=%2Fopenrefine) (OpenRefine 3.1, free to use without registration, [restricted](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-memory-am-i-given-when-using-binder) to 1-2 GB RAM and server will be deleted after 10 minutes of inactivity)
-  - [fork of openrefineder](https://github.com/wetneb/openrefineder) using MyBinder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/wetneb/openrefineder/master?urlpath=%2Fopenrefine) (OpenRefine 3.2 beta)
+  - [openrefineder](https://github.com/betatim/openrefineder/) using MyBinder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/openrefineder/077bbff?urlpath=%2Fopenrefine) (OpenRefine 3.1, free to use without registration, [restricted](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-memory-am-i-given-when-using-binder) to 1-2 GB RAM and server will be deleted after 10 minutes of inactivity)
+  - [openrefineder](https://github.com/betatim/openrefineder/) using MyBinder [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/betatim/openrefineder/79aeff9?urlpath=%2Fopenrefine) (OpenRefine 3.2, same restrictions as above)
