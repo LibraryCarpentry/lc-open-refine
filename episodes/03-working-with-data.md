@@ -66,7 +66,7 @@ Modifying cells will be covered in future lessons, but for now we will cover how
 * Click `OK` to join the Authors cells back together
 
 You will now see that split rows have gone away - the Authors have been joined into a single cell with the specified delimiter. Our Rows and
-Records values will now be the same since we do not have any more split columns.
+Records values will now be the same since we do not have any more columns with split (multi-valued) cells.
 
 * Click both the `Rows` and `Records` options and observe how the numbers of Rows and Records are equal
 
