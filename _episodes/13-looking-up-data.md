@@ -144,7 +144,7 @@ The functionality in OpenRefine can be enhanced by ‘extensions’ which can be
 
 A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at [http://openrefine.org/download.html](http://openrefine.org/download.html).
 
-## Using the ‘cross’ function to lookup data in other OpenRefine projects
+### Using the ‘cross’ function to lookup data in other OpenRefine projects
 As well as looking up data in external systems using the methods described above, it is also possible to look up data in other OpenRefine projects on the same computer. This is done using the ‘cross’ function.
 
 The ‘cross’ function takes a value from the OpenRefine project you are working on, and looks for that value in a column in another OpenRefine project. If it finds one or more matching rows in the second OpenRefine project, it returns an array containing the rows that it has matched.
