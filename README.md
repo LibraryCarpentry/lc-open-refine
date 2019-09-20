@@ -7,7 +7,11 @@
 - [Juliane Schneider](https://github.com/pitviper6)
 - [Paul R. Pival](https://github.com/ppival)
 - [Kristin Lee](https://github.com/kristindawn)
+
+# Past Maintainers for Library Carpentry: OpenRefine
+
 - [Carmi Cronje](https://github.com/ccronje)
+- [Chris Erdmann](https://github.com/libcce)
 
 Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-open-refine-maintainers).
 
