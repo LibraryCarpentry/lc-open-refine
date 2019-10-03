@@ -9,9 +9,9 @@ questions:
 - "How can I easily correct common data issues in my data with OpenRefine?"
 objectives:
 - "Explain what Facets and Filters are"
-- "Answer simple questions about the content of a data set using Facets"
+- "Answer questions about the content of a data set using Facets"
 - "Use facets and filters to work with a subset of data"
-- "Correct simple data problems through a facet"
+- "Correct data problems through a facet"
 keypoints:
 - "You can use facets and filters to explore your data"
 - "You can use facets and filters work with a subset of data in OpenRefine"
