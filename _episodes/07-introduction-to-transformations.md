@@ -7,8 +7,8 @@ questions:
 - "What are the kind of transformations Open Refine supports?"
 - "What is GREL?"
 objectives:
-- "Introduce common transformations"
-- "Introduce GREL, the General Refine Expression Language"
+- "Describe common transformations"
+- "Explain GREL, the General Refine Expression Language"
 keypoints:
 - "Common transformations are available through the Menu option"
 ---
