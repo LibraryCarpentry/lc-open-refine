@@ -22,7 +22,7 @@ The remaining steps will continue to show in the list but greyed out, and you ca
 
 However, if you 'undo' a set of steps and then start doing new transformations, the greyed out steps will disappear and you will no longer have the option to 'redo' these steps.
 
-If you wish to save a set of steps to be re-applied later, or to a different project, you can click the ```Extract``` button. This gives you the option to select the steps you want to save, and to copy the transformations included in the selected steps in a format called 'JSON'
+If you wish to save a set of steps to be re-applied later, for instance, to a different project, you can click the ```Extract``` button. This gives you the option to select steps that you want to save, and extract the codes for those steps in a format called ‘JSON’. You can copy the extracted JSON and save it as a simple text file (e.g. in Notepad).
 
 To apply a set of steps you have copied or saved in this 'JSON' format use the ```Apply``` button and paste in the JSON. In this way you can share transformations between projects and each other.
 
