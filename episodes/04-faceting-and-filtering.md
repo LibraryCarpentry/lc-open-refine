@@ -5,7 +5,7 @@ exercises: 10
 questions:
 - "What is a facet in OpenRefine?"
 - "What is a filter in OpenRefine?"
-- "How can I use filters and facets to explore data OpenRefine?"
+- "How can I use filters and facets to explore data in OpenRefine?"
 - "How can I easily correct common data issues in my data with OpenRefine?"
 objectives:
 - "Explain what Facets and Filters are"
@@ -19,7 +19,7 @@ keypoints:
 ---
 
 ## Facets
-Facets are one of the most useful features of OpenRefine and can help both get an overview of the data in a project as well as helping you bring more consistency to the data.
+Facets are one of the most useful features of OpenRefine and can help in both getting an overview of the data and to improve the consistency of the data.
 
 A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
 
@@ -106,7 +106,7 @@ The list of values in the facet will update as you make edits.
 
 >## Correct the Language values via a facet
 >
->* `Text facet` on the `language` column and correct the variation in the `EN` and `English` values.
+>* Create a `Text facet` on the `language` column and correct the variation in the `EN` and `English` values.
 >
 >>## Solution
 >>1. Create a Text facet on the Language column
