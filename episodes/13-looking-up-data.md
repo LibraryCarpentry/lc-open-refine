@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Advanced OpenRefine functions"
 teaching: 20
 exercises: 10
