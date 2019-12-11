@@ -11,6 +11,13 @@ objectives:
 - Locate controls for navigating data in OpenRefine
 - Find options to work with data through the OpenRefine dropdown menus
 - Split cells which contain multiple bits of data so that each piece of data is in its own cell
+
+Student outcomes
+After this lesson you will be able to:
+- Split and join multi value cells using an appropriate seperator.
+- Describe how rows and record differ in OpenRefine
+
+
 keypoints:
 - "OpenRefine uses rows and columns to display data"
 - "Most options to work with data in OpenRefine are accessed through a drop down menu at the top of a data column"
