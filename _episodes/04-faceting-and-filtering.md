@@ -70,8 +70,9 @@ As well as 'Text facets' Refine also supports a range of other types of facet. T
 
 * Numeric facets
 * Timeline facets (for dates)
-* Custom facets
 * Scatterplot facets
+* Custom facets
+
 
 **Numeric and Timeline facets** display graphs instead of lists of values. The graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed.
 
