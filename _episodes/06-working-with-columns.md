@@ -14,10 +14,12 @@ keypoints:
 - "The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently"
 ---
 
-## Reordering and renaming columns
+## Reordering columns
 You can re-order the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing `Edit columns->Re-order / remove columns …`
 
 You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required.
+
+## Renaming columns
 
 You can rename a column by opening the drop-down menu at the top of the column that you would like to rename, and choosing 'Edit column' > 'Rename this column'. You will then be prompted to enter the new column name. 
 
