@@ -13,7 +13,7 @@ You can download OpenRefine from [http://openrefine.org/download.html](http://op
 
 If you are using an older version, it is recommended you upgrade to the latest tested version. 
 
-There are versions for Windows, Mac OS X and Linux.
+There are versions for Windows, macOS and Linux.
 
 Please follow the installation instructions on the OpenRefine wiki: [Installation Instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)
 

@@ -49,11 +49,15 @@ The next exercise demonstrates this two stage process in full.
 >* Give the column a name e.g. "Journal details"
 >* In the expression box you need to write some GREL where the output of the expression is a URL which can be used to retrieve data (the format of the data could be HTML, XML, JSON, or some other text format)
 >
->In this case we are going to use the CrossRef API: [https://github.com/CrossRef/rest-api-doc)](https://github.com/CrossRef/rest-api-doc). Read more about the CrossRef service: [http://www.crossref.org](http://www.crossref.org). Note that the API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation.
+>In this case we are going to use the CrossRef API: [https://github.com/CrossRef/rest-api-doc)](https://github.com/CrossRef/rest-api-doc). Read more about the CrossRef service: [http://www.crossref.org](http://www.crossref.org). Note that API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation. CrossRef, for instance, [asks users](https://github.com/CrossRef/rest-api-doc#etiquette) to "specify a User-Agent header that properly identifies your script or tool and that provides a means of contacting you via email using 'mailto:'." User-agent headers provide administrators with user information that facilitates better administration and moderation of the API, and it is generally good etiquette to include a header with any API request.
+>
+>To edit your User-Agent header:
+>* Click 'Show' (next to 'HTTP headers to be used when fetching URLs'). Note that OpenRefine has already populated the 'User-Agent' field with information about the version of OpenRefine you are using; it should look similar to ```OpenRefine 3.2 [55c921a]``` but with some variation.
+>* At the end of the existing text, add ```; mailto:address@library.edu```, using your own email address. The full User-Agent field should now be similar to ```OpenRefine 3.2 [55c921a]; mailto:address@library.edu``` but reflect your version information and email address.
 >
 >The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 >
->* In the expression box type the GREL ```"http://api.crossref.org/journals/"+value```
+>* In the expression box type the GREL ```"https://api.crossref.org/journals/"+value```
 >* Click 'OK'
 >
 >You should see a message at the top on the OpenRefine screen indicating it is fetching some data, and how far it has got. Wait for this to complete. Fetching data for a single row should take only ten seconds or so, but fetching data for all rows will take longer. You can speed this up by modifying the "Throttle Delay" setting in the 'Add column by fetching URLs' dialog which controls the delay between each URL request made by OpenRefine. This is defaulted to a rather large 5000 milliseconds (5 seconds).
