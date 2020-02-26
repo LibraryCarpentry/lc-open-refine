@@ -16,7 +16,7 @@ keypoints:
 ---
 
 ## What is OpenRefine?
-OpenRefine is described as "a power tool for working with messy data" ([David Huynh](http://web.archive.org/web/20141021040915/http://davidhuynh.net/spaces/nicar2011/tutorial.pdf)) - but what does this mean? It is probably easiest to describe the kinds of data OpenRefine is good at working with and the sorts of problems it can help you solve.
+ OpenRefine is a desktop application that uses your web browser as a graphical interface. It is described as "a power tool for working with messy data" ([David Huynh](http://web.archive.org/web/20141021040915/http://davidhuynh.net/spaces/nicar2011/tutorial.pdf)) - but what does this mean? It is probably easiest to describe the kinds of data OpenRefine is good at working with and the sorts of problems it can help you or your team solve.
 
 OpenRefine is most useful where you have data in a simple tabular format such as a spreadsheet, a comma separated values file (csv) or a tab delimited file (tsv) but with internal inconsistencies either in data formats, or where data appears, or in terminology used. OpenRefine can be used to standardize and clean data across your file. It can help you:
 
@@ -64,3 +64,9 @@ Some common scenarios might be:
 | Braddon, M. E. (Mary Elizabeth) | 1835 | 1915 |
 | Rossetti, William Michael       | 1829 | 1919 |
 | Prest, Thomas Peckett           | 1810 | 1879 |
+
+## What Should I Know When Working With OpenRefine?
+* No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
+* You are NOT modifying original/raw data.
+* Saving will happen automatically, but it's important to [properly shut down OpenRefine to ensure this](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions).
+* Files are saved locally such that if you are working on two computers you will have to export/import files/projects.
