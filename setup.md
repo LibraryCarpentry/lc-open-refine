@@ -41,6 +41,6 @@ There are also general and specialist tutorials about using OpenRefine available
 * [Free your metadata website](http://freeyourmetadata.org)
 * [Data Munging Tools in Preparation for RDF: Catmandu and LODRefine by Christina Harlow](http://journal.code4lib.org/articles/11013)
 * [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/openrefine/)
-* [OpenRefine Blog](openrefine.org/category/blog.html)
+* [OpenRefine Blog](https://openrefine.org/category/blog.html)
 
 [template]: {{ site.workshop_repo }}
