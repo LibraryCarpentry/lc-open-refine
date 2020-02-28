@@ -18,13 +18,13 @@ There are versions for Windows, macOS and Linux.
 Please follow the installation instructions on the OpenRefine wiki: [Installation Instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)
 
 Notes:
-* When you download OpenRefine for Windows or Linux from the address above, you are downloading a zip file. To install OpenRefine you simply unzip the downloaded file wherever you want to install the program. This can be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the unzipped folder. The location has to be a "local" drive as problems have been reported trying to run OpenRefine from a Network drive.
+* When you download OpenRefine for Windows or Linux from the address above, you are downloading a zip file. To install OpenRefine you unzip the downloaded file wherever you want to install the program. This can be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the unzipped folder. The location has to be a "local" drive as problems have been reported trying to run OpenRefine from a Network drive.
 * OpenRefine is a Java application, and you need to have a 'Java Runtime Environment' (JRE) installed on your computer to run OpenRefine. If you don’t already have one installed then you can download and install from [http://java.com](http://java.com) by going to the site and clicking "Free Java Download".
 * OpenRefine does not support Internet Explorer or Edge. Please use [Firefox](https://www.mozilla.org/firefox/new/), [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
 
 ### Downloading the data
 
-You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as**). Make a note of the location (i.e the folder, your desktop) to which you save the file.
+You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file.
 
 ### Getting help
 
@@ -41,6 +41,6 @@ There are also general and specialist tutorials about using OpenRefine available
 * [Free your metadata website](http://freeyourmetadata.org)
 * [Data Munging Tools in Preparation for RDF: Catmandu and LODRefine by Christina Harlow](http://journal.code4lib.org/articles/11013)
 * [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/openrefine/)
-* [OpenRefine Blog](http://openrefine.org/category/edge-case.html)
+* [OpenRefine Blog](openrefine.org/category/blog.html)
 
 [template]: {{ site.workshop_repo }}
