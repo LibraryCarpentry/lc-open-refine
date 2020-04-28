@@ -9,7 +9,7 @@ You need to install OpenRefine and download a data file to follow this lesson.
 
 ### Installing and running OpenRefine
 
-You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.2.
+You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.3.
 
 If you are using an older version, it is recommended you upgrade to the latest tested version. 
 
