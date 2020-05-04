@@ -9,6 +9,7 @@ objectives:
 keypoints:
 - "Use the `Create Project` option to import data"
 - "You can control how data imports using options on the import screen"
+- "Several files types may be imported into OpenRefine."
 ---
 
 ## Importing data
