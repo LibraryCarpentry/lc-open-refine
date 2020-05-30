@@ -110,7 +110,6 @@ Splitting on a comma will not work with Authors because the names may include co
 > When creating a spreadsheet with multi-valued cells, it is important to choose a separator that will never appear in
 > the cell values themselves. For this reason, the pipe character ( \| ) is often a good choice since it
 > is rarely used in data. Commas, colons and semi-colons should be avoided as separators.
->
 {: .callout}
 
 >## Splitting Subjects into separate cells
