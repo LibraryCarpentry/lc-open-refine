@@ -138,7 +138,7 @@ For more information on using Reconciliation services see [https://github.com/Op
 >There are two things that reconciliation can do for you. Firstly it gets a standard form of the name or label for the entity. Secondly it gets an ID for the entity - in this case a VIAF id. This is hidden in the default view, but can be extracted:
 >
 >* In the Publisher column use the dropdown menu to choose 'Edit column->Add column based on this column...'
->* Give the column the name 'VIAF ID'
+>* Give the column the name 'VIAF-ID'
 >* In the GREL expression box type ```cell.recon.match.id```
 >* This will create a new column that contains the VIAF ID for the matched entity
 {: .challenge}
