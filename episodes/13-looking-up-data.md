@@ -67,7 +67,7 @@ The next exercise demonstrates this two stage process in full.
 >OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The 'parseJson' function is explained in more detail at [https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions).
 >
 >* In the new column you've just added use the dropdown menu to access 'Edit column->Add column based on this column'
->* Add a name for the new column e.g. "Journal Title"
+>* Add a name for the new column e.g. "Journal-Title"
 >* In the Expression box type the GREL ```value.parseJson().message.title```
 >* You should see in the Preview the Journal title displays
 >
