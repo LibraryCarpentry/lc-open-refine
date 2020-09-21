@@ -147,14 +147,3 @@ For more information on using Reconciliation services see [https://github.com/Op
 The functionality in OpenRefine can be enhanced by ‘extensions’ which can be downloaded and installed to add functionality to your OpenRefine installation.
 
 A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at [http://openrefine.org/download.html](http://openrefine.org/download.html).
-
-## Using the ‘cross’ function to lookup data in other OpenRefine projects
-As well as looking up data in external systems using the methods described above, it is also possible to look up data in other OpenRefine projects on the same computer. This is done using the ‘cross’ function.
-
-The ‘cross’ function takes a value from the OpenRefine project you are working on, and looks for that value in a column in another OpenRefine project. If it finds one or more matching rows in the second OpenRefine project, it returns an array containing the rows that it has matched.
-
-As it returns the whole row for each match, you can use a transformation to extract the values from any of the columns in the second project.
-
-You can use this function to compare the contents of two OpenRefine projects, or to use data between the two projects.
-
-The [VIB-Bits extension](https://www.bits.vib.be/index.php/software-overview/openrefine) adds a number of very useful functions to OpenRefine including a way of using the 'cross' function with simply point-and-click functionality which makes looking up data from other projects much easier.
