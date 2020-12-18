@@ -41,7 +41,7 @@ Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g.
 
 >## Correct Publisher data
 >1. Create a text facet on the Publisher column
->2. Note that in the values there are two that look identical - why does this value appear twice?
->3. On the publisher column use the dropdown menu to select ```Edit cells->Common transforms->Trim leading and trailing whitespace```
+>2. Note that in the values there are two that look almost identical - why do these two values appear separately rather than as a single value?
+>3. On the publisher column use the dropdown menu to select ```Edit cells->Common transforms->Collapse consecutive whitespace```
 >4. Look at the publisher facet now - has it changed? (if it hasn't changed try clicking the ```Refresh``` option to make sure it updates)
 {: .checklist}
