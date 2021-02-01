@@ -7,10 +7,10 @@ questions:
 - "How do I reconcile my data by comparing it to authoritative datasets"
 - "How do I install extensions for OpenRefine"
 objectives:
-- "Introduce how to use URLs to fetch data from the web based on what's in an OpenRefine project"
-- "Introduce how to parse JSON data returned by web services"
-- "Introduce how to use Reconciliation services"
-- "Introduce OpenRefine extensions"
+- "Use URLs to fetch data from the web based on columns in an OpenRefine project"
+- "Add columns to parse JSON data returned by web services"
+- "Understand how Reconciliation services are used to validate data"
+- "Add functionality using OpenRefine extensions"
 keypoints:
 - "OpenRefine can look up custom URLs to fetch data based on what's in an OpenRefine project"
 - "Such API calls can be custom built, or one can use existing Reconciliation services to enrich data"

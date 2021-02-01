@@ -6,8 +6,9 @@ questions:
 - "How do I use transformations to programmatically edit my data?"
 - "How do I transform the various data types?"
 objectives:
-- "Introduce data formats"
-- "Introduce Boolean values and how to run transformations based on them"
+- "Understand data types in OpenRefine"
+- "Transform dates for further analysis"
+- "Create and run transformations based on Boolean Values"
 keypoints:
 - "You can alter data in OpenRefine based on specific instructions"
 - "You can expand the data editing functions that are built-in into OpenRefine by building your own"
