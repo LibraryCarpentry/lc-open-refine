@@ -9,7 +9,7 @@ You need to install OpenRefine and download a data file to follow this lesson.
 
 ### Installing and running OpenRefine
 
-You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.4.
+You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.4.1
 
 If you are using an older version, it is recommended you upgrade to the latest tested version. 
 
@@ -19,7 +19,7 @@ Please follow the installation instructions on the OpenRefine wiki: [Installatio
 
 Notes:
 * When you download OpenRefine for Windows or Linux from the address above, you are downloading a zip file. To install OpenRefine you unzip the downloaded file wherever you want to install the program. This can be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the unzipped folder. The location has to be a "local" drive as problems have been reported trying to run OpenRefine from a Network drive.
-* OpenRefine is a Java application, and you need to have a 'Java Runtime Environment' (JRE) installed on your computer to run OpenRefine. Version 3.4 of OpenRefine for Windows has a version with embedded Java which you can use without doing a separate installation if the Java Runtime Environment.  If you are on Linux, or use Windows and do not want to use OpenRefine with embedded Java, and you don’t already have the Java Runtime Environment installed, then you can download and install from [http://java.com](http://java.com) by going to the site and clicking "Free Java Download".
+* OpenRefine is a Java application, and you need to have a 'Java Runtime Environment' (JRE) installed on your computer to run OpenRefine. Version 3.4.1 of OpenRefine for Windows has a version with embedded Java which you can use without doing a separate installation if the Java Runtime Environment.  If you are on Linux, or use Windows and do not want to use OpenRefine with embedded Java, and you don’t already have the Java Runtime Environment installed, then you can download and install from [http://java.com](http://java.com) by going to the site and clicking "Free Java Download".
 * OpenRefine does not support Internet Explorer or Edge. Please use [Firefox](https://www.mozilla.org/firefox/new/), [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
 
 ### Downloading the data
