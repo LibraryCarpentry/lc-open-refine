@@ -5,7 +5,7 @@ exercises: 15
 questions:
 - "How do I use Arrays in data transformation?"
 objectives:
-- "Understand the purpose of Arrays in OpenRefine
+- "Understand the purpose of Arrays in OpenRefine"
 - "Use arrays as part of transformations in GREL"
 keypoints:
 - "Arrays cannot appear directly in an OpenRefine cell"
