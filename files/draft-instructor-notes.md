@@ -206,7 +206,7 @@ Share your recipes on GitHub
 Things to note:
 
 Allocate more memory:
-https://github.com/OpenRefine/OpenRefine/wiki/FAQ%3A-Allocate-More-Memory
+https://docs.openrefine.org/manual/installing/#increasing-memory-allocation
 
 
 Extra:

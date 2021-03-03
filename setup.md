@@ -9,13 +9,13 @@ You need to install OpenRefine and download a data file to follow this lesson.
 
 ### Installing and running OpenRefine
 
-You can download OpenRefine from [http://openrefine.org/download.html](http://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.4.
+You can download OpenRefine from [https://openrefine.org/download.html](https://openrefine.org/download.html). This lesson has been tested with all versions of OpenRefine up to the latest tested version, 3.4.
 
 If you are using an older version, it is recommended you upgrade to the latest tested version. 
 
 There are versions for Windows, macOS and Linux.
 
-Please follow the installation instructions on the OpenRefine wiki: [Installation Instructions](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions)
+Please follow the installation instructions in the OpenRefine User Manual: [Installation Instructions](https://docs.openrefine.org/manual/installing)
 
 Notes:
 * When you download OpenRefine for Windows or Linux from the address above, you are downloading a zip file. To install OpenRefine you unzip the downloaded file wherever you want to install the program. This can be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the unzipped folder. The location has to be a "local" drive as problems have been reported trying to run OpenRefine from a Network drive.
@@ -28,7 +28,7 @@ You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/l
 
 ### Getting help
 
-If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/forum/?fromgroups#!forum/openrefine).
+If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/g/openrefine).
 
 If you are installing OpenRefine on Windows, you may want to check the forum for ['Windows' related threads](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/windows%7Csort:date) or specific threads like [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ).
 
