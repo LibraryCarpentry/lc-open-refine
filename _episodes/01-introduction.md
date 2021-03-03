@@ -68,5 +68,5 @@ Some common scenarios might be:
 ## What Should I Know When Working With OpenRefine?
 * No internet connection is needed, and none of the data or commands you enter in OpenRefine are sent to a remote server.
 * You are NOT modifying original/raw data.
-* Saving will happen automatically, but it's important to [properly shut down OpenRefine to ensure this](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions).
+* Projects are autosaved every five minutes and when OpenRefine is properly shut down (Ctrl+C). See [History in User Manual](https://docs.openrefine.org/manual/running/#history-undoredo) for details.
 * Files are saved locally such that if you are working on two computers you will have to export/import files/projects.
