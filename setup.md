@@ -26,7 +26,7 @@ Notes:
 * In OpenRefine versions 3.4+ the options "Windows kit with embedded Java" and "Mac kit" include Java as part of the package. You **do not** need to install Java if you use one of these kits. This is the preferred method on Windows and Mac systems.
 * On Windows, if you use the traditional "Windows kit" without embedded Java, you will need a "Java Runtime Environment" (JRE) on your system. If you do not already have JRE or JDK installed, you can visit [Adopt OpenJDK](https://adoptopenjdk.net/) or [Oracle Java](https://java.com/en/download/) to download an installer package. Please note that [Oracle significantly changed their license terms in 2019](https://www.oracle.com/java/technologies/javase/jdk-faqs.html) limiting it to "personal use" with out a paid license. If you use OpenRefine at work or in research, OpenJDK is preferred.
 * On Linux a "Java Runtime Environment" (JRE) will be required to run OpenRefine. If you do not already have JRE or JDK installed on your system, most distribution repositories will contain OpenJRE / OpenJDK packages. Install the default version available from your distribution. For example, on Ubuntu/Debian: `sudo apt install default-jre`.
-* OpenRefine does not support Internet Explorer or Edge. Please use [Firefox](https://www.mozilla.org/firefox/new/), [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
+* OpenRefine does not support Internet Explorer. Please use [Firefox](https://www.mozilla.org/firefox/new/), [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
 
 ### Downloading the data
 
