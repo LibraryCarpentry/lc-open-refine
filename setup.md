@@ -35,8 +35,7 @@ You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/l
 ### Getting help
 
 If you encounter problems installing or running OpenRefine, a good source of support is [the OpenRefine mailing list and forum](https://groups.google.com/g/openrefine).
-
-If you are installing OpenRefine on Windows, you may want to check the forum for ['Windows' related threads](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/windows%7Csort:date) or specific threads like [Installing OpenRefine on Windows 7](https://groups.google.com/forum/?fromgroups#!searchin/openrefine/64-bit%7Csort:date/openrefine/vUzqJqJ-sAA/Tb2Om9wvaqgJ).
+Include your operating system when searching to find the most relevant answers for your issue.
 
 There are also general and specialist tutorials about using OpenRefine available on the web, including:
 
