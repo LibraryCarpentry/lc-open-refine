@@ -39,6 +39,7 @@ Include your operating system when searching to find the most relevant answers f
 
 There are also general and specialist tutorials about using OpenRefine available on the web, including:
 
+* Official wiki [List of OpenRefine External Resources](https://github.com/OpenRefine/OpenRefine/wiki/External-Resources)
 * [Getting started with OpenRefine by Thomas Padilla](http://thomaspadilla.org/dataprep/)
 * [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max De Wilde](http://programminghistorian.org/lessons/cleaning-data-with-openrefine)
 * [Blog posts on using OpenRefine from Owen Stephens](http://www.meanboyfriend.com/overdue_ideas/tag/openrefine/?orderby=date&order=ASC)
