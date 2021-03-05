@@ -34,7 +34,8 @@ You can download [doaj-article-sample.csv](https://github.com/LibraryCarpentry/l
 
 ### Getting help
 
-If you encounter problems installing or running OpenRefine, good sources of support are the [OpenRefine Google Group](https://groups.google.com/g/openrefine) or [Stack Overflow OpenRefine tag](https://stackoverflow.com/questions/tagged/openrefine).
+If you encounter problems installing or running OpenRefine, a good source of support is the [OpenRefine mailing list and user forum](https://groups.google.com/g/openrefine).
+You may also want to check the [Stack Overflow OpenRefine tag](https://stackoverflow.com/questions/tagged/openrefine) or the [OpenRefine Gitter room](https://gitter.im/OpenRefine/OpenRefine).
 Include your operating system when searching to find the most relevant answers for your issue.
 
 There are also general and specialist tutorials about using OpenRefine available on the web, including:
