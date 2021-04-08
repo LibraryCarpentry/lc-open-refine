@@ -58,7 +58,12 @@ The next exercise demonstrates this two stage process in full.
 >The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 >
 >* In the expression box type the GREL ```"https://api.crossref.org/journals/"+value```
+> 
+>At this point, your screen should be similar to this:
+>![Add column by fetching URLs screen capture](../assets/img/openrefine_add_columns_by_url.png)
+>
 >* Click 'OK'
+>
 >
 >You should see a message at the top on the OpenRefine screen indicating it is fetching some data, and how far it has got. Wait for this to complete. Fetching data for a single row should take only ten seconds or so, but fetching data for all rows will take longer. You can speed this up by modifying the "Throttle Delay" setting in the 'Add column by fetching URLs' dialog which controls the delay between each URL request made by OpenRefine. This is defaulted to a rather large 5000 milliseconds (5 seconds).
 >
