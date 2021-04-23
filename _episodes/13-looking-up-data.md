@@ -7,10 +7,10 @@ questions:
 - "How do I reconcile my data by comparing it to authoritative datasets"
 - "How do I install extensions for OpenRefine"
 objectives:
-- "Introduce how to use URLs to fetch data from the web based on what's in an OpenRefine project"
-- "Introduce how to parse JSON data returned by web services"
-- "Introduce how to use Reconciliation services"
-- "Introduce OpenRefine extensions"
+- "Use URLs to fetch data from the web based on columns in an OpenRefine project"
+- "Add columns to parse JSON data returned by web services"
+- "Understand how Reconciliation services are used to validate data"
+- "Add functionality using OpenRefine extensions"
 keypoints:
 - "OpenRefine can look up custom URLs to fetch data based on what's in an OpenRefine project"
 - "Such API calls can be custom built, or one can use existing Reconciliation services to enrich data"
@@ -58,13 +58,18 @@ The next exercise demonstrates this two stage process in full.
 >The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 >
 >* In the expression box type the GREL ```"https://api.crossref.org/journals/"+value```
+> 
+>At this point, your screen should be similar to this:
+>![Add column by fetching URLs screen capture](../assets/img/openrefine_add_columns_by_url.png)
+>
 >* Click 'OK'
+>
 >
 >You should see a message at the top on the OpenRefine screen indicating it is fetching some data, and how far it has got. Wait for this to complete. Fetching data for a single row should take only ten seconds or so, but fetching data for all rows will take longer. You can speed this up by modifying the "Throttle Delay" setting in the 'Add column by fetching URLs' dialog which controls the delay between each URL request made by OpenRefine. This is defaulted to a rather large 5000 milliseconds (5 seconds).
 >
 >At this point you should have a new cell containing a long text string in a format called 'JSON' (this stands for JavaScript Object Notation, although very rarely spelt out in full).
 >
->OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The 'parseJson' function is explained in more detail at [https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions](https://github.com/OpenRefine/OpenRefine/wiki/GREL-Other-Functions).
+>OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The 'parseJson' function is explained in more detail at [https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml](https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml).
 >
 >* In the new column you've just added use the dropdown menu to access 'Edit column->Add column based on this column'
 >* Add a name for the new column e.g. "Journal-Title"
@@ -75,7 +80,7 @@ The next exercise demonstrates this two stage process in full.
 {: .challenge}
 
 ## Reconciliation services
-Reconciliation services allow you to lookup terms from your data in OpenRefine against external services, and use values from the external services in your data. The official wiki provides [detailed information about this feature](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation).
+Reconciliation services allow you to lookup terms from your data in OpenRefine against external services, and use values from the external services in your data. The official User Manual provides [detailed information about the reconciliation feature](https://docs.openrefine.org/manual/reconciling).
 
 Reconciliation services can be more sophisticated and often quicker than using the method described above to retrieve data from a URL. However, to use the ‘Reconciliation’ function in OpenRefine requires the external resource to support the necessary service for OpenRefine to work with, which means unless the service you wish to use supports such a service you cannot use the ‘Reconciliation’ approach.
 
@@ -90,9 +95,9 @@ Other extensions are available to do reconciliation against local data such as c
 For more information on using Reconciliation services see [https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API)
 
 >## Reconcile Publisher names with VIAF IDs
->In this exercise you are going to use the VIAF Reconciliation service written by [Jeff Chiu](https://twitter.com/absolutelyjeff). Jeff offers two ways of using the reconciliation service - either via a public service he runs at [http://refine.codefork.com/](http://refine.codefork.com/), or by installing and running the service locally using the instructions at [https://github.com/codeforkjeff/refine_viaf](https://github.com/codeforkjeff/refine_viaf).
+>In this exercise you are going to use the VIAF Reconciliation service written by [Jeff Chiu](https://twitter.com/absolutelyjeff). Jeff offers two ways of using the reconciliation service - either via a public service he runs at [http://refine.codefork.com/](http://refine.codefork.com/), or by installing and running the service locally using the instructions at [https://github.com/codeforkjeff/conciliator](https://github.com/codeforkjeff/conciliator).
 >
->If you are going to do a lot of reconciliation, please install and run your own local reconciliation service - the instructions at [https://github.com/codeforkjeff/refine_viaf](https://github.com/codeforkjeff/refine_viaf) make this reasonably straightforward.
+>If you are going to do a lot of reconciliation, please install and run your own local reconciliation service - the instructions at [https://github.com/codeforkjeff/conciliator](https://github.com/codeforkjeff/conciliator#running-conciliator-on-your-own-computer) make this reasonably straightforward.
 >
 >Once you have chosen which service you are going to use:
 >
@@ -101,7 +106,7 @@ For more information on using Reconciliation services see [https://github.com/Op
 >    * Click 'Add Standard Service...' and in the dialogue that appears enter:
 >        * "http://refine.codefork.com/reconcile/viaf" for Jeff's public service
 >        * "http://localhost:8080/reconcile/viaf" if you are running the service locally
->* You should now see a heading in the list on the left hand side of the Reconciliation dialogue called "VIAF Reconciliation Service"
+>* You should now see a heading in the list on the left hand side of the Reconciliation dialogue called "VIAF"
 >* Click on this to choose to use this reconciliation service
 >* In the middle box in the reconciliation dialogue you may get asked what type of 'entity' you want to reconcile to - that is, what type of thing are you looking for. The list will vary depending on what reconciliation service you are using.
 >    * In this case choose "Corporate Name" (it seems like the VIAF Reconciliation Service is slightly intelligent about this and will only offer options that are relevant)
