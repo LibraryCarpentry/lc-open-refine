@@ -106,7 +106,7 @@ For more information on using Reconciliation services see [https://github.com/Op
 >    * Click 'Add Standard Service...' and in the dialogue that appears enter:
 >        * "http://refine.codefork.com/reconcile/viaf" for Jeff's public service
 >        * "http://localhost:8080/reconcile/viaf" if you are running the service locally
->* You should now see a heading in the list on the left hand side of the Reconciliation dialogue called "VIAF Reconciliation Service"
+>* You should now see a heading in the list on the left hand side of the Reconciliation dialogue called "VIAF"
 >* Click on this to choose to use this reconciliation service
 >* In the middle box in the reconciliation dialogue you may get asked what type of 'entity' you want to reconcile to - that is, what type of thing are you looking for. The list will vary depending on what reconciliation service you are using.
 >    * In this case choose "Corporate Name" (it seems like the VIAF Reconciliation Service is slightly intelligent about this and will only offer options that are relevant)
