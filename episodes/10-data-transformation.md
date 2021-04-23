@@ -7,7 +7,9 @@ questions:
 - "How do I transform the various data types?"
 objectives:
 - "Name and describe 4 types of data - String, Number, Date and Boolean"
+- "Transform dates for further analysis"
 - "Use Boolean to identify information recorded in a different format"
+- "Create and run transformations based on Boolean Values"
 keypoints:
 - "You can alter data in OpenRefine based on specific instructions"
 - "You can expand the data editing functions that are built-in into OpenRefine by building your own"
