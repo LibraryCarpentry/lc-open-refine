@@ -21,7 +21,7 @@ keypoints:
 >* CSV (comma-separated values)
 >* Excel
 >* JSON (javascript object notation)
->* XML
+>* XML (extensible markup language)
 >* Google Spreadsheet
 {: .callout}
 
