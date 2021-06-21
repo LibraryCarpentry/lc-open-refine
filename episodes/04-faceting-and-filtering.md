@@ -23,7 +23,7 @@ Facets are one of the most useful features of OpenRefine and can help in both ge
 
 A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
 
-The simplest type of Facet is called a 'Text facet'. This groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
+One of the most commonly used facets is called a 'Text facet'. This groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
 To create a Text Facet for a column, click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel.
 
