@@ -31,7 +31,7 @@ The facet consists of a list of values used in the data. You can filter the data
 
 You can include multiple values from the facet in a filter at one time by using the `Include` option which appears when you put your mouse over a value in the Facet.
 
-You can also `invert` the facet to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
+You can also `invert` the filter to show all records which do not match your selected values. This option appears at the top of the Facet panel when you select a value from the facet to apply as a filter.
 
 >## Let's create a text facet
 >1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
@@ -58,7 +58,7 @@ You can also `invert` the facet to show all records which do not match your sele
 ## Filters
 As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column  based on a unique text string, like a 'find' feature. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'.
 
-As with Facets, the Filter options appear in the left hand panel in OpenRefine. As you type the text you want to find into the Filter's text box, OpenRefine works to display only rows that contain that text in the relevant column.
+As with Facets, the Filter options appear in the left hand panel in OpenRefine. As you type the text you want to use in the Filter in the Filter's text box, OpenRefine works to display only rows that contain that text in the relevant column.
 
 You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions/) in the filter.
 
