@@ -65,15 +65,15 @@ Taking the above example again, this would result in a string with the days of t
 >6. Since the ```contains``` function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma
 >7. In this facet select 'true' to narrow down to the author names that contain a comma
 >
->Now we have narrowed down to the lines with a comma in a name, we can use the ```match``` function. The match function allows you to use regular expressions, and output the capture groups as an array, which you can then manipulate.
+>Now we have narrowed down to the lines with a comma in a name, we can use the GREL ```split``` function. This is different to the ```Split multi-valued cells``` operation we have previously used as it allows us to manipulate the content of a cell, rather than create new cells.
 >
 >1. On the ```Authors``` column use the dropdown menu and select ```Edit cells->Transform ```
->2. In the Expression box type ```value.match(/(.*),(.*)/)```  The ```/```,  means you are using a regular expression inside a GREL expression. The parentheses indicate you are going to match a group of characters. The ```.*``` expression will match any character(s) appearing 0, 1 or more times. So here we are matching any number of characters, a comma, and another set of any number of characters.
+>2. In the Expression box type ```value.split(", ")``` (make sure to include a space after the comma inside the split expression to avoid extra spaces in your author name later).
 >3. See how this creates an array with two members in each row in the Preview column
 >
 >To get the author name in the natural order you can reverse the array and join it back together with a space to create the string you need:
 >
->1. In the Expression box, add to the existing expression until it reads ```value.match(/(.*),(.*)/).reverse().join(" ")```
+>1. In the Expression box, add to the existing expression until it reads ```value.split(", ").reverse().join(" ")```
 >2. In the Preview view you should be able see this has reversed the array, and joined it back into a string
 >* Click ```OK```
 {: .checklist}
