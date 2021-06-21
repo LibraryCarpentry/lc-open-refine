@@ -27,7 +27,7 @@ Typically this is a two step process, firstly a step to retrieve data from a rem
 
 To retrieve data from an external source, use the drop down menu at any column heading and select ‘Edit column->Add column by fetching URLs’.
 
-This will prompt you for a GREL expression to create a URL. Usually this would be a URL that uses existing values in your data to build a query. When the query runs OpenRefine will request each URL (for each line) and retrieve whatever data is returned (this may often be structured data, but could be simply HTML).
+This will prompt you for a GREL expression to create a URL. Usually this would be a URL that uses existing values in your data to build a query. When the query runs OpenRefine will request each URL (for each line) and retrieve whatever data is returned (this may often be structured data, but could be HTML).
 
 The data retrieved will be stored in a cell in the new column that has been added to the project. You can then use OpenRefine transformations to extract relevant information from the data that has been retrieved. Two specific OpenRefine functions used for this are:
 
@@ -58,7 +58,7 @@ The next exercise demonstrates this two stage process in full.
 >The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 >
 >* In the expression box type the GREL ```"https://api.crossref.org/journals/"+value```
-> 
+>
 >At this point, your screen should be similar to this:
 >![Add column by fetching URLs screen capture](../assets/img/openrefine_add_columns_by_url.png)
 >
@@ -76,7 +76,7 @@ The next exercise demonstrates this two stage process in full.
 >* In the Expression box type the GREL ```value.parseJson().message.title```
 >* You should see in the Preview the Journal title displays
 >
->The reason for using 'Add column based on this column' is simply that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the title and did not need any other information from the JSON you could use 'Edit cells->Transform...' with the same GREL expression.
+>The reason for using 'Add column based on this column' is that this allows you to retain the full JSON and extract further data from it if you need to. If you only wanted the title and did not need any other information from the JSON you could use 'Edit cells->Transform...' with the same GREL expression.
 {: .challenge}
 
 ## Reconciliation services
@@ -97,7 +97,7 @@ For more information on using Reconciliation services see [https://github.com/Op
 >## Reconcile Publisher names with VIAF IDs
 >In this exercise you are going to use the VIAF Reconciliation service written by [Jeff Chiu](https://twitter.com/absolutelyjeff). Jeff offers two ways of using the reconciliation service - either via a public service he runs at [http://refine.codefork.com/](http://refine.codefork.com/), or by installing and running the service locally using the instructions at [https://github.com/codeforkjeff/conciliator](https://github.com/codeforkjeff/conciliator).
 >
->If you are going to do a lot of reconciliation, please install and run your own local reconciliation service - the instructions at [https://github.com/codeforkjeff/conciliator](https://github.com/codeforkjeff/conciliator#running-conciliator-on-your-own-computer) make this reasonably straightforward.
+>If you are going to do a lot of reconciliation, please install and run your own local reconciliation service following the instructions at [https://github.com/codeforkjeff/conciliator](https://github.com/codeforkjeff/conciliator#running-conciliator-on-your-own-computer).
 >
 >Once you have chosen which service you are going to use:
 >
@@ -162,4 +162,5 @@ As it returns the whole row for each match, you can use a transformation to extr
 
 You can use this function to compare the contents of two OpenRefine projects, or to use data between the two projects.
 
-The [VIB-Bits extension](https://www.bits.vib.be/index.php/software-overview/openrefine) adds a number of very useful functions to OpenRefine including a way of using the 'cross' function with simply point-and-click functionality which makes looking up data from other projects much easier.
+The [VIB-Bits extension](https://www.bits.vib.be/index.php/software-overview/openrefine) adds a number of very useful functions to OpenRefine.
+One of them is "Add column(s) from other projects...", which provides a dialog window to help you work with the `cross` function with less typing.
