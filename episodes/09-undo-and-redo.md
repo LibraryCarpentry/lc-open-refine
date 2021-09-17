@@ -16,9 +16,9 @@ OpenRefine lets you undo, and redo, any number of steps you have taken in cleani
 
 The ```Undo``` and ```Redo``` options are accessed via the lefthand panel.
 
-The Undo/Redo panel lists all the steps you've taken so far. To undo steps, simply click on the last step you want to preserve in the list and this will automatically undo all the changes made since that step.
+The Undo/Redo panel lists all the steps you've taken so far. To undo steps, click on the last step you want to preserve in the list and this will automatically undo all the changes made since that step.
 
-The remaining steps will continue to show in the list but greyed out, and you can reapply them by simply clicking on the last step you want to apply.
+The remaining steps will continue to show in the list but greyed out, and you can reapply them by clicking on the last step you want to apply.
 
 However, if you 'undo' a set of steps and then start doing new transformations, the greyed out steps will disappear and you will no longer have the option to 'redo' these steps.
 
