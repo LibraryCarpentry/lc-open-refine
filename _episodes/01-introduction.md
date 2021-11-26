@@ -23,7 +23,7 @@ OpenRefine is most useful where you have data in a simple tabular format such as
 * Get an overview of a data set
 * Resolve inconsistencies in a data set, for example standardizing date formatting
 * Help you split data up into more granular parts, for example splitting up cells with multiple authors into separate cells
-* Match local data up to other data sets, for example in matching local subjects against the Library of Congress Subject Headings
+* Match local data up to other data sets - for example, in matching forms of personal names against name authority records in the Virtual International Authority File (VIAF)
 * Enhance a data set with data from other sources
 
 Some common scenarios might be:
