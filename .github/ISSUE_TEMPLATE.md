@@ -2,7 +2,7 @@ Please delete this line and the text below before submitting your contribution.
 
 ---
 
-Thanks for contributing! If this contribution is for instructor training, please send an email to checkout@carpentries.org with a link to this contribution so we can record your progress. You’ve completed your contribution step for instructor checkout just by submitting this contribution.  
+Thanks for contributing! If this contribution is for instructor training, please send an email to instructor.training@carpentries.org with a link to this contribution so we can record your progress. You’ve completed your contribution step for instructor checkout just by submitting this contribution.  
 
 If this issue is about a specific episode within a lesson, please provide its link or filename.
 
