@@ -1,5 +1,5 @@
 ---
-title: "Advanced OpenRefine functions"
+title: "Looking Up Data"
 teaching: 20
 exercises: 10
 questions:
@@ -39,7 +39,7 @@ The 'parseHtml()' function can also be used to extract data from XML.
 The next exercise demonstrates this two stage process in full.
 
 >## Retrieving journal details from CrossRef via ISSN
->Because retrieving data from external URLs takes time, this exercise targets a single line in the data. In reality you would want to run this over many rows (and probably go and do something else while it ran)
+>Because retrieving data from external URLs takes time, this exercise targets a single line in the data. In reality you would want to run this over many rows (and probably go and do something else while it ran).
 >
 >* Select a single row from the data set which contains an ISSN by:
 >    * Clicking the star icon for the relevant row in the first column
@@ -148,10 +148,12 @@ For more information on using Reconciliation services see [https://github.com/Op
 >* This will create a new column that contains the VIAF ID for the matched entity
 {: .challenge}
 
-## Extensions
+## Callout Extensions
 The functionality in OpenRefine can be enhanced by ‘extensions’ which can be downloaded and installed to add functionality to your OpenRefine installation.
 
 A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at [http://openrefine.org/download.html](http://openrefine.org/download.html).
+{: .source}
+{: .callout}
 
 ## Using the ‘cross’ function to lookup data in other OpenRefine projects
 As well as looking up data in external systems using the methods described above, it is also possible to look up data in other OpenRefine projects on the same computer. This is done using the ‘cross’ function.
