@@ -6,7 +6,7 @@ questions:
 - "What is a facet in OpenRefine?"
 - "What is a filter in OpenRefine?"
 - "How can I use filters and facets to explore data in OpenRefine?"
-- "How can I easily correct common data issues in my data with OpenRefine?"
+- "How can I correct common data issues in my data with OpenRefine?"
 objectives:
 - "Explain what Facets and Filters are"
 - "Answer questions about the content of a data set using Facets"
@@ -15,7 +15,7 @@ objectives:
 keypoints:
 - "You can use facets and filters to explore your data"
 - "You can use facets and filters work with a subset of data in OpenRefine"
-- "You can easily correct common data issues from a Facet"
+- "You can correct common data issues from a Facet"
 ---
 
 ## Facets
@@ -23,7 +23,7 @@ Facets are one of the most useful features of OpenRefine and can help in both ge
 
 A 'Facet' groups all the values that appear in a column, and then allows you to filter the data by these values and edit values across many records at the same time.
 
-The simplest type of Facet is called a 'Text facet'. This simply groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
+One of the most commonly used facets is called a 'Text facet'. This groups all the text values in a column and lists each value with the number of records it appears in. The facet information always appears in the left hand panel in the OpenRefine interface.
 
 To create a Text Facet for a column, click on the drop down menu at the top of the publisher column and choose `Facet -> Text Facet`. The facet will then appear in the left hand panel.
 
@@ -35,7 +35,7 @@ You can also `invert` the filter to show all records which do not match your sel
 
 >## Let's create a text facet
 >1. Click on the drop down menu at the top of the publisher column and choose `Facet > Text Facet`. The facet will then appear in the left hand panel
->2. To select a single value, just click the relevant line in the facet
+>2. To select a single value, click the text of the relevant line in the facet
 >3. To select multiple values click the `Include` option on the appropriate line in the facet (which only appears when you mouse over the line)
 >3. You can 'invert' your selections to `exclude`
 >4. Include a value and then look at top to invert inclusion.
@@ -58,15 +58,15 @@ You can also `invert` the filter to show all records which do not match your sel
 ## Filters
 As well as using Facets to filter the data displayed in OpenRefine you can also apply 'Text Filters' which looks for a particular piece of text appearing in a column  based on a unique text string, like a 'find' feature. Text filters are applied by clicking the drop down menu at the top of the column you want to apply the filter to and choosing 'Text filter'.
 
-As with Facets, the Filter options appear in the left hand panel in OpenRefine. Simply type in the text you want to use in the Filter to display only rows which contain that text in the relevant column.
+As with Facets, the Filter options appear in the left hand panel in OpenRefine. As you type the text you want to use in the Filter in the Filter's text box, OpenRefine works to display only rows that contain that text in the relevant column.
 
 You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions/) in the filter.
 
 ## Working with filtered data
-It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed. To confirm you are working with the data you intended to select, check the number of matching records displayed above the data table. 
+It is very important to note that when you have filtered the data displayed in OpenRefine, any operations you carry out will apply only to the rows that match the filter - that is the data currently being displayed. To confirm you are working with the data you intended to select, check the number of matching records displayed above the data table.
 
-## Other types of Facet 
-As well as 'Text facets' Refine also supports a range of other types of facet. These include:
+## Other types of Facet
+As well as 'Text facets' OpenRefine also supports a range of other types of facet. These include:
 
 * Numeric facets
 * Timeline facets (for dates)
@@ -99,7 +99,7 @@ Facets are intended to group together common values and OpenRefine limits the nu
 {: .challenge}
 
 ## Amending data through facets
-If you create a text facet you can edit the values in the facet to change the value for several records at the same time. To do this, simply mouse-over the value you want to edit and click the 'edit' option that appears.
+If you create a text facet you can edit the values in the facet to change the value for several records at the same time. To do this, mouse-over the value you want to edit and click the 'edit' option that appears.
 
 This approach is useful in relatively small facets where you might have small variations through punctuation or typing errors etc. For example, a column that should contain only terms from a small restricted list such as days of the week or months of the year.
 
