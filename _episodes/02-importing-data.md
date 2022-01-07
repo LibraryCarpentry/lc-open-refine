@@ -40,7 +40,7 @@ keypoints:
 >9. The Project Name box in the upper right corner will default to the title of your imported file. Click in the `Project Name` box to give your project a different name, if desired.
 >10. Once you are have selected the appropriate options for your project, click the `Create Project >>` button at the top right of the screen. This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
 >   
-> ![Create project screen capture](../assets/img/openrefine_ui.png)
+> ![Screenshot of Open Refine Create Project Screen](../assets/img/openrefine_ui.png)
 {: .checklist}
 
 To open an existing project in OpenRefine you can click `Open Project` from the main OpenRefine screen (in the left hand menu). When you click this, you will see a list of the existing projects and can click on a project's name to open it.
