@@ -92,7 +92,7 @@ One of the most common ways of using the reconciliation option in OpenRefine is 
 
 Other extensions are available to do reconciliation against local data such as csv files (see [http://okfnlabs.org/reconcile-csv/](http://okfnlabs.org/reconcile-csv/)) and maintained lists of values (see [http://okfnlabs.org/projects/nomenklatura/index.html](http://okfnlabs.org/projects/nomenklatura/index.html)).
 
-For more information on using Reconciliation services see [https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API](https://github.com/OpenRefine/OpenRefine/wiki/Reconciliation-Service-API)
+For more information on Reconciliation services see [https://reconciliation-api.github.io/census/](https://reconciliation-api.github.io/census/).
 
 >## Reconcile Publisher names with VIAF IDs
 >In this exercise you are going to use the VIAF Reconciliation service written by [Jeff Chiu](https://twitter.com/absolutelyjeff). Jeff offers two ways of using the reconciliation service - either via a public service he runs at [http://refine.codefork.com/](http://refine.codefork.com/), or by installing and running the service locally using the instructions at [https://github.com/codeforkjeff/conciliator](https://github.com/codeforkjeff/conciliator).
@@ -162,5 +162,5 @@ As it returns the whole row for each match, you can use a transformation to extr
 
 You can use this function to compare the contents of two OpenRefine projects, or to use data between the two projects.
 
-The [VIB-Bits extension](https://www.bits.vib.be/index.php/software-overview/openrefine) adds a number of very useful functions to OpenRefine.
+The [VIB-Bits extension](https://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/vib-bits.zip) ([manual](http://data.bits.vib.be/hidden/g7dt6RjuUTU421dY2CwrGePGX/OpenRefine%20VIB-BITS%20plugin.pdf)) adds a number of very useful functions to OpenRefine.
 One of them is "Add column(s) from other projects...", which provides a dialog window to help you work with the `cross` function with less typing.
