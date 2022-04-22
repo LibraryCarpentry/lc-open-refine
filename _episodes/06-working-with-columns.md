@@ -15,9 +15,9 @@ keypoints:
 ---
 
 ## Reordering columns
-You can re-order the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing 'Edit columns' > 'Re-order / remove columns …'.
+You can reorder the columns by clicking the drop-down menu at the top of the first column (labelled 'All'), and choosing 'Edit columns' > 'Re-order / remove columns …'.
 
-You can then drag and drop column names to re-order the columns, or remove columns completely if they are not required.
+You can then drag and drop column names to reorder the columns, or remove columns completely if they are not required.
 
 ## Renaming columns
 
