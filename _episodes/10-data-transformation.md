@@ -42,7 +42,7 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 {: .checklist}
 
 ### Booleans
-A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cell, but is more often used in transformations as part of a GREL expression. For example the GREL expression
+A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cells, but are more often used in transformations as part of a GREL expression. For example the GREL expression
 ```
 value.contains("test")
 ```
