@@ -1,5 +1,5 @@
 ---
-title: "Exporting your revised data"
+title: "Exporting data"
 teaching: 5
 exercises: 0
 questions:
