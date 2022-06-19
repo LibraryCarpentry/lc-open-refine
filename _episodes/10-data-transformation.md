@@ -38,8 +38,66 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 >3. Note how the values are now displayed in green and follow a standard convention for their display format (ISO 8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
 >4. On the Date column dropdown select ```Edit column->Add column based on this column```. Using this function you can create a new column, while preserving the old column
 >5. In the 'New column name' type "Formatted-Date"
->6. In the 'Expression' box type the GREL expression ```value.toString("dd MMM yyyy")``` if the date value was originally [2021-11-25] would convert it to "25 Nov 2021"
+>6. In the 'Expression' box type the GREL expression ```value.toString("dd MMM yyyy")
 {: .checklist}
+
+>## Understanding GREL Expressions
+>
+>General Refine Expression Language (GREL) allows to manipulate data in OpenRefine.
+>
+>One of the things we can do is request and specify how we want a date to be formated, following some examples and definition on letters meaning and usage. 
+>
+>Date and time formats require to be specified by ```pattern strings```, which basically means letters that have some specific representation in the function call. In our case that would be patterns strings for date and time.
+>
+>Pattern strings are case sensitive, which means they are capital and lower case letters have a different meaning and usage.
+{: .callout}
+
+The table below shows letters related to Date and Time representation.
+
+| Letter| Date or Time Representation|
+| ------------- |:-------------:|
+| `G` | Era designator|
+| `y` | Year|
+| `Y` | Week year|
+| `M` | Month in year|
+| `w` | Week in year|
+| `W` | Week in month|
+| `D` | Day in year|
+| `d` | Day in month|
+| `F` | Day of week in month|
+| `E` | Day name in week|
+| `u` | Day number of week|
+| `a` | AM/PM marker|
+| `H` | Hour in day (0-23)|
+| `k` | Hour in day (1-24)|
+| `K` | Hour in AM/PM (0-11)|
+| `h`| Hour in AM/PM (1-12)|
+| `m`| Minute in hour|
+| `s`| Second in minute|
+| `S`| Milisecond|
+| `n`| Nanosecond|
+| `z`| Time zone|
+| `Z`| Time zone|
+| `X`| Time zone|
+
+The table below presents examples on how to use the patterns as input and the obtained output.
+
+| Date and Time Pattern Input| Output|
+| ------------- |:-------------:|
+| `"h:mm a"`| 12:30 PM|
+| `"K:mm a, z"`| 0:07 PM, PDT|
+| `"EEE, MMM d, ''yy"`| Mon, Jan 1, '05|
+| `"yyyy.MM.dd G 'at' HH:mm:ss z"` | 2022.12.01 AD at 12:00:00 PDT |
+| `"hh 'o''clock' a, zzzz"`| 10 o'clock PM, Eastern Daylight Time|
+| `"yyyyy.MMMMM.dd GGG hh:mm aaa"`| 02022.June.19 AD 12:10 PM|
+| `"EEE, d MMM yyyy HH:mm:ss Z"`| Wed, 5 Jul 2022 12:04:55 -0700|
+| `"YYYY-'W'ww-u"`| 2023-W25-5|
+| `"yyMMddHHmmssZ"`| 010704120856-0700|
+| `"yyyy-MM-dd'T'HH:mm:ss.SSSZ"`| 2022-05-06T12:05:55.235-0700|
+| `"yyyy-MM-dd'T'HH:mm:ss.SSSXXX"`| 2022-05-06T12:05:55.235-07:00|
+
+For a more detailed explanation checkout [OpenFile Documentation](https://docs.openrefine.org/manual/grelfunctions#date-functions).
+
 
 ### Booleans
 A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cell, but is more often used in transformations as part of a GREL expression. For example the GREL expression
