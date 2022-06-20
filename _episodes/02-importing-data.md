@@ -19,7 +19,7 @@ keypoints:
 >
 >* TSV (tab-separated values)
 >* CSV (comma-separated values)
->* TXT (as long as the values are separated by commas)
+>* TXT
 >* Excel
 >* JSON (javascript object notation)
 >* XML (extensible markup language)
