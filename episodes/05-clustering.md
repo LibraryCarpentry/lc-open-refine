@@ -7,7 +7,7 @@ questions:
 - "How does clustering work in OpenRefine?"
 objectives:
 - "Explain what clustering is in OpenRefine"
-- "Use clustering to identify and fix replace varying forms of the same data with a single consistent value"
+- "Use clustering to identify and replace varying forms of the same data with a single consistent value"
 keypoints:
 - "Clustering is a way of finding variant forms of the same piece of data within a dataset (e.g. different spellings of a name)"
 - "There are a number of different Clustering algorithms that work in different ways and will produce different results"
