@@ -25,6 +25,9 @@ OpenRefine displays data in a tabular format. Each row will usually represent a 
 
 OpenRefine only displays a limited number of rows of data at one time. You can adjust the number choosing between 5, 10 (the default), 25 and 50 at the top left of the table of data. You can navigate through the records by using the previous/next/first/last navigation options at the top right of the table of data.
 
+In OpenRefine it is always possible to undo any changes: note the left panel, currently empty. Read the four words at the top of the panel:
+Facet/Filter and Undo/Redo.  We will focus on the undo/redo commands much later in the workshop; you are welcome to use it at anytime, as needed. 
+
 ## Working with data in OpenRefine
 Most options to work with data in OpenRefine are accessed from drop down menus at the top of the data columns. When you select an option in a particular column (e.g. to make a change to the data), it will affect all the cells in that column. If you want to make changes across several columns, you will need to do this one column at a time.
 
