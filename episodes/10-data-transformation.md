@@ -41,18 +41,14 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 >6. In the 'Expression' box type the GREL expression ```value.toString("dd MMM yyyy")
 {: .checklist}
 
->## Understanding GREL Expressions
+>## Specifying Date Formatting in GREL Expressions
 >
->General Refine Expression Language (GREL) allows to manipulate data in OpenRefine.
+>GREL allow us to specify date and time using ```pattern strings```, which are letters that have some specific representation in the function call.
 >
->One of the things we can do is request and specify how we want a date to be formated, following some examples and definition on letters meaning and usage. 
->
->Date and time formats require to be specified by ```pattern strings```, which basically means letters that have some specific representation in the function call. In our case that would be patterns strings for date and time.
->
->Pattern strings are case sensitive, which means they are capital and lower case letters have a different meaning and usage.
+>Pattern strings are case sensitive, therefore capital and lower case letters have a different meaning and usage.
 {: .callout}
 
-The table below shows letters related to Date and Time representation.
+The table below shows letters related to date and time representation.
 
 | Letter| Date or Time Representation|
 | ------------- |:-------------:|
