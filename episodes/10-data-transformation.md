@@ -52,45 +52,25 @@ The table below shows letters related to date and time representation.
 
 | Letter| Date or Time Representation|
 | ------------- |:-------------:|
-| `G` | Era designator|
 | `y` | Year|
-| `Y` | Week year|
 | `M` | Month in year|
-| `w` | Week in year|
-| `W` | Week in month|
 | `D` | Day in year|
 | `d` | Day in month|
 | `F` | Day of week in month|
 | `E` | Day name in week|
 | `u` | Day number of week|
 | `a` | AM/PM marker|
-| `H` | Hour in day (0-23)|
-| `k` | Hour in day (1-24)|
-| `K` | Hour in AM/PM (0-11)|
-| `h`| Hour in AM/PM (1-12)|
-| `m`| Minute in hour|
-| `s`| Second in minute|
-| `S`| Milisecond|
-| `n`| Nanosecond|
-| `z`| Time zone|
-| `Z`| Time zone|
-| `X`| Time zone|
 
 The table below presents examples on how to use the patterns as input and the obtained output.
 
 | Date and Time Pattern Input| Output|
 | ------------- |:-------------:|
-| `"h:mm a"`| 12:30 PM|
-| `"K:mm a, z"`| 0:07 PM, PDT|
+| `"yyyy-MM-dd"`| 2022-05-06|
+| `"dd MMM yyyy`| 10 Jun 2022|
 | `"EEE, MMM d, ''yy"`| Mon, Jan 1, '05|
-| `"yyyy.MM.dd G 'at' HH:mm:ss z"` | 2022.12.01 AD at 12:00:00 PDT |
-| `"hh 'o''clock' a, zzzz"`| 10 o'clock PM, Eastern Daylight Time|
-| `"yyyyy.MMMMM.dd GGG hh:mm aaa"`| 02022.June.19 AD 12:10 PM|
-| `"EEE, d MMM yyyy HH:mm:ss Z"`| Wed, 5 Jul 2022 12:04:55 -0700|
-| `"YYYY-'W'ww-u"`| 2023-W25-5|
-| `"yyMMddHHmmssZ"`| 010704120856-0700|
-| `"yyyy-MM-dd'T'HH:mm:ss.SSSZ"`| 2022-05-06T12:05:55.235-0700|
-| `"yyyy-MM-dd'T'HH:mm:ss.SSSXXX"`| 2022-05-06T12:05:55.235-07:00|
+| `"yyyy.MMMMM.dd hh:mm aaa"`| 2022.June.19 12:10 PM|
+| `"EEE, d MMM yyyy HH:mm:ss"`| Wed, 5 Jul 2022 12:04:55|
+
 
 For a more detailed explanation checkout [OpenFile Documentation](https://docs.openrefine.org/manual/grelfunctions#date-functions).
 
