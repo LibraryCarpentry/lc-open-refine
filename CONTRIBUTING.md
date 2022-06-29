@@ -148,7 +148,7 @@ You can also [reach us by email][contact].
 [github]: http://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
 [github-join]: https://github.com/join
-[how-contribute]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
+[how-contribute]: https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
 [issues]: https://github.com/LibraryCarpentry/lc-open-refine/issues
 [repo]: https://github.com/LibraryCarpentry/lc-open-refine
 [swc-issues]: https://github.com/issues?q=user%3Aswcarpentry
