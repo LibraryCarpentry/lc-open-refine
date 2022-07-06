@@ -26,6 +26,13 @@ You can rename a column by opening the drop-down menu at the top of the column t
 ## Sorting data
 You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`.
 
+Once applied, locate the new "Sort" button at the top of the grid, pictured in [documentation](https://docs.openrefine.org/assets/images/sort2-3db578c2c60877a5d84129e51ff48021.png). 
+
+"Change the order in which sorts are applied" is not the same as the sort order for a particular column. If  a project has an Author column and a Title column, applying sorts on both columns, then the new "Sort" drop down menu offers:
+
+* Sort by title, then by author (so if two books had the same title but different authors, the two rows for that title would be next to each other in the sort, but ordered by the author name).
+* Sort by author, then by title (so if one author had written multiple books, the rows for that author would be grouped together, ordered by the title of the book).
+
 Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent.
 
 To sort multiple columns, click on the drop-down menu for the second column you want to sort and choose `Sort`. In the new Sort dialog box, make sure that `sort by this column alone` is not checked.
