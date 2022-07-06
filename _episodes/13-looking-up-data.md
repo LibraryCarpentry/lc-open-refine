@@ -55,7 +55,7 @@ The next exercise demonstrates this two stage process in full.
 >* Click 'Show' (next to 'HTTP headers to be used when fetching URLs'). Note that OpenRefine has already populated the 'User-Agent' field with information about the version of OpenRefine you are using; it should look similar to ```OpenRefine 3.4.1 [437dc4d]``` (the information following ```OpenRefine``` will depend on the version of OpenRefine you are using).
 >* At the end of the existing text, add ```; mailto:address@library.edu```, using your own email address. The full User-Agent field should now be similar to ```OpenRefine 3.4.1 [437dc4d]; mailto:address@library.edu``` but reflect your version information and email address.
 >
->The syntax for requesting journal information from CrossRef is ```http://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
+>The syntax for requesting journal information from CrossRef is ```https://api.crossref.org/journals/{ISSN}``` where {ISSN} is replaced with the ISSN of the journal
 >
 >* In the expression box type the GREL ```"https://api.crossref.org/journals/"+value```
 >
