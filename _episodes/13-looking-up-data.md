@@ -159,7 +159,7 @@ You can use this function to compare the contents of two OpenRefine projects, or
 
 The VIB-Bits extension adds a number of very useful functions to OpenRefine. One of them is "Add column(s) from other projects...", which provides a dialog window to help you work with the `cross` function with less typing.
 
-## Extensions
+>## Extensions
 >The functionality in OpenRefine can be enhanced by ‘extensions’ which can be downloaded and installed to add functionality to your OpenRefine installation.
 >
 >A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at [http://openrefine.org/download.html](http://openrefine.org/download.html).
