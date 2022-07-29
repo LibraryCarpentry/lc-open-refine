@@ -26,7 +26,9 @@ You can rename a column by opening the drop-down menu at the top of the column t
 ## Sorting data
 You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`.
 
-Once you have sorted the data, a new `Sort` drop-down menu will be displayed.
+Once applied, locate the new "Sort" button at the top of the grid.
+
+<img src="https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/assets/img/sort2_OpenRefineDocumentation_highlights.png" alt="Addition of Sort menu to OpenRefine grid after first sort command" width=75%>
 
 Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent.
 
