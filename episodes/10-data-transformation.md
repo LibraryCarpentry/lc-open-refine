@@ -65,14 +65,6 @@ The table below presents examples on how to use the patterns as input and the ob
 
 | Date and Time Pattern Input| Output|
 | ------------- |:-------------:|
-| `"yyyy-MM-dd"`| 2022-05-06|
-| `"dd MMM yyyy`| 10 Jun 2022|
-| `"EEE, MMM d, ''yy"`| Mon, Jan 1, '05|
-| `"yyyy.MMMMM.dd hh:mm aaa"`| 2022.June.19 12:10 PM|
-| `"EEE, d MMM yyyy HH:mm:ss"`| Wed, 5 Jul 2022 12:04:55|
-
-
-For a more detailed explanation checkout [OpenFile Documentation](https://docs.openrefine.org/manual/grelfunctions#date-functions).
 | `"yyyy-MM-dd"`| 2022-06-05|
 | `"dd MMM yyyy"`| 05 Jun 2022|
 | `"EEE, MMM d, ''yy"`| Mon, Jun 5, '22|
