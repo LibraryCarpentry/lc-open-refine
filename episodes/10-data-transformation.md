@@ -73,6 +73,7 @@ The table below presents examples on how to use the patterns as input and the ob
 
 
 For a more detailed explanation checkout [OpenFile Documentation](https://docs.openrefine.org/manual/grelfunctions#date-functions).
+| For a more detailed explanation checkout [OpenFile Documentation](https://docs.openrefine.org/manual/grelfunctions#date-functions).
 
 
 ### Booleans
