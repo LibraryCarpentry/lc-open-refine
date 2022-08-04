@@ -28,7 +28,7 @@ You can sort data in OpenRefine by clicking on the drop-down menu for the column
 
 Once applied, locate the new "Sort" button at the top of the grid.
 
-<img src="https://github.com/LibraryCarpentry/lc-open-refine/blob/gh-pages/assets/img/sort2_OpenRefineDocumentation_highlights.png" alt="Addition of Sort menu to OpenRefine grid after first sort command" width=75%>
+![Addition of Sort menu to OpenRefine grid after first sort command](../assets/img/sort-menu-highlight.png)
 
 Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent.
 
