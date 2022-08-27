@@ -39,9 +39,9 @@ to download an installer package. Please note that
 JRE or JDK installed on your system, most distribution repositories will contain OpenJRE / OpenJDK packages. 
 Install the default version available from your distribution. For example, on Ubuntu/Debian: 
 `sudo apt install default-jre`.
-* OpenRefine does not support Internet Explorer. Please use [Firefox](https://www.mozilla.org/firefox/new/), 
+* OpenRefine does not support Internet Explorer. Please use [Firefox](https://www.mozilla.org/firefox/new/),
+[Microsoft Edge](https://www.microsoft.com/edge),
 [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
-
 
 ### Downloading the data
 
