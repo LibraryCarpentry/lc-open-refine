@@ -34,10 +34,10 @@ Examples of some of these common transformations are given in the table below, w
 
 Common Transformation  | Action | GREL expression
 --------------------| ------------- | -------------
-To Uppercase| Converts the current value to uppercase | ```value.toUppercase()```
-To Lowercase| Converts the current value to lowercase | ```value.toLowercase()```
-To Titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
-Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start or end of the current value | ```value.trim()```
+To uppercase| Converts the current value to uppercase | ```value.toUppercase()```
+To lowercase| Converts the current value to lowercase | ```value.toLowercase()```
+To titlecase| Converts the current value to titlecase (i.e. each word starts with an uppercase character and all other characters are converted to lowercase) | ```value.toTitlecase()```
+Trim leading and trailing whitespace | Removes any 'whitespace' characters (e.g. spaces, tabs) from the start and end of the current value | ```value.trim()```
 
 >## Correct Publisher data
 >1. Create a text facet on the Publisher column
