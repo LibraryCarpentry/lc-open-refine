@@ -41,7 +41,7 @@ Install the default version available from your distribution. For example, on Ub
 `sudo apt install default-jre`.
 * OpenRefine does not support Internet Explorer. Please use [Firefox](https://www.mozilla.org/firefox/new/), 
 [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
-
+* For additional, system-speficic guidance on installing and running OpenRefine, see the "Running OpenRefine" section of the OpenRefine Documentation page, available at: <https://docs.openrefine.org/manual/running>.
 
 ### Downloading the data
 
