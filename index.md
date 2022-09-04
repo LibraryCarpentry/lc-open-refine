@@ -6,7 +6,7 @@ This Library Carpentry lesson introduces people working in library- and informat
 > ## Prerequisites
 > To complete this lesson you will need to:
 > 
-> 1. Install OpenRefine
+> 1. Install OpenRefine or use it through a cloud service
 > 1. Download a data file
 > 1. Use a supported browser
 > 
