@@ -104,7 +104,7 @@ For more information on using Reconciliation services see [https://docs.openrefi
 >* In the Publisher column use the dropdown menu to choose 'Reconcile->Start Reconciling'
 >* If this is the first time you've used this particular reconciliation service, you'll need to add the details of the service now
 >    * Click 'Add Standard Service...' and in the dialogue that appears enter:
->        * "http://refine.codefork.com/reconcile/viaf" for Jeff's public service
+>        * "https://refine.codefork.com/reconcile/viaf" for Jeff's public service
 >        * "http://localhost:8080/reconcile/viaf" if you are running the service locally
 >* You should now see a heading in the list on the left hand side of the Reconciliation dialogue called "VIAF"
 >* Click on this to choose to use this reconciliation service
