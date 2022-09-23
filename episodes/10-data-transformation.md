@@ -70,7 +70,8 @@ The table below presents examples on how to use the patterns as input and the ob
 | `"EEE, MMM d, ''yy"`| Mon, Jun 5, '22|
 | `"yyyy.MMMM.dd hh:mm a"`| 2022.June.05 12:10 PM|
 | `"EEE, d MMM yyyy HH:mm:ss"`| Mon, 5 Jun 2022 12:10:10|
-| For a more detailed explanation checkout [OpenFile Documentation](https://docs.openrefine.org/manual/grelfunctions#date-functions).
+
+For a more detailed explanation checkout [OpenRefine Documentation](https://docs.openrefine.org/manual/grelfunctions#date-functions).
 
 
 ### Booleans
