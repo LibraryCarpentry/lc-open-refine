@@ -38,8 +38,40 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 >3. Note how the values are now displayed in green and follow a standard convention for their display format (ISO 8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
 >4. On the Date column dropdown select ```Edit column->Add column based on this column```. Using this function you can create a new column, while preserving the old column
 >5. In the 'New column name' type "Formatted-Date"
->6. In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")```
+>6. In the 'Expression' box type the GREL expression ```value.toString("dd MMMM yyyy")
 {: .checklist}
+
+>## Specifying Date Formatting in GREL Expressions
+>
+>GREL allow us to specify date and time using ```pattern strings```, which are letters that have some specific representation in the function call.
+>
+>Pattern strings are case sensitive, therefore capital and lower case letters have a different meaning and usage.
+{: .callout}
+
+The table below shows letters related to date and time representation.
+
+| Letter| Date or Time Representation|
+| ------------- |:-------------:|
+| `y` | Year|
+| `M` | Month in year|
+| `D` | Day in year|
+| `d` | Day in month|
+| `F` | Day of week in month|
+| `E` | Day name in week|
+| `u` | Day number of week|
+| `a` | AM/PM marker|
+
+The table below presents examples on how to use the patterns as input and the obtained output.
+
+| Date and Time Pattern Input| Output|
+| ------------- |:-------------:|
+| `"yyyy-MM-dd"`| 2022-06-05|
+| `"dd MMM yyyy"`| 05 Jun 2022|
+| `"EEE, MMM d, ''yy"`| Mon, Jun 5, '22|
+| `"yyyy.MMMM.dd hh:mm a"`| 2022.June.05 12:10 PM|
+| `"EEE, d MMM yyyy HH:mm:ss"`| Mon, 5 Jun 2022 12:10:10|
+| For a more detailed explanation checkout [OpenFile Documentation](https://docs.openrefine.org/manual/grelfunctions#date-functions).
+
 
 ### Booleans
 A 'Boolean' is a binary value that can either be 'true' or 'false'. Boolean values can be used directly in OpenRefine cells, but are more often used in transformations as part of a GREL expression. For example the GREL expression
