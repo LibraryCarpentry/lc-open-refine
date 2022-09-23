@@ -20,7 +20,7 @@ The "Linux kit" and traditional "Windows kit" require a "Java Runtime Environmen
 
 If you are using an older version of OpenRefine, it is recommended you upgrade to the latest tested version. 
 
-Please follow the installation instructions in the OpenRefine User Manual: [Installation Instructions](https://docs.openrefine.org/manual/installing)
+Please follow OpenRefine's manual to [install](https://docs.openrefine.org/manual/installing) and [run](https://docs.openrefine.org/manual/running) it. 
 
 Notes:
 * When you download OpenRefine for Windows or Linux from the address above, you are downloading an archive file 
