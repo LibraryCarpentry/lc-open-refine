@@ -42,4 +42,5 @@ Next to the 'Preview' option are options to view:
 >7. In the Expression box type ```value.toTitlecase()```
 >8. In the Preview pane under value.toTitlecase() you can see what the effect of running this will be
 >9. Click ```OK```
+>0. Find examples of titles that are still not correct, or have been incorrectly cased (abbreviations, species names, etc.)
 {: .checklist}
