@@ -40,3 +40,10 @@ ____
 * If they need to diagnose failure to fetch the content from the URL they can check the "Store error" option in the "Add column by fetching URLs" dialogue and try looking at the common problems listed in the [documentation](https://docs.openrefine.org/manual/columnediting#common-errors)
 
 * The data for this lesson was pulled from DOAJ in 2015 and may not reflect the same data currently available from DOAJ on the day of your workshop.
+
+## Poweful transformations
+
+* In the titlecase exercise, highlight the fact that
+  each transformation can have unintended side effects,
+  and advise that running one cleanup operation too few
+  may sometimes be preferable to one too many.
