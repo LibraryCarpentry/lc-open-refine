@@ -32,7 +32,7 @@ Facet/Filter and Undo/Redo.  We will focus on the undo/redo commands much later 
 Most options to work with data in OpenRefine are accessed from drop down menus at the top of the data columns. When you select an option in a particular column (e.g. to make a change to the data), it will affect all the cells in that column. If you want to make changes across several columns, you will need to do this one column at a time.
 
 ## Rows and Records
-OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we are in Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record.
+OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we are in Rows mode, where each row represents a single record in the data set - in this case, an article. In Records mode, OpenRefine can link together multiple rows as belonging to the same Record. Rows will be assigned to Records based on the values in the first column. See more [details of Rows and Records in the OpenRefine documentation](https://docs.openrefine.org/manual/exploring#rows-vs-records).
 
 ### Splitting Cells
 
