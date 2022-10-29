@@ -38,3 +38,10 @@ ____
 * If "https" doesn't work to fetch CrossRef during Advanced OpenRefine Functions, they can try "http"
 
 * If they need to diagnose failure to fetch the content from the URL they can check the "Store error" option in the "Add column by fetching URLs" dialogue and try looking at the common problems listed in the [documentation](https://docs.openrefine.org/manual/columnediting#common-errors)
+
+* Changing from days of the week to a list of subject headings, separated by a pipe character | (as in the data)
+    For example:
+
+        crystal structure|clozapinium|crystal structure|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999
+
+    This subject string can be found for the title "The crystal structures of three clozapinium salts: different molecular configurations, and supramolecular assembly in one, two and three dimensions" in the original project.
