@@ -95,11 +95,7 @@ Now imagine that the document creator had chosen a **comma** as the separator in
 Jones, Andrew , Davis, S.
 ```
 
-Can you spot the problem? Can you tell where one author stops and the next begins?  
-
-OpenRefine will split on **every** comma it encounters,
-so we'll end up with 4 authors, not two, because OpenRefine cannot tell that **Jones, Andrew** is supposed to be a single author. We will get
-the following four "authors" because there are 3 commas separating the name parts.
+An experienced user might spot that because there is an extra space, as well as a comma, between the two author names it would be possible to successfully split the two names by instructing OpenRefine to split based on a multi-character separator string like " , " (space comma space).
 
 - **Author 1:** Jones
 - **Author 2:** Andrew
