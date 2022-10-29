@@ -21,9 +21,9 @@ Arrays can be sorted, de-duplicated, and manipulated in other ways in GREL expre
 
 "Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
 
-This can be transformed into an array using the ```split``` function
+This can be transformed into an array using the ```split``` function with pipe
 ```
-value.split(",")
+value.split("|")
 ```
 This would create the array containing the days of the week:
 
