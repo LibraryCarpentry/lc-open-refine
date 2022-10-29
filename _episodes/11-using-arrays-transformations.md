@@ -25,27 +25,24 @@ This can be transformed into an array using the ```split``` function with pipe
 ```
 value.split("|")
 ```
-This would create the array containing the days of the week:
+This would create the array containing a list of subject headings, separated by a pipe character | (as in the data)
 
-["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+For example:
 
-This can be combined with array operations like ```sort```. For example, assuming the cell contains the same value as above, then the function
-```
-value.split("|").sort()
-```
-would result in an array containing the days of the week sorted in alphabetical order:
+"crystal structure|clozapinium|crystal structure|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999"
 
-["Friday","Monday","Saturday","Sunday","Thursday","Tuesday","Wednesday"]
+This subject string can be found for the title "The crystal structures of three clozapinium salts: different molecular configurations, and supramolecular assembly in one, two and three dimensions" in the original project. 
 
-To output a value from an array you can either select a specific value depending on its position in the list (with the first position treated as 'zero'). For example
+This can be combined with array operations like ```uniques```. For example, assuming the cell contains the same value as above, then the function
 ```
-value.split("|")[0]
+value.split("|").uniques()
 ```
-would extract the first value from the array created by the ```split``` function. In the above example this would be "Monday"
+
+In the above example the extra 'crystal structure' has been removed. 
 
 You can also join arrays together to make a 'String'. The GREL expression would look like
 ```
-value.split("|").sort().join(",")
+value.split("|").uniques().join(",")
 ```
 Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
