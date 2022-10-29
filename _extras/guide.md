@@ -38,3 +38,5 @@ ____
 * If "https" doesn't work to fetch CrossRef during Advanced OpenRefine Functions, they can try "http"
 
 * If they need to diagnose failure to fetch the content from the URL they can check the "Store error" option in the "Add column by fetching URLs" dialogue and try looking at the common problems listed in the [documentation](https://docs.openrefine.org/manual/columnediting#common-errors)
+
+* The data for this lesson was pulled from DOAJ in 2015 and may not reflect the same data currently available from DOAJ on the day of your workshop.
