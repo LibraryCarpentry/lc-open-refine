@@ -31,7 +31,7 @@ This would create the array containing the days of the week:
 
 This can be combined with array operations like ```sort```. For example, assuming the cell contains the same value as above, then the function
 ```
-value.split(",").sort()
+value.split("|").sort()
 ```
 would result in an array containing the days of the week sorted in alphabetical order:
 
@@ -39,13 +39,13 @@ would result in an array containing the days of the week sorted in alphabetical 
 
 To output a value from an array you can either select a specific value depending on its position in the list (with the first position treated as 'zero'). For example
 ```
-value.split(",")[0]
+value.split("|")[0]
 ```
 would extract the first value from the array created by the ```split``` function. In the above example this would be "Monday"
 
 You can also join arrays together to make a 'String'. The GREL expression would look like
 ```
-value.split(",").sort().join(",")
+value.split("|").sort().join(",")
 ```
 Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
