@@ -22,6 +22,8 @@ If you are using an older version of OpenRefine, it is recommended you upgrade t
 
 Please follow OpenRefine's manual to [install](https://docs.openrefine.org/manual/installing) and [run](https://docs.openrefine.org/manual/running) it. 
 
+When running OpenRefine, initially a command line window will open. This is a window with a black background. As OpenRefine runs, lines of text will appear in the command line window. Then the Open Refine interface will open in your default web browser. You do not need to interact with the command line window. Leave it open in the background, and work on datasets in your web browser.
+
 Notes:
 * When you download OpenRefine for Windows or Linux from the address above, you are downloading an archive file 
 (zip or tar). To install OpenRefine unzip the downloaded file to a permanent location on your computer. This can 
