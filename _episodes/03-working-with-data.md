@@ -47,8 +47,10 @@ To work with the author names effectively in OpenRefine, we need to have each na
 * Click the `Records` option to change to Records mode
     * Note how the numbering has changed - indicating that several rows are related to the same record
 
- ![rows](../assets/img/rows.png)
- ![records](../assets/img/records.png)
+ ![Screen capture showing OpenRefine in Rows mode.](../assets/img/rows.png)
+ ![Screen capture showing OpenRefine in Rows mode.](../assets/img/records.png)
+
+Note in the images above the difference between: Rows with the same Title appear below each shared title, interrupted the numbered sequence in the third column from the left. Shared titles have the same shading, which may be very difficult to distinguish visually, so look for each star and flag in the leftmost columns, which indicates a new row, that is an item with a different author.
 
 Now that we can split multi-valued cells, we'll cover how to join them back together.
 
