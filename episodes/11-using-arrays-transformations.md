@@ -13,23 +13,19 @@ keypoints:
 ---
 
 ## Arrays
-An 'Array' is a list of values, represented in Refine by the use of square brackets containing a list of values surrounded by inverted commas and separated by commas. For example an array listing the days of the week would look like:
+An 'Array' is a list of values, represented in OpenRefine by the use of square brackets containing a list of values surrounded by inverted commas (or double quotes) and separated by commas. For example an array listing the Subjects column would look like:
 
-["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+["crystal structure", "clozapinium", "crystal structure", "molecular configuration", "hydrogen bonding", "supramolecular assembly", "Chemistry", "QD1-999"]
 
 Arrays can be sorted, de-duplicated, and manipulated in other ways in GREL expressions, but cannot appear directly in an OpenRefine cell. Arrays in OpenRefine are usually the result of a transformation. For example the ```split``` function takes a string, and changes it into an array based on a 'separator'. For example if a cell has the value:
 
-"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+"crystal structure|clozapinium|crystal structure|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999"
 
-This can be transformed into an array using the ```split``` function with pipe
+This can be transformed into an array using the ```split``` function with pipe.
 ```
 value.split("|")
 ```
-This would create the array containing a list of subject headings, separated by a pipe character | (as in the data)
-
-For example:
-
-"crystal structure|clozapinium|crystal structure|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999"
+This would create the array containing a list of subject headings, separated by a pipe character | (as in the first example above). In the transformation preview the array will display as a list of comma separated values in double quotes, with the whole array surrounded by square brackets.
 
 This subject string can be found for the title "The crystal structures of three clozapinium salts: different molecular configurations, and supramolecular assembly in one, two and three dimensions" in the original project. 
 
@@ -37,14 +33,25 @@ This can be combined with array operations like ```uniques```. For example, assu
 ```
 value.split("|").uniques()
 ```
+"crystal structure", "clozapinium", "molecular configuration", "hydrogen bonding", "supramolecular assembly", "Chemistry", "QD1-999"
 
-In the above example the extra 'crystal structure' has been removed. 
+Compared to the first example, now the second 'crystal structure' has been removed. 
+
+You can extract a specific item from the array using the square bracket notation and number for position in sequence:
+```
+value.split("|")[0]
+```
+["crystal structure"]
 
 You can also join arrays together to make a 'String'. The GREL expression would look like
 ```
-value.split("|").uniques().join(",")
+value.split("|").uniques().join("|")
 ```
-Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
+Taking the same example again, this would result in a string with the subjects in alphabetical order, listed with commas between each subject.
+
+>##Separator Caution
+>Recall previous discussion of dangers of changing separators--especially commas.  Possible question to pose: Which subject would be broken if a hyphen were used as a separator?
+{:.instructor}
 
 >## Reverse author names
 >You may already have done the boolean exercise and have a facet containing the names in personal name first order. In this case, select the 'true' facet and start with the step **"1. On the ```Authors``` column use..."**
