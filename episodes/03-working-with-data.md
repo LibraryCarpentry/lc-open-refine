@@ -80,7 +80,7 @@ Records values will now be the same since we do not have any more columns with s
 The value that separates multi-valued cells is called a separator or delimiter. Choosing a good
 separator is important. In the examples, we've seen the pipe character ( \| ) has been used.
 
-Choosing the wrong separator can lead to problems. Consider the following multi-valued Author example.
+Choosing the wrong separator can lead to problems. Consider the following multi-valued Author example,
 with a pipe as a separator.
 ```
 Jones, Andrew | Davis, S.
