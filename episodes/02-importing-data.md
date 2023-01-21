@@ -14,6 +14,10 @@ keypoints:
 
 ## Importing data
 
+OpenRefine does not manipulate your data directly. Instead, the data you import and all the changes you make are stored in a project. You can stop working on a project and continue later if you like.
+When you want to 'refine' a new file, you start by creating a new project. When you want to continue working on a project, you can open it through "Open Project".
+It is also possible to export a project on one computer and continue working on it on a different computer. To do so, you transfer the exported files to the new computer and use "Import Project" on the new computer.
+
 >## What kinds of data files can I import?
 >There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
 >
