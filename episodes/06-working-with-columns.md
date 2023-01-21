@@ -11,7 +11,7 @@ objectives:
 keypoints:
 - "You can reorder, rename and remove columns in OpenRefine"
 - "Sorting in OpenRefine always sorts all rows"
-- "The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently"
+- "The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently" from the Sort drop-down menu
 ---
 
 ## Reordering columns
@@ -30,6 +30,10 @@ Once applied, locate the new "Sort" button at the top of the grid.
 
 ![Addition of Sort menu to OpenRefine grid after first sort command](../assets/img/sort-menu-highlight.png)
 
-Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent.
+Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent. To make a sort permanent, choose Reorder Rows Permanently from the Sort drop-down menu.  
 
 You can sort on multiple columns at the same time by adding another sorted column (in the same way).
+
+>##Separator
+>Do not rush these last two sentences. Repeat them slowly after a pause and allow learners to explore a moment, even see the growing undo list
+{:.instructor}
