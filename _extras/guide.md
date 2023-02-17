@@ -41,7 +41,7 @@ ____
 
 * The data for this lesson was pulled from DOAJ in 2015 and may not reflect the same data currently available from DOAJ on the day of your workshop.
 
-## Poweful transformations
+## Powerful transformations
 
 * In the titlecase exercise, highlight the fact that
   each transformation can have unintended side effects,
