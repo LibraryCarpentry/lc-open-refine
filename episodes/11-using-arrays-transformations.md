@@ -50,7 +50,7 @@ value.split(",").sort().join(",")
 Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
 
 >## Reverse author names
->You may already have done the boolean exercise and have a facet containing the names in personal name first order. In this case, select the 'true' facet and start with the step **"1. On the ```Authors``` column use..."**
+>You may already have done the boolean exercise and have a facet containing the names in personal name first order. In this case, select the 'true' facet and start with the step **"1. On the ```Authors``` column use..."** in the second numbered list below.
 >
 >In this exercise we are going to use both the Boolean and Array data types.
 >If you look at the Authors column, you can see that most of the author names are written in personal name first order. However, a few have been reversed to put the family name first.
