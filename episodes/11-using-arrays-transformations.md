@@ -61,7 +61,8 @@ This can be combined with array operations like ```uniques```. For example, assu
 ```
 value.split("|").uniques()
 ```
-"crystal structure", "clozapinium", "molecular configuration", "hydrogen bonding", "supramolecular assembly", "Chemistry", "QD1-999"
+would result in the following array:
+["crystal structure", "clozapinium", "molecular configuration", "hydrogen bonding", "supramolecular assembly", "Chemistry", "QD1-999"]
 
 Compared to the first example, now the second 'crystal structure' has been removed. 
 
