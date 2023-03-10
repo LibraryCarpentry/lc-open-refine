@@ -84,30 +84,30 @@ Taking the same example again, this would result in a string with the subjects i
 {:.instructor}
 
 >## Reverse author names
->You may already have done the boolean exercise and have a facet containing the names in personal name first order. In this case, select the 'true' facet and start with the step **"8. On the ```Authors``` column use..."** below.
+>You may already have done the boolean exercise and have a facet containing the names in personal name first order. In this case, select the 'true' facet and start with the step **"2.1. On the ```Authors``` column use..."** below.
 >
 >In this exercise we are going to use both the Boolean and Array data types.
 >If you look at the Authors column, you can see that most of the author names are written in personal name first order. However, a few have been reversed to put the family name first.
 >
 >We can do a crude test for reversed author names by looking for those that contain a comma:
 >
->1. Make sure you have already split the author names into individual cells using ```Edit cells->Split multi-valued cells``` (you should have done this in the Clustering lesson)
->2. On the Authors column, use the dropdown menu and select ```Facet->Custom text facet...```
->3. The ```Custom text``` facet function allows you to write GREL functions to create a facet
->4. In the Expression box type ```value.contains(",")```
->5. Click ```OK```
->6. Since the ```contains``` function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma
->7. In this facet select 'true' to narrow down to the author names that contain a comma
+>1.1. Make sure you have already split the author names into individual cells using ```Edit cells->Split multi-valued cells``` (you should have done this in the Clustering lesson)
+>1.2. On the Authors column, use the dropdown menu and select ```Facet->Custom text facet...```
+>1.3. The ```Custom text``` facet function allows you to write GREL functions to create a facet
+>1.4. In the Expression box type ```value.contains(",")```
+>1.5. Click ```OK```
+>1.6. Since the ```contains``` function outputs a Boolean value, you should see a facet that contains 'false' and 'true'. These represent the outcome of the expression, i.e. true = values containing a comma; false = values not containing a comma
+>1.7. In this facet select 'true' to narrow down to the author names that contain a comma
 >
 >Now we have narrowed down to the lines with a comma in a name, we can use the GREL ```split``` function. This is different to the ```Split multi-valued cells``` operation we have previously used as it allows us to manipulate the content of a cell, rather than create new cells.
 >
->8. On the ```Authors``` column use the dropdown menu and select ```Edit cells->Transform ```
->9. In the Expression box type ```value.split(", ")``` (make sure to include a space after the comma inside the split expression to avoid extra spaces in your author name later).
->10. See how this creates an array with two members in each row in the Preview column
+>2.1. On the ```Authors``` column use the dropdown menu and select ```Edit cells->Transform ```
+>2.2. In the Expression box type ```value.split(", ")``` (make sure to include a space after the comma inside the split expression to avoid extra spaces in your author name later).
+>2.3. See how this creates an array with two members in each row in the Preview column
 >
 >To get the author name in personal name first order you can reverse the array and join it back together with a space to create the string you need:
 >
->11. In the Expression box, add to the existing expression until it reads ```value.split(", ").reverse().join(" ")```
->12. In the Preview view you should be able see this has reversed the array, and joined it back into a string
+>3.1. In the Expression box, add to the existing expression until it reads ```value.split(", ").reverse().join(" ")```
+>3.2. In the Preview view you should be able see this has reversed the array, and joined it back into a string
 >* Click ```OK```
 {: .checklist}
