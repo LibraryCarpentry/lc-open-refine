@@ -70,7 +70,8 @@ You can extract a specific item from the array using the square bracket notation
 ```
 value.split("|")[0]
 ```
-["crystal structure"]
+would result in the string: 
+"crystal structure"
 
 You can also join arrays together to make a 'String'. The GREL expression would look like
 ```
