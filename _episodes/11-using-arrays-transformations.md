@@ -12,42 +12,76 @@ keypoints:
 - "Arrays can be used in many ways using GREL expressions"
 ---
 
+## Preview
+The following example is chosen to demonstrate how to go from a list with duplicated values to a list with each value just once by using an array in a transformation. 
+
+>##Separator Caution
+>Ask the students what transformation means to them currently.  Many may only know it from Excel to convert columns into rows or vice versa. Discuss how in OpenRefine, transformation is specifically the working window--these values are neither stored nor displayed in the cells or output.
+{:.instructor}
+
+It does this using a function called uniques() which can be used to remove duplicates from an array. In this example we start with a list of subject words:
+
+crystal structure|clozapinium|crystal structure|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999
+
+Examining this by eye we can see it contains "crystal structure" twice. If we assume that each cell in the subject column might have duplicates in it, and in each case the subject word/phrase that is duplicated could be different, then it's not practical to "fix" this problem (remove the duplicates from each) by find and replace. However, we can do it using an array. The lesson's goal is: an array as something you can manipulate.
+
+To remove the repetition we show how to do a GREL transformation like:
+value.split("|").uniques().join("|")
+
+In total this transformation does three steps:
+
+- split("|") creates an array -> ["crystal structure", "clozapinium", "crystal structure", "molecular configuration", "hydrogen bonding", "supramolecular assembly", "Chemistry", "QD1-999"]
+- uniques() takes the array created, and from it generates an array with any duplicates removed (so each value in the resulting array is unique) so the result is -> ["crystal structure", "clozapinium", "molecular configuration", "hydrogen bonding", "supramolecular assembly", "Chemistry", "QD1-999"]
+- join("|") turns the array created by the uniques() command back into a string of pipe separated values which can be stored in a cell -> crystal structure|clozapinium|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999
+
+Let us now move from a list with duplicated values to a list with each value just once using an array in transformation.
+
 ## Arrays
-An 'Array' is a list of values, represented in Refine by the use of square brackets containing a list of values surrounded by inverted commas and separated by commas. For example an array listing the days of the week would look like:
+An 'Array' is a data type (as mentioned in the previous lesson) which can contain a list of values. In OpenRefine an array is represented by the use of square brackets containing a list of values separated by commas.
 
-["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+For example:
 
-Arrays can be sorted, de-duplicated, and manipulated in other ways in GREL expressions, but cannot appear directly in an OpenRefine cell. Arrays in OpenRefine are usually the result of a transformation. For example the ```split``` function takes a string, and changes it into an array based on a 'separator'. For example if a cell has the value:
+- an array containing a list of strings (in this case subject keywords or phrases) could look like: ["crystal structure", "clozapinium", "crystal structure", "molecular configuration", "hydrogen bonding", "supramolecular assembly", "Chemistry", "QD1-999"]
+- an array containing a list of numbers could look like: [1, 2, 3, 4]
 
-"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+Arrays can be sorted, de-duplicated, and manipulated in other ways in GREL expressions, but cannot be stored directly in an OpenRefine cell. Arrays in OpenRefine are usually the result of a transformation written with GREL. For example the ```split``` function takes a string, and changes it into an array based on a 'separator'. For example if a cell has the value:
 
-This can be transformed into an array using the ```split``` function
+"crystal structure|clozapinium|crystal structure|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999"
+
+This can be transformed into an array using the ```split``` function specifying the pipe character ( | ) as the separating character. Recall the cautionary note about separator choice from [Working with Data](https://librarycarpentry.org/lc-open-refine/03-working-with-data/index.html).
+.
 ```
-value.split(",")
+value.split("|")
 ```
-This would create the array containing the days of the week:
+This would create the array containing a list of subject headings, separated by a pipe character | (as in the first example above). In the transformation preview the array will display as a list of comma separated values in double quotes, with the whole array surrounded by square brackets.
 
-["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+This subject string can be found for the title "The crystal structures of three clozapinium salts: different molecular configurations, and supramolecular assembly in one, two and three dimensions" in the original project. 
 
-This can be combined with array operations like ```sort```. For example, assuming the cell contains the same value as above, then the function
+This can be combined with array operations like ```uniques```. For example, assuming the cell contains the same value as above, then the function
 ```
-value.split(",").sort()
+value.split("|").uniques()
 ```
-would result in an array containing the days of the week sorted in alphabetical order:
+would result in the following array:
+["crystal structure", "clozapinium", "molecular configuration", "hydrogen bonding", "supramolecular assembly", "Chemistry", "QD1-999"]
 
-["Friday","Monday","Saturday","Sunday","Thursday","Tuesday","Wednesday"]
+Compared to the first example, now the second 'crystal structure' has been removed. 
 
-To output a value from an array you can either select a specific value depending on its position in the list (with the first position treated as 'zero'). For example
+You can extract a specific item from the array using the square bracket notation and number for position in sequence:
 ```
-value.split(",")[0]
+value.split("|")[0]
 ```
-would extract the first value from the array created by the ```split``` function. In the above example this would be "Monday"
+would result in the string: 
+"crystal structure"
 
 You can also join arrays together to make a 'String'. The GREL expression would look like
 ```
-value.split(",").sort().join(",")
+value.split("|").uniques().join("|")
 ```
-Taking the above example again, this would result in a string with the days of the week in alphabetical order, listed with commas between each day.
+Taking the same example again, this would result in a string with the subjects in alphabetical order, listed with commas between each subject.
+
+>##Separator Caution
+>Recall previous discussion of dangers of changing separators--especially commas.  Possible question to pose: Which subject would be broken if a hyphen were used as a separator?
+{:.instructor}
 
 >## Reverse author names
 >You may already have done the boolean exercise and have a facet containing the names in personal name first order. In this case, select the 'true' facet and start with the step **"1. On the ```Authors``` column use..."** in the second numbered list below.
