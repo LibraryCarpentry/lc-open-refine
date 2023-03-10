@@ -101,13 +101,13 @@ Taking the same example again, this would result in a string with the subjects i
 >
 >Now we have narrowed down to the lines with a comma in a name, we can use the GREL ```split``` function. This is different to the ```Split multi-valued cells``` operation we have previously used as it allows us to manipulate the content of a cell, rather than create new cells.
 >
->1. On the ```Authors``` column use the dropdown menu and select ```Edit cells->Transform ```
->2. In the Expression box type ```value.split(", ")``` (make sure to include a space after the comma inside the split expression to avoid extra spaces in your author name later).
->3. See how this creates an array with two members in each row in the Preview column
+>8. On the ```Authors``` column use the dropdown menu and select ```Edit cells->Transform ```
+>9. In the Expression box type ```value.split(", ")``` (make sure to include a space after the comma inside the split expression to avoid extra spaces in your author name later).
+>10. See how this creates an array with two members in each row in the Preview column
 >
 >To get the author name in personal name first order you can reverse the array and join it back together with a space to create the string you need:
 >
->1. In the Expression box, add to the existing expression until it reads ```value.split(", ").reverse().join(" ")```
->2. In the Preview view you should be able see this has reversed the array, and joined it back into a string
+>11. In the Expression box, add to the existing expression until it reads ```value.split(", ").reverse().join(" ")```
+>12. In the Preview view you should be able see this has reversed the array, and joined it back into a string
 >* Click ```OK```
 {: .checklist}
