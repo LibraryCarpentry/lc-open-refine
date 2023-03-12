@@ -15,7 +15,7 @@ keypoints:
 ## Preview
 The following example is chosen to demonstrate how to go from a list with duplicated values to a list with each value just once by using an array in a transformation. 
 
-> ## Caution
+>## Caution
 >Ask the students what transformation means to them currently.  Many may only know it from Excel to convert columns into rows or vice versa. Discuss how in OpenRefine, transformation is specifically the working window--these values are neither stored nor displayed in the cells or output.
 {:.instructor}
 
