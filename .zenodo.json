@@ -2,116 +2,208 @@
   "contributors": [
     {
       "type": "Editor",
-      "name": "Owen Stephens"
+      "name": "Owen Stephens",
+      "orcid": "0000-0001-9813-5701"
     },
     {
       "type": "Editor",
-      "name": "Juliane Schneider",
-      "orcid": "0000-0002-7664-3331"
-    },
-    {
-      "type": "Editor",
-      "name": "Paul Pival",
-      "orcid": "0000-0002-1685-0590"
-    },
-    {
-      "type": "Editor",
-      "name": "Kristin Lee",
-      "orcid": "0000-0003-4906-1800"
-    },
-    {
-      "type": "Editor",
-      "name": "Erin Carrillo"
-    },
-    {
-      "type": "Editor",
-      "name": "Carmi Cronje",
-      "orcid": "0000-0003-2736-6267"
+      "name": "Jennifer Anne Wood Stubbs"
     }
   ],
   "creators": [
     {
-      "name": "James Baker",
-      "orcid": "0000-0002-2682-6922"
+      "name": "Owen Stephens",
+      "orcid": "0000-0001-9813-5701"
+    },
+    {
+      "name": "Jennifer Anne Wood Stubbs"
     },
     {
       "name": "Christopher Erdmann",
       "orcid": "0000-0003-2554-180X"
     },
     {
+      "name": "Evan Peter Williamson",
+      "orcid": "0000-0002-7990-9924"
+    },
+    {
+      "name": "Katrin Leinweber",
+      "orcid": "0000-0001-5135-5758"
+    },
+    {
+      "name": "Felix Lohmeier"
+    },
+    {
+      "name": "curet"
+    },
+    {
+      "name": "Elizabeth Salmon"
+    },
+    {
+      "name": "Paul R. Pival"
+    },
+    {
+      "name": "Ben Companjen"
+    },
+    {
+      "name": "bkmgit"
+    },
+    {
+      "name": "Fabian Steeg"
+    },
+    {
+      "name": "Scott Carl Peterson",
+      "orcid": "0000-0002-1920-616X"
+    },
+    {
+      "name": "Jodi Reeves Eyre"
+    },
+    {
+      "name": "Phillip Bainbridge"
+    },
+    {
+      "name": "Trevor Burrows"
+    },
+    {
+      "name": "stephanieuwa"
+    },
+    {
+      "name": "Erica Newcome"
+    },
+    {
+      "name": "Erin Carrillo"
+    },
+    {
+      "name": "Isaac Williams",
+      "orcid": "0000-0001-9936-8005"
+    },
+    {
+      "name": "José Constantino Sánchez Curet"
+    },
+    {
+      "name": "Labeeb Ahmed"
+    },
+    {
+      "name": "Maneesha Sane"
+    },
+    {
+      "name": "Sarah Oelker",
+      "orcid": "0000-0001-6655-7184"
+    },
+    {
+      "name": "ahfbacon6"
+    },
+    {
+      "name": "Fabiana Isabel Flores"
+    },
+    {
+      "name": "Amanda Curnow"
+    },
+    {
+      "name": "bellsm74"
+    },
+    {
+      "name": "Beth Juhl",
+      "orcid": "0000-0001-7499-5539"
+    },
+    {
+      "name": "Cornelia Cronje",
+      "orcid": "0000-0003-2736-6267"
+    },
+    {
+      "name": "Casper"
+    },
+    {
+      "name": "Cheryl Claridge",
+      "orcid": "0000-0002-2724-8263"
+    },
+    {
+      "name": "David Pérez-Suárez"
+    },
+    {
+      "name": "DebTho"
+    },
+    {
+      "name": "Doron Goldfarb"
+    },
+    {
+      "name": "Dr. Hannah C. Gunderman"
+    },
+    {
+      "name": "Elizabeth McAulay",
+      "orcid": "0000-0002-8679-9727"
+    },
+    {
+      "name": "Jessica Hymers"
+    },
+    {
+      "name": "Kaitlin Newson",
+      "orcid": "0000-0001-8739-5823"
+    },
+    {
+      "name": "Karen Word",
+      "orcid": "0000-0002-7294-7231"
+    },
+    {
+      "name": "Linna Lu",
+      "orcid": "0000-0001-6260-7578"
+    },
+    {
+      "name": "RoseyRaine"
+    },
+    {
+      "name": "Luis J Villanueva"
+    },
+    {
+      "name": "Marc Hunter"
+    },
+    {
+      "name": "Maristella Feustle"
+    },
+    {
+      "name": "mwtuebingen"
+    },
+    {
+      "name": "Mikaela Lawrence",
+      "orcid": "0000-0002-5348-6265"
+    },
+    {
+      "name": "Nachiket"
+    },
+    {
+      "name": "Rohit Goswami"
+    },
+    {
+      "name": "Sarah Stewart"
+    },
+    {
+      "name": "Sarah Young",
+      "orcid": "0000-0002-8301-5106"
+    },
+    {
+      "name": "Tess Grynoch"
+    },
+    {
       "name": "Tim Dennis",
       "orcid": "0000-0001-6632-3812"
     },
     {
-      "name": "mhidas"
+      "name": "alex"
     },
     {
-      "name": "Daniel Bangert"
+      "name": "jensnow1"
     },
     {
-      "name": "Evan Williamson",
-      "orcid": "0000-0002-7990-9924"
+      "name": "liamodwyer"
     },
     {
-      "name": "Jamie Jamison",
-      "orcid": "0000-0002-5116-5724"
+      "name": "Mike Davidson"
     },
     {
-      "name": "Naupaka Zimmerman",
-      "orcid": "0000-0003-2168-6390"
+      "name": "samuelhansen"
     },
     {
-      "name": "Rémi Emonet",
-      "orcid": "0000-0002-1870-1329"
-    },
-    {
-      "name": "Betty Rozum"
-    },
-    {
-      "name": "dnesdill"
-    },
-    {
-      "name": "Katherine Koziar",
-      "orcid": "0000-0003-0505-7973"
-    },
-    {
-      "name": "Tom Honeyman"
-    },
-    {
-      "name": "Tracy Teal",
-      "orcid": "0000-0002-9180-9598"
-    },
-    {
-      "name": "Alexander Mendes"
-    },
-    {
-      "name": "andreamcastillo"
-    },
-    {
-      "name": "Anna Neatrour"
-    },
-    {
-      "name": "Antonin Delpeuch"
-    },
-    {
-      "name": "Christina Koch",
-      "orcid": "0000-0001-8600-8158"
-    },
-    {
-      "name": "Elizabeth Lisa McAulay"
-    },
-    {
-      "name": "hauschke"
-    },
-    {
-      "name": "Jamene Brooks-Kieffer"
-    },
-    {
-      "name": "Jeffrey Oliver",
-      "orcid": "0000-0003-2160-1086"
-    },
-    {
-      "name": "Paul R. Pival"
+      "name": "sophieelisabeth"
     }
   ],
   "license": {
