@@ -1,8 +1,8 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)
 
 # Maintainers for Library Carpentry: OpenRefine
 
-- [Erin Carrillo](https://github.com/partiecolored) (Lead) 
+- [Erin Carrillo](https://github.com/partiecolored) (Lead)
 - [Owen Stephens](https://github.com/ostephens)
 - [Paul R. Pival](https://github.com/ppival)
 - [Kristin Lee](https://github.com/kristindawn)
@@ -17,7 +17,7 @@ Lesson Maintainers communication is via the [team site](https://github.com/orgs/
 
 ## Library Carpentry
 
-[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
+[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](https://software-carpentry.org/) and [Data Carpentry](https://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
 
 ## License
 
@@ -38,10 +38,12 @@ Library Carpentry is authored and maintained through issues, commits, and pull r
 
 ## Citation
 
-Erin Carillo (Ed.), Owen Stephens (Ed.), Juliane Schneider (Ed.), Paul R. Pival (Ed.), Kristin Lee (Ed.), Carmi Cronje (Ed.), James Baker, Christopher Erdmann, Tim Dennis, mhidas, Daniel Bangert, Evan Williamson, … Jeffrey Oliver. (2019, July). LibraryCarpentry/lc-open-refine: Library Carpentry: OpenRefine, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3266144
+Erin Carillo (Ed.), Owen Stephens (Ed.), Juliane Schneider (Ed.), Paul R. Pival (Ed.), Kristin Lee (Ed.), Carmi Cronje (Ed.), James Baker, Christopher Erdmann, Tim Dennis, mhidas, Daniel Bangert, Evan Williamson, … Jeffrey Oliver. (2019, July). LibraryCarpentry/lc-open-refine: Library Carpentry: OpenRefine, June 2019 (Version v2019.06.1). Zenodo. [http://doi.org/10.5281/zenodo.3266144](https://doi.org/10.5281/zenodo.3266144)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3266144.svg)](https://doi.org/10.5281/zenodo.3266144)
 
 ## Checking and Previewing the Lesson
 
-To check and preview a lesson locally, see [http://carpentries.github.io/lesson-example/07-checking/index.html](http://carpentries.github.io/lesson-example/07-checking/index.html).
+To check and preview a lesson locally, see [http://carpentries.github.io/lesson-example/07-checking/index.html](https://carpentries.github.io/lesson-example/07-checking/index.html).
+
+
