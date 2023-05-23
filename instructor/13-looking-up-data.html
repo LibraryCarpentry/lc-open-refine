@@ -387,13 +387,13 @@ been retrieved. Two specific OpenRefine functions used for this are:</p>
 </ul><p>The ‘parseHtml()’ function can also be used to extract data from
 XML.</p>
 <p>The next exercise demonstrates this two stage process in full.</p>
-<div id="discussion1" class="callout discussion">
+<div id="retrieving-journal-details-from-crossref-via-issn" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="retrieving-journal-details-from-crossref-via-issn" class="callout-inner">
 <h3 class="callout-title">Retrieving journal details from CrossRef via
-ISSN<a class="anchor" aria-label="anchor" href="#discussion1"></a>
+ISSN<a class="anchor" aria-label="anchor" href="#retrieving-journal-details-from-crossref-via-issn"></a>
 </h3>
 <div class="callout-content">
 <p>Because retrieving data from external URLs takes time, this exercise
@@ -442,7 +442,8 @@ replaced with the ISSN of the journal</p>
 <ul><li>In the expression box type the GREL
 <code>"https://api.crossref.org/journals/"+value</code>
 </li>
-</ul><figure>At this point, your screen should be similar to this: <img src="../fig/openrefine_add_columns_by_url.png" alt="Add column by fetching URLs screen capture" class="figure mx-auto d-block"></figure><ul><li>Click ‘OK’</li>
+</ul><p>At this point, your screen should be similar to this: <img src="../fig/openrefine_add_columns_by_url.png" alt="Add column by fetching URLs screen capture" class="figure"></p>
+<ul><li>Click ‘OK’</li>
 </ul><p>You should see a message at the top on the OpenRefine screen
 indicating it is fetching some data, with progress showing the
 percentage of the proportion of rows of data successfully being fetched.
@@ -503,12 +504,12 @@ RDF extension by Stuart Kenny can be downloaded from <a href="https://github.com
 data such as csv files (see <a href="https://okfnlabs.org/reconcile-csv/" class="external-link">http://okfnlabs.org/reconcile-csv/</a>)
 and maintained lists of values (see <a href="https://okfnlabs.org/projects/nomenklatura/index.html" class="external-link">http://okfnlabs.org/projects/nomenklatura/index.html</a>).</p>
 <p>For more information on using Reconciliation services see <a href="https://docs.openrefine.org/manual/reconciling" class="external-link">https://docs.openrefine.org/manual/reconciling</a>.</p>
-<div id="discussion2" class="callout discussion">
+<div id="reconcile-publisher-names-with-viaf-ids" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
 <div id="reconcile-publisher-names-with-viaf-ids" class="callout-inner">
-<h3 class="callout-title">Reconcile Publisher names with VIAF IDs<a class="anchor" aria-label="anchor" href="#discussion2"></a>
+<h3 class="callout-title">Reconcile Publisher names with VIAF IDs<a class="anchor" aria-label="anchor" href="#reconcile-publisher-names-with-viaf-ids"></a>
 </h3>
 <div class="callout-content">
 <p>In this exercise you are going to use the VIAF Reconciliation service
@@ -624,12 +625,12 @@ projects, or to use data between the two projects.</p>
 OpenRefine. One of them is “Add column(s) from other projects…”, which
 provides a dialog window to help you work with the <code>cross</code>
 function with less typing.</p>
-<div id="callout1" class="callout callout">
+<div id="extensions" class="callout callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="extensions" class="callout-inner">
-<h3 class="callout-title">Extensions<a class="anchor" aria-label="anchor" href="#callout1"></a>
+<h3 class="callout-title">Extensions<a class="anchor" aria-label="anchor" href="#extensions"></a>
 </h3>
 <div class="callout-content">
 <p>The functionality in OpenRefine can be enhanced by ‘extensions’ which
@@ -686,7 +687,7 @@ Reconciliation services to enrich data</li>
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.11.16" class="external-link">sandpaper (0.11.16)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.12.0" class="external-link">sandpaper (0.12.0)</a>,
         <a href="https://github.com/carpentries/pegboard" class="external-link">pegboard (0.5.3)</a>,
       and <a href="https://github.com/carpentries/varnish/tree/0.2.16" class="external-link">varnish (0.2.16)</a>.</p>
 			</div>
@@ -710,7 +711,7 @@ Reconciliation services to enrich data</li>
   "identifier": "https://librarycarpentry.github.io/lc-open-refine/instructor/13-looking-up-data.html",
   "dateCreated": "2018-04-12",
   "dateModified": "2023-05-01",
-  "datePublished": "2023-05-16"
+  "datePublished": "2023-05-23"
 }
 
   </script><script>
