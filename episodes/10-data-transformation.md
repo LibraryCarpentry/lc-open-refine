@@ -53,7 +53,7 @@ So far we've been looking only at 'String' type data. Much of the time it is pos
 4. Note how the values are now displayed in green and follow a standard convention for their display format (ISO 8601) - this indicates they are now stored as date data types in OpenRefine. We can now carry out functions that are specific to Dates
 5. On the Date column dropdown select `Edit column->Add column based on this column`. Using this function you can create a new column, while preserving the old column
 6. In the 'New column name' type "Formatted-Date"
-7. In the 'Expression' box type the GREL expression \`\`\`value.toString("dd MMMM yyyy")
+7. In the 'Expression' box type the GREL expression `value.toString("dd MMMM yyyy")`
   
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
