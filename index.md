@@ -14,9 +14,7 @@ To complete this lesson you will need to:
 2. Download a data file
 3. Use a supported browser
 
-See [our setup page](https://librarycarpentry.org/lc-open-refine/setup.html) for more information.
-
+See below for more information.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
