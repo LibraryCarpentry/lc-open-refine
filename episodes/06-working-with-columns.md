@@ -40,9 +40,15 @@ Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove th
 
 You can sort on multiple columns at the same time by adding another sorted column (in the same way).
 
-> \##Separator
-> Do not rush these last two sentences. Repeat them slowly after a pause and allow learners to explore a moment, even see the growing undo list
-> {:.instructor}
+:::::::::::::::::::::::::::::::::::::::: instructor
+
+## Sorting and Reorder Rows Permanently
+
+Do not rush these last two sentences. Repeat them slowly after a pause and allow learners to explore how sorting works for a moment. 
+
+Although the "Undo/Redo" tab is not introduced until episode 9, it may be worth noting that applying a sort does not count as a change to the data because removing the sort will restore the data to its original order. However, once you select "Reorder Rows Permanently" this does count as a data change and adds an entry to the Undo/Redo history.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
@@ -51,5 +57,3 @@ You can sort on multiple columns at the same time by adding another sorted colum
 - The original order of rows in OpenRefine is maintained during a sort until you use the option to Reorder Rows Permanently from the Sort drop-down menu
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-
-

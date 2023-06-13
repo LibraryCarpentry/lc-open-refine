@@ -21,10 +21,12 @@ exercises: 15
 
 The following example is chosen to demonstrate how to go from a list with duplicated values to a list with each value just once by using an array in a transformation.
 
-> ## Caution
+:::::::::::::::::::::::::::::::::::::::: instructor
+> ## Different meanings of 'transformation'
 > 
 > Ask the students what transformation means to them currently.  Many may only know it from Excel to convert columns into rows or vice versa. Discuss how in OpenRefine, transformation is specifically the working window--these values are neither stored nor displayed in the cells or output.
-> {:.instructor}
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 It does this using a function called uniques() which can be used to remove duplicates from an array. In this example we start with a list of subject words:
 
@@ -98,10 +100,13 @@ value.split("|").uniques().join("|")
 
 Taking the same example again, this would result in a string with the subjects in alphabetical order, listed with commas between each subject.
 
-> ## Caution
-> 
-> Recall previous discussion of dangers of changing separators--especially commas.  Possible question to pose: Which subject would be broken if a hyphen were used as a separator?
-> {:.instructor}
+:::::::::::::::::::::::::::::::::::::::  instructor
+
+## Recap on best practice for separators
+
+Recall previous discussion of dangers of changing separators and ensuring you avoid using a separator character that is already used in the text. A possible question to pose to learners could be: Which subject would be broken if a hyphen were used as a separator?
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::  checklist
 
