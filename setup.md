@@ -50,7 +50,7 @@ Notes:
 If you are unable to install OpenRefine (due to IT restrictions, for example), please try
 [openrefineder using MyBinder](https://github.com/betatim/openrefineder/).
 It's free to use without registration, but it's the older OpenRefine 3.4.1,
-[restricted to 1-2 GB RAM](https://mybinder.readthedocs.io/en/latest/faq.html#how-much-memory-am-i-given-when-using-binder),
+[restricted to 1-2 GB RAM](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html#resources-available),
 and the server will be deleted after 10 minutes of inactivity.
 
 [![](https://mybinder.org/badge.svg){alt='Binder'}](https://mybinder.org/v2/gh/betatim/openrefineder/6ba108b?urlpath=%2Fopenrefine)
