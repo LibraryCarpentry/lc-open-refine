@@ -313,7 +313,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Transformations - Handling Arrays</h1>
-        <p> Last updated on 2023-05-01 | 
+        <p> Last updated on 2023-06-27 | 
         
         <a href="https://github.com/librarycarpentry/lc-open-refine/edit/main/episodes/11-using-arrays-transformations.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -354,14 +354,25 @@
 <hr class="half-width"><p>The following example is chosen to demonstrate how to go from a list
 with duplicated values to a list with each value just once by using an
 array in a transformation.</p>
-<blockquote>
-<h2 id="caution">Caution</h2>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Different meanings of ‘transformation’
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div class="accordion-body">
 <p>Ask the students what transformation means to them currently. Many
 may only know it from Excel to convert columns into rows or vice versa.
 Discuss how in OpenRefine, transformation is specifically the working
 window–these values are neither stored nor displayed in the cells or
-output. {:.instructor}</p>
-</blockquote>
+output.</p>
+</div>
+</div>
+</div>
+</div>
 <p>It does this using a function called uniques() which can be used to
 remove duplicates from an array. In this example we start with a list of
 subject words:</p>
@@ -449,12 +460,24 @@ expression would look like</p>
 <p>Taking the same example again, this would result in a string with the
 subjects in alphabetical order, listed with commas between each
 subject.</p>
-<blockquote>
-<h2 id="caution-1">Caution</h2>
-<p>Recall previous discussion of dangers of changing
-separators–especially commas. Possible question to pose: Which subject
-would be broken if a hyphen were used as a separator? {:.instructor}</p>
-</blockquote>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Recap on best practice for separators
+  </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div class="accordion-body">
+<p>Recall previous discussion of dangers of changing separators and
+ensuring you avoid using a separator character that is already used in
+the text. A possible question to pose to learners could be: Which
+subject would be broken if a hyphen were used as a separator?</p>
+</div>
+</div>
+</div>
+</div>
 <div id="reverse-author-names" class="callout checklist">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check-square"></i>
@@ -583,7 +606,7 @@ array, and joined it back into a string</li>
   "url": "https://librarycarpentry.github.io/lc-open-refine/instructor/11-using-arrays-transformations.html",
   "identifier": "https://librarycarpentry.github.io/lc-open-refine/instructor/11-using-arrays-transformations.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2023-05-01",
+  "dateModified": "2023-06-27",
   "datePublished": "2023-06-27"
 }
 

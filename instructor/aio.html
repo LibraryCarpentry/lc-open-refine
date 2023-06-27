@@ -1539,7 +1539,7 @@ a single consistent value</li>
 </div>
 </section></section><section id="aio-06-working-with-columns"><p>Content from <a href="06-working-with-columns.html">Working with columns and sorting</a></p>
 <hr>
-<p> Last updated on 2023-05-01 | 
+<p> Last updated on 2023-06-27 | 
         
         <a href="https://github.com/librarycarpentry/lc-open-refine/edit/main/episodes/06-working-with-columns.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 10 minutes </p>
@@ -1603,11 +1603,27 @@ sorts permanent. To make a sort permanent, choose Reorder Rows
 Permanently from the Sort drop-down menu.</p>
 <p>You can sort on multiple columns at the same time by adding another
 sorted column (in the same way).</p>
-<blockquote>
-<p>##Separator Do not rush these last two sentences. Repeat them slowly
-after a pause and allow learners to explore a moment, even see the
-growing undo list {:.instructor}</p>
-</blockquote>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Sorting and Reorder Rows Permanently
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div class="accordion-body">
+<p>Do not rush these last two sentences. Repeat them slowly after a
+pause and allow learners to explore how sorting works for a moment.</p>
+<p>Although the “Undo/Redo” tab is not introduced until episode 9, it
+may be worth noting that applying a sort does not count as a change to
+the data because removing the sort will restore the data to its original
+order. However, once you select “Reorder Rows Permanently” this does
+count as a data change and adds an entry to the Undo/Redo history.</p>
+</div>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -2252,7 +2268,7 @@ OpenRefine by building your own</li>
 </div>
 </section></section><section id="aio-11-using-arrays-transformations"><p>Content from <a href="11-using-arrays-transformations.html">Transformations - Handling Arrays</a></p>
 <hr>
-<p> Last updated on 2023-05-01 | 
+<p> Last updated on 2023-06-27 | 
         
         <a href="https://github.com/librarycarpentry/lc-open-refine/edit/main/episodes/11-using-arrays-transformations.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 20 minutes </p>
@@ -2291,14 +2307,25 @@ OpenRefine by building your own</li>
 <p>The following example is chosen to demonstrate how to go from a list
 with duplicated values to a list with each value just once by using an
 array in a transformation.</p>
-<blockquote>
-<h2 id="caution">Caution</h2>
+<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
+  <h3 class="accordion-header" id="headingInstructor1">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Different meanings of ‘transformation’
+  </h3>
+</button>
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div class="accordion-body">
 <p>Ask the students what transformation means to them currently. Many
 may only know it from Excel to convert columns into rows or vice versa.
 Discuss how in OpenRefine, transformation is specifically the working
 window–these values are neither stored nor displayed in the cells or
-output. {:.instructor}</p>
-</blockquote>
+output.</p>
+</div>
+</div>
+</div>
+</div>
 <p>It does this using a function called uniques() which can be used to
 remove duplicates from an array. In this example we start with a list of
 subject words:</p>
@@ -2391,12 +2418,24 @@ expression would look like</p>
 <p>Taking the same example again, this would result in a string with the
 subjects in alphabetical order, listed with commas between each
 subject.</p>
-<blockquote>
-<h2 id="caution-1">Caution</h2>
-<p>Recall previous discussion of dangers of changing
-separators–especially commas. Possible question to pose: Which subject
-would be broken if a hyphen were used as a separator? {:.instructor}</p>
-</blockquote>
+<div id="accordionInstructor2" class="accordion instructor-note accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
+  <h3 class="accordion-header" id="headingInstructor2">
+  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div>
+  Recap on best practice for separators
+  </h3>
+</button>
+<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div class="accordion-body">
+<p>Recall previous discussion of dangers of changing separators and
+ensuring you avoid using a separator character that is already used in
+the text. A possible question to pose to learners could be: Which
+subject would be broken if a hyphen were used as a separator?</p>
+</div>
+</div>
+</div>
+</div>
 <div id="reverse-author-names" class="callout checklist">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check-square"></i>
