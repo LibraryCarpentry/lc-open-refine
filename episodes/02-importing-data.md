@@ -76,10 +76,12 @@ To open an existing project in OpenRefine you can click `Open Project` from the 
 ### Going Further
 
 - Look at the other options on the Import screen - try changing some of these options and see how that changes the Preview and how the data appears after import.
-:::::::::::::: instructor
+  
+::::::::::::::::::::::::::::::::::::::: instructor
 Carefully guide learners on how to revisit OpenRefine's homepage to explore import options when creating new or re-opening existing projects, select the large blue diamond in the upper left corner of the browser window.
 
-::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 - Do you have access to JSON or XML data? If so the first stage of the import process will prompt you to select a 'record path' - that is the parts of the file that will form the data rows in the OpenRefine project.
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
