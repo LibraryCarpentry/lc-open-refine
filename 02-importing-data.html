@@ -313,7 +313,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Importing data into OpenRefine</h1>
-        <p> Last updated on 2023-05-01 | 
+        <p> Last updated on 2023-07-03 | 
         
         <a href="https://github.com/librarycarpentry/lc-open-refine/edit/main/episodes/02-importing-data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -391,48 +391,51 @@ provided data)<a class="anchor" aria-label="anchor" href="#create-your-first-ope
 to download the data and run OpenRefine. <em>NOTE: If OpenRefine does
 not open in a browser window, open your browser and type the address <a href="https://127.0.0.1:3333/" class="external-link">http://127.0.0.1:3333/</a> to take you to
 the OpenRefine interface.</em></p>
-<ol style="list-style-type: decimal"><li>Once OpenRefine is launched in your browser, click
+<ol style="list-style-type: decimal"><li><p>Once OpenRefine is launched in your browser, click
 <code>Create Project</code> from the left hand menu and select
-<code>Get data from This Computer</code>
-</li>
-<li>Click <code>Choose Files</code> (or ‘Browse’, depending on your
+<code>Get data from This Computer</code></p></li>
+<li><p>Click <code>Choose Files</code> (or ‘Browse’, depending on your
 setup) and locate the file which you have downloaded called
-<code>doaj-article-sample.csv</code>
-</li>
-<li>Click <code>Next»</code> where the next screen (see below) gives you
-options to ensure the data is imported into OpenRefine correctly. The
-options vary depending on the type of data you are importing.</li>
-<li>Click in the <code>Character encoding</code> box and set it to
+<code>doaj-article-sample.csv</code></p></li>
+<li><p>Click <code>Next»</code> where the next screen (see below) gives
+you options to ensure the data is imported into OpenRefine correctly.
+The options vary depending on the type of data you are
+importing.</p></li>
+<li><p>Click in the <code>Character encoding</code> box and set it to
 <code>UTF-8</code>. This ensures that OpenRefine correctly interprets
 the imported data as UTF-8 encoded. If you don’t select this you may
 find that some special characters (e.g. smart quotation marks) are not
-displayed correctly.</li>
-<li>Ensure the first row is used to create the column headings by
+displayed correctly.</p></li>
+<li><p>Ensure the first row is used to create the column headings by
 checking the box
-<code>Parse next 1 line(s) as column headers</code>
-</li>
-<li>OpenRefine will automatically select “Use character” to enclose
+<code>Parse next 1 line(s) as column headers</code></p></li>
+<li><p>OpenRefine will automatically select “Use character” to enclose
 cells containing column separators (such as a comma) as part of their
 data. This will make sure that OpenRefine doesn’t misinterpret any
 commas (or other characters) within the column data as a delimiter. Keep
-this option selected.</li>
-<li>From OpenRefine 3.4 onwards there is an option to Trim leading &amp;
-trailing whitespace from strings when importing separator-based files.
-Keeping this checked will ensure that values like <code>English</code>
-and <code>English</code>, which differ by a single trailing space, are
-not treated as different values after the import</li>
-<li>Make sure the <code>Attempt to parse cell text into numbers</code>
-box is not checked, so OpenRefine doesn’t try to automatically detect
-numbers because this could cause errors such as confusion between date
-formats (e.g. DD/MM/YYYY vs MM/DD/YYYY).</li>
-<li>The Project Name box in the upper right corner will default to the
-title of your imported file. Click in the <code>Project Name</code> box
-to give your project a different name, if desired.</li>
-<li>Once you have selected the appropriate options for your project,
+this option selected.</p></li>
+<li><p>From OpenRefine 3.4 onwards there is an option to Trim leading
+&amp; trailing whitespace from strings when importing separator-based
+files. Keeping this checked will ensure that values like
+<code>English</code> and <code>English</code>, which differ by a single
+trailing space, are not treated as different values after the
+import</p></li>
+<li><p>Make sure the
+<code>Attempt to parse cell text into numbers</code> box is not checked,
+so OpenRefine doesn’t try to automatically detect numbers because this
+could cause errors such as confusion between date formats
+(e.g. DD/MM/YYYY vs MM/DD/YYYY).</p></li>
+<li>
+<p>The Project Name box in the upper right corner will default to
+the title of your imported file. Click in the <code>Project Name</code>
+box to give your project a different name, if desired.</p>
+
+</li>
+<li><p>Once you have selected the appropriate options for your project,
 click the <code>Create project »</code> button at the top right of the
 screen. This will create the project and open it for you. Projects are
 saved as you work on them, there is no need to save copies as you go
-along.</li>
+along.</p></li>
 </ol><figure><img src="fig/openrefine_ui.png" alt="Screenshot of Open Refine Create Project Screen" class="figure mx-auto d-block"></figure></div>
 </div>
 </div>
@@ -445,7 +448,7 @@ projects and can click on a project’s name to open it.</p>
 <ul><li>Look at the other options on the Import screen - try changing some
 of these options and see how that changes the Preview and how the data
 appears after import.</li>
-<li>Do you have access to JSON or XML data? If so the first stage of the
+</ul><ul><li>Do you have access to JSON or XML data? If so the first stage of the
 import process will prompt you to select a ‘record path’ - that is the
 parts of the file that will form the data rows in the OpenRefine
 project.</li>
@@ -518,8 +521,8 @@ screen</li>
   "url": "https://librarycarpentry.github.io/lc-open-refine/02-importing-data.html",
   "identifier": "https://librarycarpentry.github.io/lc-open-refine/02-importing-data.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2023-05-01",
-  "datePublished": "2023-06-27"
+  "dateModified": "2023-07-03",
+  "datePublished": "2023-07-03"
 }
 
   </script><script>
