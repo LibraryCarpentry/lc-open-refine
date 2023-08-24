@@ -53,7 +53,7 @@ Because retrieving data from external URLs takes time, this exercise targets a s
   - Facet by Star
   - Choose the single row
 - In the ISSN column use the dropdown menu to choose 'Edit column->Add column by fetching URLs'
-- Give the column a name e.g. "Journal-Details"
+- Give the column a name e.g. "Journal_details"
 - In the expression box you need to write some GREL where the output of the expression is a URL which can be used to retrieve data (the format of the data could be HTML, XML, JSON, or some other text format)
 
 In this case we are going to use the CrossRef API: [https://api.crossref.org/](https://api.crossref.org/). Read more about the CrossRef service: [https://crossref.org](https://crossref.org). Note that API providers may impose rate limits or have other requirements for using their data, so it's important to check the site's documentation. To comply with API rate limits, use the Throttle Delay setting to specify the number of milliseconds between URL requests. CrossRef, for instance, [asks users](https://www.crossref.org/documentation/retrieve-metadata/rest-api/tips-for-using-the-crossref-rest-api/#pick-the-right-service-level) to "specify a User-Agent header that properly identifies your script or tool and that provides a means of contacting you via email using 'mailto:'." User-agent headers provide administrators with user information that facilitates better administration and moderation of the API, and it is generally good etiquette to include a header with any API request.
@@ -79,7 +79,7 @@ At this point you should have a new cell containing a long text string in a form
 OpenRefine has a function for extracting data from JSON (sometimes referred to as 'parsing' the JSON). The 'parseJson' function is explained in more detail at [https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml](https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml).
 
 - In the new column you've just added use the dropdown menu to access 'Edit column->Add column based on this column'
-- Add a name for the new column e.g. "Journal-Title"
+- Add a name for the new column e.g. "Journal_title"
 - In the Expression box type the GREL `value.parseJson().message.title`
 - You should see in the Preview the Journal title displays
 
