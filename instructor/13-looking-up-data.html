@@ -8,7 +8,7 @@
         extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
       },
       tex2jax: {
-        inlineMath: [ ['$','$'], ['\\(', '\\)']],
+        inlineMath: [['\\(', '\\)']],
         displayMath: [ ['$$','$$'], ['\\[', '\\]'] ],
         processEscapes: true
       }
@@ -315,7 +315,7 @@ projects</a></li>
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Looking Up Data</h1>
-        <p> Last updated on 2023-05-01 | 
+        <p> Last updated on 2023-08-28 | 
         
         <a href="https://github.com/librarycarpentry/lc-open-refine/edit/main/episodes/13-looking-up-data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -406,7 +406,7 @@ over many rows (and probably go and do something else while it ran).</p>
 </ul></li>
 <li>In the ISSN column use the dropdown menu to choose ‘Edit
 column-&gt;Add column by fetching URLs’</li>
-<li>Give the column a name e.g. “Journal-Details”</li>
+<li>Give the column a name e.g. “Journal_details”</li>
 <li>In the expression box you need to write some GREL where the output
 of the expression is a URL which can be used to retrieve data (the
 format of the data could be HTML, XML, JSON, or some other text
@@ -461,7 +461,7 @@ referred to as ‘parsing’ the JSON). The ‘parseJson’ function is
 explained in more detail at <a href="https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml" class="external-link">https://docs.openrefine.org/manual/grelfunctions/#format-based-functions-json-html-xml</a>.</p>
 <ul><li>In the new column you’ve just added use the dropdown menu to access
 ‘Edit column-&gt;Add column based on this column’</li>
-<li>Add a name for the new column e.g. “Journal-Title”</li>
+<li>Add a name for the new column e.g. “Journal_title”</li>
 <li>In the Expression box type the GREL
 <code>value.parseJson().message.title</code>
 </li>
@@ -689,7 +689,7 @@ Reconciliation services to enrich data</li>
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
         <p>Built with <a href="https://github.com/carpentries/sandpaper" class="external-link">sandpaper (0.12.5)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.5.3" class="external-link">pegboard (0.5.3)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.2.17" class="external-link">varnish (0.2.17)</a>.</p>
+      and <a href="https://github.com/carpentries/varnish/tree/0.2.18" class="external-link">varnish (0.2.18)</a>.</p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -710,8 +710,8 @@ Reconciliation services to enrich data</li>
   "url": "https://librarycarpentry.github.io/lc-open-refine/instructor/13-looking-up-data.html",
   "identifier": "https://librarycarpentry.github.io/lc-open-refine/instructor/13-looking-up-data.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2023-05-01",
-  "datePublished": "2023-08-22"
+  "dateModified": "2023-08-28",
+  "datePublished": "2023-08-28"
 }
 
   </script><script>

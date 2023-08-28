@@ -15,7 +15,7 @@
         extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"]
       },
       tex2jax: {
-        inlineMath: [ ['$','$'], ['\\(', '\\)']],
+        inlineMath: [['\\(', '\\)']],
         displayMath: [ ['$$','$$'], ['\\[', '\\]'] ],
         processEscapes: true
       }
@@ -1052,7 +1052,7 @@ should be avoided as separators.</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>The subject words/headings are divided up with the pipe ( | )
@@ -1089,7 +1089,7 @@ character</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>The subject words/headings were previously delimited with the pipe (
@@ -1246,7 +1246,7 @@ answer these questions:</p>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Create a facet for the ‘Licence’ column</li>
@@ -1351,7 +1351,7 @@ publications in this data set without a DOI</li>
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>On the <code>DOI</code> column drop down and select
@@ -1403,7 +1403,7 @@ and correct the variation in the <code>EN</code> and
   Show me the solution
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Create a Text facet on the Language column</li>
@@ -2537,7 +2537,7 @@ are being displayed when you want to do a full export.</p>
 </div>
 </section></section><section id="aio-13-looking-up-data"><p>Content from <a href="13-looking-up-data.html">Looking Up Data</a></p>
 <hr>
-<p> Last updated on 2023-05-01 | 
+<p> Last updated on 2023-08-28 | 
         
         <a href="https://github.com/librarycarpentry/lc-open-refine/edit/main/episodes/13-looking-up-data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2630,7 +2630,7 @@ over many rows (and probably go and do something else while it ran).</p>
 </li>
 <li>In the ISSN column use the dropdown menu to choose ‘Edit
 column-&gt;Add column by fetching URLs’</li>
-<li>Give the column a name e.g. “Journal-Details”</li>
+<li>Give the column a name e.g. “Journal_details”</li>
 <li>In the expression box you need to write some GREL where the output
 of the expression is a URL which can be used to retrieve data (the
 format of the data could be HTML, XML, JSON, or some other text
@@ -2693,7 +2693,7 @@ explained in more detail at <a href="https://docs.openrefine.org/manual/grelfunc
 <ul>
 <li>In the new column you’ve just added use the dropdown menu to access
 ‘Edit column-&gt;Add column based on this column’</li>
-<li>Add a name for the new column e.g. “Journal-Title”</li>
+<li>Add a name for the new column e.g. “Journal_title”</li>
 <li>In the Expression box type the GREL
 <code>value.parseJson().message.title</code>
 </li>
@@ -2941,7 +2941,7 @@ Reconciliation services to enrich data</li>
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
         <p>Built with <a href="https://github.com/carpentries/sandpaper" class="external-link">sandpaper (0.12.5)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/0.5.3" class="external-link">pegboard (0.5.3)</a>,
-      and <a href="https://github.com/carpentries/varnish/tree/0.2.17" class="external-link">varnish (0.2.17)</a>.</p>
+      and <a href="https://github.com/carpentries/varnish/tree/0.2.18" class="external-link">varnish (0.2.18)</a>.</p>
 			</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -2963,8 +2963,8 @@ Reconciliation services to enrich data</li>
   "url": "https://librarycarpentry.github.io/lc-open-refine/aio.html",
   "identifier": "https://librarycarpentry.github.io/lc-open-refine/aio.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2023-08-22",
-  "datePublished": "2023-08-22"
+  "dateModified": "2023-08-28",
+  "datePublished": "2023-08-28"
 }
 
   </script><script>
