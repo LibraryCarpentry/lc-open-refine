@@ -68,7 +68,7 @@ To import the data for the exercise below, follow the instructions in [Setup](ht
    :::::::::::::::::::::::::::::::::::::::::::::::::    
 10. Once you have selected the appropriate options for your project, click the `Create project »` button at the top right of the screen. This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
 
-![](fig/openrefine_ui.png){alt='Screenshot of Open Refine Create Project Screen'}
+![Create Project in OpenRefine](fig/openrefine_ui.png){alt="OpenRefine Create Project screen, with highlights for the address bar, mentioned settings and the Create Project button."}
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
