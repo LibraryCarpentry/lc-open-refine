@@ -28,7 +28,7 @@ To use the 'Cluster' function, click on the `Edit Cells` menu option in the rele
 
 The 'Clusters' are created automatically according to an algorithm. OpenRefine supports a number of different clustering algorithms - some experimentation may be required to see which clustering algorithm works best with any particular set of data, and you may find that using different algorithms highlights different clusters.
 
-For more information on the methods used to create Clusters, see [https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
+For more information on the methods used to create Clusters, see [OpenRefine's Technical Reference on Clustering in Depth](https://openrefine.org/docs/technical-reference/clustering-in-depth).
 
 For each cluster, you have the option of 'merging' the values together - that is, replace the various inconsistent values with a single consistent value. By default, OpenRefine uses the most common value in the cluster as the new value, but you can select another value by clicking the value itself, or you can type the desired value into the 'New Cell Value' box.
 
