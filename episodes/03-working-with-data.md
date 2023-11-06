@@ -52,7 +52,7 @@ To work with the author names effectively in OpenRefine, we need to have each na
   - Note how the numbering has changed - indicating that several rows are related to the same record
 
 ![](fig/rows.png){alt='Screen capture showing OpenRefine in Rows mode.'}
-![](fig/records.png){alt='Screen capture showing OpenRefine in Rows mode.'}
+![](fig/records.png){alt='Screen capture showing OpenRefine in Records mode.'}
 
 Note in the images above the difference between: Rows with the same Title appear below each shared title, interrupted the numbered sequence in the third column from the left. Shared titles have the same shading, which may be very difficult to distinguish visually, so look for each star and flag in the leftmost columns, which indicates a new row, that is an item with a different author.
 
