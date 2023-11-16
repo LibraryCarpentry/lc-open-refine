@@ -49,7 +49,7 @@ There are several options for getting your data set into OpenRefine. You can upl
 
 ## Create your first OpenRefine project (using provided data)
 
-To import the data for the exercise below, follow the instructions in [Setup](https://librarycarpentry.github.io/lc-open-refine/setup.html) to download the data and run OpenRefine. *NOTE: If OpenRefine does not open in a browser window, open your browser and type the address [http://127.0.0.1:3333/](https://127.0.0.1:3333/) to take you to the OpenRefine interface.*
+To import the data for the exercise below, follow the instructions in [Setup](https://librarycarpentry.github.io/lc-open-refine/index.html) to download the data and run OpenRefine. *NOTE: If OpenRefine does not open in a browser window, open your browser and type the address [http://127.0.0.1:3333/](https://127.0.0.1:3333/) to take you to the OpenRefine interface.*
 
 1. Once OpenRefine is launched in your browser, click `Create Project` from the left hand menu and select `Get data from This Computer`
 2. Click `Choose Files` (or 'Browse', depending on your setup) and locate the file which you have downloaded called `doaj-article-sample.csv`
