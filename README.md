@@ -2,13 +2,14 @@
 
 # Maintainers for Library Carpentry: OpenRefine
 
-- [Erin Carrillo](https://github.com/partiecolored) (Lead)
+- [Jennifer Stubbs](https://github.com/jas58) (Lead)
 - [Owen Stephens](https://github.com/ostephens)
-- [Paul R. Pival](https://github.com/ppival)
-- [Kristin Lee](https://github.com/kristindawn)
 
 # Past Maintainers for Library Carpentry: OpenRefine
 
+- [Erin Carrillo](https://github.com/partiecolored)
+- [Paul R. Pival](https://github.com/ppival)
+- [Kristin Lee](https://github.com/kristindawn)
 - [Carmi Cronje](https://github.com/ccronje)
 - [Chris Erdmann](https://github.com/libcce)
 - [Juliane Schneider](https://github.com/pitviper6)
