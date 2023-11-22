@@ -62,8 +62,7 @@ Arrays can be sorted, de-duplicated, and manipulated in other ways in GREL expre
 
 `"crystal structure|clozapinium|crystal structure|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999"`
 
-This can be transformed into an array using the `split` function specifying the pipe character ( | ) as the separating character. Recall the cautionary note about separator choice from [Working with Data](https://librarycarpentry.org/lc-open-refine/03-working-with-data/index.html).
-.
+This can be transformed into an array using the `split` function specifying the pipe character ( | ) as the separating character. Recall the cautionary note about separator choice from [Working with Data](https://librarycarpentry.org/lc-open-refine/03-working-with-data).
 
 ```
 value.split("|")
