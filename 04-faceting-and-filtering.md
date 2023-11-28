@@ -81,7 +81,7 @@ As well as using Facets to filter the data displayed in OpenRefine you can also 
 
 As with Facets, the Filter options appear in the left hand panel in OpenRefine. As you type the text you want to use in the Filter in the Filter's text box, OpenRefine works to display only rows that contain that text in the relevant column.
 
-You can also use [regular expressions](https://librarycarpentry.github.io/lc-data-intro/01-regular-expressions/) in the filter.
+You can also use [regular expressions](https://librarycarpentry.org/lc-data-intro/01-regular-expressions.html) in the filter.
 
 ## Working with filtered data
 
