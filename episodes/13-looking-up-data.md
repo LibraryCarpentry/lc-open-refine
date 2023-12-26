@@ -182,7 +182,7 @@ The VIB-Bits extension adds a number of very useful functions to OpenRefine. One
 
 The functionality in OpenRefine can be enhanced by ‘extensions' which can be downloaded and installed to add functionality to your OpenRefine installation.
 
-A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at [http://openrefine.org/download.html](https://openrefine.org/download.html).
+A list of [Extensions](https://openrefine.org/extensions.)(not necessarily complete) is given on OpenRefine's page.
 
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
