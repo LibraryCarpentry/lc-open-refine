@@ -10,7 +10,7 @@ You need to install OpenRefine and download a data file to follow this lesson.
 
 OpenRefine is a free, open-source Java application. You can download OpenRefine from
 [http://openrefine.org/download.html](https://openrefine.org/download.html).
-This lesson has been tested with the latest tested version of OpenRefine, 3.7.7.
+This lesson has been tested with the latest version of OpenRefine, 3.7.7.
 
 Packages are available on [https://openrefine.org/download.html](https://openrefine.org/download.html) for Windows, macOS, and Linux.
 Please download the latest stable version, choosing the "kit" for your operating system.
