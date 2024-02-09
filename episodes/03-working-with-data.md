@@ -25,7 +25,7 @@ exercises: 5
 
 OpenRefine displays data in a tabular format. Each row will usually represent a 'record' in the data, while each column represents a type of information. This is very similar to how you might view data in a spreadsheet or database. As with a spreadsheet, the individual bits of data live in 'cells' at the intersection of a row and a column.
 
-OpenRefine only displays a limited number of rows of data at one time. You can adjust the number choosing between 5, 10 (the default), 25 and 50 at the top left of the table of data. You can navigate through the records by using the previous/next/first/last navigation options at the top right of the table of data.
+OpenRefine only displays a limited number of rows of data at one time. You can adjust the number choosing between 5, 10 (the default), 25, 50, 100, 500, and 1000 at the top left of the table of data. You can navigate through the records by using the previous/next/first/last navigation options at the top right of the table of data.
 
 In OpenRefine it is always possible to undo any changes: note the left panel, currently empty. Read the four words at the top of the panel:
 Facet/Filter and Undo/Redo.  We will focus on the undo/redo commands much later in the workshop; you are welcome to use it at anytime, as needed.
