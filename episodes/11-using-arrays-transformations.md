@@ -29,7 +29,7 @@ Ask the students what transformation means to them currently.  Many may only kno
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-It does this using a function called uniques() which can be used to remove duplicates from an array. In this example we start with a list of subject words:
+It does this using a function called uniques() which can be used to remove duplicates from an array. In this example's Subject column, we start with a list of subject words:
 
 `crystal structure|clozapinium|crystal structure|molecular configuration|hydrogen bonding|supramolecular assembly|Chemistry|QD1-999`
 
