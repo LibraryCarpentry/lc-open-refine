@@ -100,7 +100,7 @@ In other cases people have built reconciliation applications for a specific serv
 
 One of the most common ways of using the reconciliation option in OpenRefine is with an extension (see below for more on extensions to OpenRefine) which can use linked data sources for reconciliation. The RDF extension by Stuart Kenny can be downloaded from [https://github.com/stkenny/grefine-rdf-extension/releases](https://github.com/stkenny/grefine-rdf-extension/releases).
 
-Other extensions are available to do reconciliation against local data such as csv files (see [http://okfnlabs.org/reconcile-csv/](https://okfnlabs.org/reconcile-csv/)) and maintained lists of values (see [http://okfnlabs.org/projects/nomenklatura/index.html](https://okfnlabs.org/projects/nomenklatura/index.html)).
+Other extensions are available to do reconciliation against local data such as csv files (see [https://github.com/rufuspollock-okfn/reconcile-csv](https://github.com/rufuspollock-okfn/reconcile-csv)) and maintained lists of values (see [https://github.com/opensanctions/nomenklatura](https://github.com/opensanctions/nomenklatura)).
 
 For more information on using Reconciliation services see [https://docs.openrefine.org/manual/reconciling](https://docs.openrefine.org/manual/reconciling).
 
