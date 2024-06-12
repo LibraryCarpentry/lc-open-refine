@@ -98,7 +98,7 @@ You can also join arrays together to make a 'String'. The GREL expression would 
 value.split("|").uniques().join("|")
 ```
 
-Taking the same example again, this would result in a string with the subjects in alphabetical order, listed with commas between each subject.
+Taking the same example again, this would result in a string with the subjects in alphabetical order, listed with pipes between each subject.
 
 :::::::::::::::::::::::::::::::::::::::  instructor
 
