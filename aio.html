@@ -1058,7 +1058,7 @@ should be avoided as separators.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>The subject words/headings are divided up with the pipe ( | )
@@ -1093,7 +1093,7 @@ character</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2">Show me the solution</h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>The subject words/headings were previously delimited with the pipe (
@@ -2248,7 +2248,7 @@ OpenRefine by building your own</li>
 </div>
 </section></section><section id="aio-11-using-arrays-transformations"><p>Content from <a href="11-using-arrays-transformations.html">Transformations - Handling Arrays</a></p>
 <hr>
-<p>Last updated on 2024-06-12 |
+<p>Last updated on 2024-06-13 |
         
         <a href="https://github.com/librarycarpentry/lc-open-refine/edit/main/episodes/11-using-arrays-transformations.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2373,12 +2373,12 @@ been removed.</p>
 bracket notation and number for position in sequence:</p>
 <pre><code><span><span class="fu">value.split</span><span class="op">(</span><span class="st">"|"</span><span class="op">)</span><span class="op">[</span><span class="fl">0</span><span class="op">]</span></span></code></pre>
 <p>would result in the string: “crystal structure”</p>
-<p>You can also join arrays together to make a ‘String’. The GREL
-expression would look like</p>
-<pre><code>value.split("|").uniques().join("|")</code></pre>
+<p>You can also sort and join arrays together to make a ‘String’. The
+GREL expression would look like</p>
+<pre><code>value.split("|").uniques().sort().join("|")</code></pre>
 <p>Taking the same example again, this would result in a string with the
-subjects in alphabetical order, listed with pipes between each
-subject.</p>
+subjects in alphabetical order (note that the sort function is
+case-sensitive), listed with pipes between each subject.</p>
 
 <div id="reverse-author-names" class="callout checklist">
 <div class="callout-square">
@@ -2963,8 +2963,8 @@ Reconciliation services to enrich data</li>
   "url": "https://librarycarpentry.github.io/lc-open-refine/aio.html",
   "identifier": "https://librarycarpentry.github.io/lc-open-refine/aio.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2024-06-12",
-  "datePublished": "2024-06-12"
+  "dateModified": "2024-06-13",
+  "datePublished": "2024-06-13"
 }
 
   </script><script>
