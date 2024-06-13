@@ -92,13 +92,13 @@ value.split("|")[0]
 would result in the string:
 "crystal structure"
 
-You can also join arrays together to make a 'String'. The GREL expression would look like
+You can also sort and join arrays together to make a 'String'. The GREL expression would look like
 
 ```
-value.split("|").uniques().join("|")
+value.split("|").uniques().sort().join("|")
 ```
 
-Taking the same example again, this would result in a string with the subjects in alphabetical order, listed with pipes between each subject.
+Taking the same example again, this would result in a string with the subjects in alphabetical order (note that the sort function is case-sensitive), listed with pipes between each subject.
 
 :::::::::::::::::::::::::::::::::::::::  instructor
 
