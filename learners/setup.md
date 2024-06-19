@@ -13,9 +13,9 @@ OpenRefine is a free, open-source Java application. You can download OpenRefine 
 This lesson has been tested with the 3.7.7 version of OpenRefine.
 
 Packages are available on [https://openrefine.org/download.html](https://openrefine.org/download.html) for Windows, macOS, and Linux.
-Please download the latest stable version, choosing the "kit" for your operating system.
-Current versions of the "Windows kit with embedded Java" and "Mac kit" include everything you need to run OpenRefine.
-The "Linux kit" and traditional "Windows kit" require a "Java Runtime Environment" (JRE) installed on your system (see notes below).
+Please download the latest stable version, choosing the option for your operating system.
+Current versions for Windows (with embedded Java) and Mac include everything you need to run OpenRefine. For Windows you can choose between an installer (.exe) file or a zip-archive.
+The Linux version requires a "Java Runtime Environment" (JRE) installed on your system (see notes below).
 
 If you are using an older version of OpenRefine, it is recommended you upgrade to the latest tested version.
 
@@ -26,17 +26,12 @@ When running OpenRefine, initially a command line window will open. This is a wi
 Notes:
 
 - When you download OpenRefine for Windows or Linux from the address above, you are downloading an archive file
-  (zip or tar). To install OpenRefine unzip the downloaded file to a permanent location on your computer. This can
+  (zip or tar), unless you are chosing the installer for windows. To install OpenRefine unzip the downloaded file to a permanent location on your computer. This can
   be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the
   unzipped folder. The location has to be a "local" drive as problems have been reported trying to run OpenRefine
   from a Network drive.
-- The options "Windows kit with embedded Java" and "Mac kit" include Java as part of the package. You **do not**
-  need to install Java if you use one of these kits. This is the preferred method on Windows and Mac systems.
-- On Windows, if you use the traditional "Windows kit" without embedded Java, you will need a
-  "Java Runtime Environment" (JRE) on your system. If you do not already have JRE or JDK installed,
-  you can visit [Adopt OpenJDK](https://adoptopenjdk.net/) or [Oracle Java](https://java.com/en/download/)
-  to download an installer package. Please note that
-  [Oracle significantly changed their license terms in 2019](https://www.oracle.com/java/technologies/javase/jdk-faqs.html) limiting it to "personal use" without a paid license. If you use OpenRefine at work or in research, OpenJDK is preferred.
+- The versions for Windows and Mac include Java as part of the package. You **do not**
+  need to install Java if you use one of these archives. This is the preferred method on Windows and Mac systems.
 - On Linux a "Java Runtime Environment" (JRE) will be required to run OpenRefine. If you do not already have
   JRE or JDK installed on your system, most distribution repositories will contain OpenJRE / OpenJDK packages.
   Install the default version available from your distribution. For example, on Ubuntu/Debian:
@@ -49,7 +44,7 @@ Notes:
 
 If you are unable to install OpenRefine (due to IT restrictions, for example), please try
 [openrefineder using MyBinder](https://github.com/betatim/openrefineder/).
-It's free to use without registration, but it's the older OpenRefine 3.4.1,
+It's free to use without registration, but it's the older OpenRefine 3.5.0,
 [restricted to 1-2 GB RAM](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html#resources-available),
 and the server will be deleted after 10 minutes of inactivity.
 
