@@ -30,13 +30,19 @@ You can rename a column by opening the drop-down menu at the top of the column t
 
 ## Sorting data
 
-You can sort data in OpenRefine by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`.
+What if you want to organize your data in a way that will let you detect outliers (blanks, errors, etc.) more easily? You can accomplish this by sorting your data in OpenRefine. You can do this by clicking on the drop-down menu for the column you want to sort on, and choosing `Sort`. You can then sort your data by **text**, **numbers**, **dates** or **booleans** (**TRUE** or **FALSE** values). You can also specify what order to put blanks and errors in the sorted results.
 
 Once applied, locate the new "Sort" button at the top of the grid.
 
 ![New Sort menu appears above grid after first sort command](fig/sort-menu-highlight.png){alt="Note the addition of a menu called Sort which appears after your first sort command. It follows the number of rows displayed."}
 
-Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state. The 'Sort' drop-down menu lets you amend the existing sort (e.g., reverse the sort order), remove existing sorts, and/or make sorts permanent. To make a sort permanent, choose Reorder Rows Permanently from the Sort drop-down menu.
+After clicking on the new "Sort" button, OpenRefine will present you with additional sorting options:
+
+ - `Remove sort` - This option allows you to undo your sort.
+ - `Reorder rows permanently` - This option allows you to permanently change the order of your data to the sort.
+ - `By *column name*` - This option allows you to make changes to your pre-existing sort.
+
+Unlike in Excel, 'Sorts' in OpenRefine are temporary - that is, if you remove the `Sort`, the data will go back to its original 'unordered' state.
 
 You can sort on multiple columns at the same time by adding another sorted column (in the same way).
 
