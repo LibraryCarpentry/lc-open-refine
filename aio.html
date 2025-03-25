@@ -1291,7 +1291,7 @@ answer these questions:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Create a facet for the ‘Licence’ column</li>
@@ -1393,7 +1393,7 @@ publications in this data set without a DOI</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>On the <code>DOI</code> column drop down and select
@@ -1442,7 +1442,7 @@ and correct the variation in the <code>EN</code> and
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <ol style="list-style-type: decimal">
 <li>Create a Text facet on the Language column</li>
@@ -1580,7 +1580,7 @@ a single consistent value</li>
 </div>
 </section></section><section id="aio-06-working-with-columns"><p>Content from <a href="06-working-with-columns.html">Working with columns and sorting</a></p>
 <hr>
-<p>Last updated on 2024-01-11 |
+<p>Last updated on 2025-03-25 |
 
         <a href="https://github.com/librarycarpentry/lc-open-refine/edit/main/episodes/06-working-with-columns.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1631,18 +1631,35 @@ column name.</p>
 </section><section><h2 class="section-heading" id="sorting-data">Sorting data<a class="anchor" aria-label="anchor" href="#sorting-data"></a>
 </h2>
 <hr class="half-width">
-<p>You can sort data in OpenRefine by clicking on the drop-down menu for
-the column you want to sort on, and choosing <code>Sort</code>.</p>
+<p>What if you want to organize your data in a way that will let you
+detect outliers (blanks, errors, etc.) more easily? You can accomplish
+this by sorting your data in OpenRefine. You can do this by clicking on
+the drop-down menu for the column you want to sort on, and choosing
+<code>Sort</code>. You can then sort your data by <strong>text</strong>,
+<strong>numbers</strong>, <strong>dates</strong> or
+<strong>booleans</strong> (<strong>TRUE</strong> or
+<strong>FALSE</strong> values). You can also specify what order to put
+blanks and errors in the sorted results.</p>
 <p>Once applied, locate the new “Sort” button at the top of the
 grid.</p>
 <figure><img src="fig/sort-menu-highlight.png" alt="Note the addition of a menu called Sort which appears after your first sort command. It follows the number of rows displayed." class="figure mx-auto d-block"><div class="figcaption">New Sort menu appears above grid after first
 sort command</div>
-</figure><p>Unlike in Excel, ‘Sorts’ in OpenRefine are temporary - that is, if
+</figure><p>After clicking on the new “Sort” button, OpenRefine will present you
+with additional sorting options:</p>
+<ul>
+<li>
+<code>Remove sort</code> - This option allows you to undo your
+sort.</li>
+<li>
+<code>Reorder rows permanently</code> - This option allows you to
+permanently change the order of your data to the sort.</li>
+<li>
+<code>By *column name*</code> - This option allows you to make
+changes to your pre-existing sort.</li>
+</ul>
+<p>Unlike in Excel, ‘Sorts’ in OpenRefine are temporary - that is, if
 you remove the <code>Sort</code>, the data will go back to its original
-‘unordered’ state. The ‘Sort’ drop-down menu lets you amend the existing
-sort (e.g., reverse the sort order), remove existing sorts, and/or make
-sorts permanent. To make a sort permanent, choose Reorder Rows
-Permanently from the Sort drop-down menu.</p>
+‘unordered’ state.</p>
 <p>You can sort on multiple columns at the same time by adding another
 sorted column (in the same way).</p>
 
@@ -2981,8 +2998,8 @@ Reconciliation services to enrich data</li>
   "url": "https://librarycarpentry.github.io/lc-open-refine/aio.html",
   "identifier": "https://librarycarpentry.github.io/lc-open-refine/aio.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2025-03-18",
-  "datePublished": "2025-03-18"
+  "dateModified": "2025-03-25",
+  "datePublished": "2025-03-25"
 }
 
   </script><script>
