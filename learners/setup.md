@@ -40,16 +40,6 @@ Notes:
   [Microsoft Edge](https://www.microsoft.com/edge),
   [Chrome](https://www.google.com/chrome/) or [Safari](https://www.apple.com/safari/) instead.
 
-### OpenRefine cloud services
-
-If you are unable to install OpenRefine (due to IT restrictions, for example), please try
-[openrefineder using MyBinder](https://github.com/betatim/openrefineder/).
-It's free to use without registration, but it's the older OpenRefine 3.5.0,
-[restricted to 1-2 GB RAM](https://mybinder.readthedocs.io/en/latest/about/user-guidelines.html#resources-available),
-and the server will be deleted after 10 minutes of inactivity.
-
-[![](https://mybinder.org/badge.svg){alt='Binder'}](https://mybinder.org/v2/gh/betatim/openrefineder/6ba108b?urlpath=%2Fopenrefine)
-
 ### Downloading the data
 
 You can download [doaj-article-sample.csv](data/doaj-article-sample.csv), which is a csv file that will open in a new browser tab. Be sure to right click or control click in order to save the file (NOTE: In Safari, right click and select **download linked file**; in Chrome and Firefox, right click and select **save link as...**). Make a note of the location (i.e. the folder, your desktop) to which you save the file.
