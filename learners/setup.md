@@ -71,7 +71,6 @@ There are also general and specialist tutorials about using OpenRefine available
 - [Getting started with OpenRefine by Thomas Padilla](https://thomaspadilla.org/dataprep/)
 - [Cleaning Data with OpenRefine by Seth van Hooland, Ruben Verborgh and Max De Wilde](https://programminghistorian.org/lessons/cleaning-data-with-openrefine)
 - [Identifying potential headings for Authority work using III Sierra, MS Excel and OpenRefine](https://epublications.marquette.edu/lib_fac/81/)
-- [Free your metadata website](https://freeyourmetadata.org)
 - [Data Munging Tools in Preparation for RDF: Catmandu and LODRefine by Christina Harlow](https://journal.code4lib.org/articles/11013)
 - [Cleaning Data with OpenRefine by John Little](https://libjohn.github.io/openrefine/)
 - [OpenRefine Blog](https://openrefine.org/category/blog.html)
