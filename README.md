@@ -2,7 +2,7 @@
 
 # Maintainers for Library Carpentry: OpenRefine
 
-- [Jennifer Stubbs](https://github.com/jas58) (Lead)
+- (Lead)
 - [Owen Stephens](https://github.com/ostephens)
 
 # Past Maintainers for Library Carpentry: OpenRefine
@@ -13,6 +13,7 @@
 - [Carmi Cronje](https://github.com/ccronje)
 - [Chris Erdmann](https://github.com/libcce)
 - [Juliane Schneider](https://github.com/pitviper6)
+- [Jennifer Stubbs](https://github.com/jas58) 
 
 Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-open-refine-maintainers).
 
